@@ -5,3 +5,5 @@ RewriteRule ^/jokes/([A-Za-z0-9_/+]+)/?$ /jokes.php?jokeID=$1 [L]
 RewriteRule ^/([A-Za-z0-9_/+]+)/?$ /$1.php [L] 
 RewriteCond %{REQUEST_URI} ^/MEDIA 
 RewriteRule /[^/]+/(.*)$ /stream/$1 [L]
+
+hello, i have edited this file and committed changes successfully
