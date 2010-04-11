@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*************************************************************\
+*	generic styling
+/*************************************************************/
+html * {
+	padding:0; margin:0;
+}
+
+body {
+	background-color: #000719;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FFF;
+}
+
+
+h1 {
+	position:absolute; z-index:2; width:264px; height:184px; top:0px; left:345px; text-indent:-9999px;
+	background-image:url(../../images/header/logo_kp.png); background-repeat:no-repeat;
+	
+}
+
+h3 {
+	text-indent:-9999px; display:block; margin-top:50px;		
+}
+
+	h3.range {
+		width:291px; height:54px; margin-top:65px;
+		background-image:url(../../images/footer/range/range_txt.png);
+	}
+	
+	h3.about {
+		width:184px; height:52px; margin-top:65px;
+		background-image:url(../../images/footer/about/about_txt.png);
+	}
+
+	h3.newsletter {
+		width:257px; height:48px;
+		background-image:url(../../images/footer/newsletter/newsletter_txt.png);
+	}
+	
+	h3.thankyou {
+		width:257px; height:48px;
+		background-image:url(../../images/footer/newsletter/thankyou_txt.png);
+	}
+	
+	
+a.cta {
+	text-indent:-9999px; display:block;		
+}
+
+	.range {
+		width:103px; height:20px; margin-top:5px;
+		background-image:url(../../images/footer/range/range_btn.png);
+		background-repeat:no-repeat;
+	}
+	
+	.about {
+		width:127px; height:19px; margin-top:9px;
+		background-image:url(../../images/footer/about/about_btn.png);
+		background-repeat:none;
+	}
+
+
+
+/*************************************************************\
+*	form styling
+/*************************************************************/
+form {
+	margin-top:8px;	
+	width:258px;
+}
+
+fieldset {
+	border:none;
+}
+
+label {
+	display:block; margin-bottom:3px;	
+}
+
+input#email {
+	width:252px; height:17px; padding:3px 3px 0px 3px; border:none;
+	background-image:url(../../images/footer/newsletter/input_bg.png);
+	font-size:10px;
+}
+
+input#submit {
+	width:73px; height:20px; display:block; float:right; margin-top:7px;
+}
+
+
+
+/*************************************************************\
+*	layout styling
+/*************************************************************/
+#wrapper {
+	width: 955px; margin-left: auto; margin-right: auto; background-image: url(../../images/bg.jpg);
+}
+
+
+
+	#wrapper #header {
+		height:184px; position:relative; z-index:9999;
+	}
+
+
+	#wrapper #content {
+		height:435px; position:relative; z-index:500; margin-top:-100px;
+	}
+
+
+
+	#wrapper #footer { 
+		width:100%; height:183px; position:relative; z-index:1; margin-top:-45px;
+	}
+
+
+
+/*************************************************************\
+*	Navigation styling
+/*************************************************************/
+ul#jsddm {	
+	position:relative; z-index:1; top:62px; background-image:url(../../images/header/nav/nav_bg.gif);
+	background-repeat:repeat-x; width:955px; height:31px; list-style:none;
+}
+		
+	ul#jsddm li.aboutNavTop {
+		float:left; display:block; width:98px; height:29px; position:relative; left:220px;	
+	}
+			
+		ul#jsddm li.aboutNavTop a.aboutNav {
+			float:left; display:block; width:98px; height:29px; text-indent:-9999px; 
+			background-image:url(../../images/header/nav/nav_about-btn.png);
+		}
+		
+		ul#jsddm li.aboutNavTop a.aboutNav:hover { 
+			background-position: 0px -29px;
+		}
+			
+			
+	ul#jsddm li.rangeNavTop {
+		float:left; display:block; width:98px; height:29px; position:relative; left:530px;	
+	}	
+				
+		ul#jsddm li.rangeNavTop a.rangeNav {
+			float:left; display:block; width:98px; height:29px; text-indent:-9999px;
+			background-image:url(../../images/header/nav/nav_range-btn.png);
+		}
+		
+		ul#jsddm li.rangeNavTop a.rangeNav:hover { 
+			background-position: 0px -29px;
+		}
+			
+			ul#jsddm li ul {
+				position:absolute; /*z-index:10;*/ top:30px; left:2px; background-color:#022257;
+				/*background-repeat:repeat-x;*/ width:96px;/*height:200px;*/ visibility:hidden;
+			}
+			
+				ul#jsddm li ul li {
+					float:none; display:list; list-style:none;
+				}
+					
+					ul#jsddm li ul li a {
+						width:96px; height:39px; display:block; padding:0px; text-indent:-9999px;
+						margin-bottom:1px;
+					}
+					
+						ul#jsddm li ul li a.regular {
+							background-image:url(../../images/header/nav/nav_regular.gif);	
+						}
+						
+						ul#jsddm li ul li a.flavoured {
+							background-image:url(../../images/header/nav/nav_flavoured.gif);	
+						}
+						
+						ul#jsddm li ul li a.treenuts {
+							background-image:url(../../images/header/nav/nav_treenuts.gif);	
+						}
+
+						ul#jsddm li ul li a.seasonal {
+							background-image:url(../../images/header/nav/nav_seasonal.gif);	
+						}
+
+						ul#jsddm li ul li a:hover {
+						/*background:#022257;*/	
+						}
+
+
+
+/*************************************************************\
+*	footer content styling
+/*************************************************************/
+	
+#wrapper #footer div.window_range {
+	float:left; width:312px; height:184px; padding-left:5px;
+	background-image:url(../../images/footer/range/window_range_bg.jpg);
+}
+
+
+#wrapper #footer div.window_about {
+	float:left; width:307px; height:184px; padding-left:10px;
+	background-image:url(../../images/footer/about/window_aboutkp_bg.jpg);
+}
+
+#wrapper #footer div.window_newsletter {
+	float:left; width:308px; height:184px; padding-left:10px;
+	background-image:url(../../images/footer/newsletter/window_newsletter_bg.jpg);
+}
+
+div#terms ul {
+				
+}
+
+	div#terms ul li {
+		list-style:none;
+		display:inline;
+	}
+	
+	div#terms ul li a {
+		color:#CCC;
+		text-decoration:none;
+	}
+	
+		div#terms ul li a:hover {
+			color:#FFF;
+			text-decoration:underline;
+		}
+		
