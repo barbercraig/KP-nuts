@@ -1,0 +1,80 @@
+9
+
+dir
+16
+http://svn.inbox.work/KPnuts/trunk/images/footer
+http://svn.inbox.work/KPnuts
+
+
+
+2010-04-12T19:26:21.592053Z
+16
+craig
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+493227f9-1412-4d9b-99b9-359b9fd1b0ef
+
+#newsletter
+dir
+
+league
+dir
+
+about
+dir
+
+newsletter
+dir
+
+prizes
+dir
+
+range
+dir
+
+shine-line.png
+file
+
+
+
+
+2010-04-12T19:02:23.360699Z
+0b289064d9a62b709a88baaf3763f63e
+2010-04-12T19:26:21.592053Z
+16
+craig
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+229510
+

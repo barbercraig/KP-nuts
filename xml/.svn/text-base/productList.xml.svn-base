@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<KPRange>
+<range id="jumbo">
+<pname>JUMBO PEANUTS</pname>
+<ptype>Original Salted</ptype>
+<plink>original_salted</plink>
+<pdesc>Lorem ipsum dolor sit amet, consectetur adipiscing elit. fermentum erat. Fusce mollis consequat magna ut sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus semper mauris sed tempor. Mauris ac elementum ligula. Nam in odio id sapien porta placerat. et magna, eget euismod metus massa id odio. Nulla facilisi.</pdesc>
+<rangeimg>../imgs/products/regular.png</rangeimg>
+<packimg>../imgs/products/original_salted.png</packimg>
+<nutsimg>../imgs/products/nuts_original_salted.png</nutsimg>
+</range>
+
+<range id="jumbo">
+<pname>JUMBO PEANUTS</pname>
+<ptype>Original Salted</ptype>
+<plink>original_salted</plink>
+<pdesc>Lorem ipsum dolor sit amet, consectetur adipiscing elit. fermentum erat. Fusce mollis consequat magna ut sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus semper mauris sed tempor. Mauris ac elementum ligula. Nam in odio id sapien porta placerat. et magna, eget euismod metus massa id odio. Nulla facilisi.</pdesc>
+<rangeimg>../imgs/products/regular.png</rangeimg>
+<packimg>../imgs/products/original_salted.png</packimg>
+<nutsimg>../imgs/products/nuts_original_salted.png</nutsimg>
+</range>
+
+<range id="regular">
+<pname>REGULAR PEANUTS</pname>
+<ptype>Original Salted</ptype>
+<plink>original_salted</plink>
+<pdesc>Lorem ipsum dolor sit amet, consectetur adipiscing elit. fermentum erat. Fusce mollis consequat magna ut sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus semper mauris sed tempor. Mauris ac elementum ligula. Nam in odio id sapien porta placerat. et magna, eget euismod metus massa id odio. Nulla facilisi.</pdesc>
+<rangeimg>../imgs/products/regular.png</rangeimg>
+<packimg>../imgs/products/original_salted.png</packimg>
+<nutsimg>../imgs/products/nuts_original_salted.png</nutsimg>
+</range>
+
+<range id="regular">
+<pname>REGULAR PEANUTS</pname>
+<ptype>Original Salted</ptype>
+<plink>original_salted</plink>
+<pdesc>Lorem ipsum dolor sit amet, consectetur adipiscing elit. fermentum erat. Fusce mollis consequat magna ut sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus semper mauris sed tempor. Mauris ac elementum ligula. Nam in odio id sapien porta placerat. et magna, eget euismod metus massa id odio. Nulla facilisi.</pdesc>
+<rangeimg>../imgs/products/regular.png</rangeimg>
+<packimg>../imgs/products/original_salted.png</packimg>
+<nutsimg>../imgs/products/nuts_original_salted.png</nutsimg>
+</range>
+
+<range id="regular">
+<pname>REGULAR PEANUTS</pname>
+<ptype>Original Salted</ptype>
+<plink>original_salted</plink>
+<pdesc>Lorem ipsum dolor sit amet, consectetur adipiscing elit. fermentum erat. Fusce mollis consequat magna ut sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus semper mauris sed tempor. Mauris ac elementum ligula. Nam in odio id sapien porta placerat. et magna, eget euismod metus massa id odio. Nulla facilisi.</pdesc>
+<rangeimg>../imgs/products/regular.png</rangeimg>
+<packimg>../imgs/products/original_salted.png</packimg>
+<nutsimg>../imgs/products/nuts_original_salted.png</nutsimg>
+</range>
+
+<range id="flavoured">
+<pname>REGULAR PEANUTS</pname>
+<ptype>Original Salted</ptype>
+<plink>original_salted</plink>
+<pdesc>Lorem ipsum dolor sit amet, consectetur adipiscing elit. fermentum erat. Fusce mollis consequat magna ut sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus semper mauris sed tempor. Mauris ac elementum ligula. Nam in odio id sapien porta placerat. et magna, eget euismod metus massa id odio. Nulla facilisi.</pdesc>
+<rangeimg>../imgs/products/regular.png</rangeimg>
+<packimg>../imgs/products/original_salted.png</packimg>
+<nutsimg>../imgs/products/nuts_original_salted.png</nutsimg>
+</range>
+
+<range id="flavoured">
+<pname>REGULAR PEANUTS</pname>
+<ptype>Original Salted</ptype>
+<plink>original_salted</plink>
+<pdesc>Lorem ipsum dolor sit amet, consectetur adipiscing elit. fermentum erat. Fusce mollis consequat magna ut sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus semper mauris sed tempor. Mauris ac elementum ligula. Nam in odio id sapien porta placerat. et magna, eget euismod metus massa id odio. Nulla facilisi.</pdesc>
+<rangeimg>../imgs/products/regular.png</rangeimg>
+<packimg>../imgs/products/original_salted.png</packimg>
+<nutsimg>../imgs/products/nuts_original_salted.png</nutsimg>
+</range>
+
+<range id="treenutsmixes">
+<pname>REGULAR PEANUTS</pname>
+<ptype>Original Salted</ptype>
+<plink>original_salted</plink>
+<pdesc>Lorem ipsum dolor sit amet, consectetur adipiscing elit. fermentum erat. Fusce mollis consequat magna ut sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus semper mauris sed tempor. Mauris ac elementum ligula. Nam in odio id sapien porta placerat. et magna, eget euismod metus massa id odio. Nulla facilisi.</pdesc>
+<rangeimg>../imgs/products/regular.png</rangeimg>
+<packimg>../imgs/products/original_salted.png</packimg>
+<nutsimg>../imgs/products/nuts_original_salted.png</nutsimg>
+</range>
+
+<range id="treenutsmixes">
+<pname>REGULAR PEANUTS</pname>
+<ptype>Original Salted</ptype>
+<plink>original_salted</plink>
+<pdesc>Lorem ipsum dolor sit amet, consectetur adipiscing elit. fermentum erat. Fusce mollis consequat magna ut sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus semper mauris sed tempor. Mauris ac elementum ligula. Nam in odio id sapien porta placerat. et magna, eget euismod metus massa id odio. Nulla facilisi.</pdesc>
+<rangeimg>../imgs/products/regular.png</rangeimg>
+<packimg>../imgs/products/original_salted.png</packimg>
+<nutsimg>../imgs/products/nuts_original_salted.png</nutsimg>
+</range>
+
+<range id="seasonal">
+<pname>REGULAR PEANUTS</pname>
+<ptype>Original Salted</ptype>
+<plink>original_salted</plink>
+<pdesc>Lorem ipsum dolor sit amet, consectetur adipiscing elit. fermentum erat. Fusce mollis consequat magna ut sagittis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus semper mauris sed tempor. Mauris ac elementum ligula. Nam in odio id sapien porta placerat. et magna, eget euismod metus massa id odio. Nulla facilisi.</pdesc>
+<rangeimg>../imgs/products/regular.png</rangeimg>
+<packimg>../imgs/products/original_salted.png</packimg>
+<nutsimg>../imgs/products/nuts_original_salted.png</nutsimg>
+</range>
+
+</KPRange>

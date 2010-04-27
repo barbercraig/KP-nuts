@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<KPRange>
+<range id="jumbo_flavoured">
+<pname>JUMBO FLAVOURED PEANUTS</pname>
+<plink>range.php?p=jumbo_flavoured</plink>
+<rangeimg>imgs/Jumbo_nuts.png</rangeimg>
+<y>5</y>
+</range>
+
+<range id="regular">
+<pname>REGULAR PEANUTS</pname>
+<plink>range.php?p=regular</plink>
+<rangeimg>imgs/Regular_nuts.png</rangeimg>
+<y>-3</y>
+</range>
+
+<!--<range id="flavoured">
+<pname>FLAVOURED PEANUTS</pname>
+<plink>range.php?p=flavoured</plink>
+<rangeimg>imgs/Flavoured_nuts.png</rangeimg>
+<y>16</y>
+</range>-->
+
+<range id="treenuts">
+<pname>TREE NUTS</pname>
+<plink>range.php?p=treenuts</plink>
+<rangeimg>imgs/Tree_nuts.png</rangeimg>
+<y>10</y>
+</range>
+
+<!--<range id="seasonal">
+<pname>SEASONAL</pname>
+<plink>range.php?p=seasonal</plink>
+<rangeimg>imgs/products/seasonal.png</rangeimg>
+</range>-->
+
+</KPRange>

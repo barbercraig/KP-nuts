@@ -1,0 +1,797 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*************************************************************\
+*	generic styling
+/*************************************************************/
+html * {
+	padding:0; margin:0;
+}
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FFF;
+	background: #000718 url(../../images/bg-tile.jpg) repeat-x top left;
+}
+
+h1 {
+	position:absolute; z-index:10; width:264px; height:184px; top:0px; left:345px;
+}
+
+h1 a {
+	position:relative; display:block; width:264px; height:184px;
+	background-image:url(../../images/header/logo_kp.png); background-repeat:no-repeat;
+}
+
+/*
+*	Competition section headers
+*/
+h2 {
+		text-indent: -9999px; position:relative; display:block; width:715px; height:99px;
+		background-repeat:none;
+}
+
+	.moment-mara {
+		background:url(../../images/competition/batchcode-entry/header_dynamic-vote_maradonna.png);	
+	}
+	
+	
+	
+	.step2-tellus {
+		width:417px; height:54px; background-image:url(../../images/competition/userdata-entry/header_tellus.png);	
+	}
+	
+	h2.captcha {
+		width:440px; height:57px; background-image:url(../../images/competition/code-entry/header_securitycode.png);	
+	}
+	
+/**********************************/
+
+h3 {
+	text-indent:-9999px; display:block; margin-top:50px;		
+}
+
+	h3.range {
+		width:291px; height:62px; margin-top:65px;
+		background-image:url(../../images/footer/range/range_txt.png);
+	}
+	
+	h3.about {
+		width:184px; height:52px; margin-top:63px;
+		background-image:url(../../images/footer/about/about_txt.png);
+	}
+
+	/*h3.newsletter {
+		width:257px; height:48px;
+		background-image:url(../../images/footer/newsletter/newsletter_txt.png);
+	}*/
+	
+	h3.thankyou {
+		width:254px; height:52px; margin-top:64px;
+		background-image:url(../../images/footer/newsletter/thankyou_txt.png);
+	}
+	
+	/* adding footer styling for competition footer
+	 * date:   08.04.2010
+	 * author: Craig Barber
+	*/
+	
+	h3.prizes {
+		width:126px; height:77px; margin-top:35px;
+		background-image:url(../../images/footer/prizes/subheader_prizes.png);
+	}
+	
+	h3.league {
+		width:129px; height:81px; margin-top:35px;
+		background-image:url(../../images/footer/league/subheader_league.png);
+	}
+	
+	h3.newsletter {
+		width:220px; height:60px; margin-top:35px;
+		background-image:url(../../images/footer/newsletter/subheader_newsletter.png);
+	}
+	
+	
+	
+a.cta {
+	text-indent:-9999px; display:block;		
+}
+
+	.range {
+		width:118px; height:20px; margin-top:5px;
+		background-image:url(../../images/footer/range/range_btn.png);
+		background-repeat:no-repeat;
+	}
+	
+	.about {
+		width:127px; height:19px; margin-top:9px;
+		background-image:url(../../images/footer/about/about_btn.png);
+		background-repeat:none;
+	}
+	
+	.league-link {
+		width:129px; height:24px;
+		background-image:url(../../images/footer/league/btn_league.png);
+		background-repeat:none;
+	}
+
+
+p.footer {
+	text-indent:-9999px; display:block;	background-repeat:none;
+}
+
+	.prizes {
+		width:126px; height:59px; background-image:url(../../images/footer/prizes/desc_prizes.png);
+	}
+	
+	.league {
+		width:129px; height:31px; background-image:url(../../images/footer/league/desc_league.png);
+	}
+
+
+
+/*************************************************************\
+*	form styling
+/*************************************************************/
+form {
+	margin-top:8px;	width:258px; margin-left:16px;
+}
+
+	.comp-process {
+		float:left; width: 406px; margin:0;	
+	}
+	
+		.step2 {
+			width:452px; margin-left:5px;	
+		}
+		
+		form.step3 {
+			width:340px; margin-left:30px; 
+		}
+
+p.field {
+	padding-bottom:8px;	
+}
+
+	p.field span {
+		display:block; margin-left:106px; font-size:10px; line-height:22px;
+	}
+
+p.field-captcha {
+	padding-bottom:2px; overflow:hidden;	
+}
+	
+p.checkbox {
+	padding-bottom:0px;	
+}
+
+fieldset {
+	border:none;
+}
+
+	fieldset#checkboxes {
+		margin-left:102px;
+	}
+	
+	fieldset#submit {
+		margin-left:102px; margin-top:10px;	
+	}
+	
+	fieldset#captcha {
+		margin-left:65px;	
+	}
+
+label {
+	display:block; margin-bottom:3px; background-repeat:no-repeat;	
+}
+
+	label.batchcode {
+		text-indent:-9999px; width:404px; height:58px;
+		background-image:url(../../images/competition/batchcode-entry/label_batchcode.png);
+	}
+	
+	label.moment {
+		text-indent:-9999px; width:362px; height:23px;
+		background-image:url(../../images/competition/batchcode-entry/label_moment.png);
+	}
+	
+	/*GENERIC TEXT LABEL*/
+	label.text {
+		float:left; width:105px; height:23px; line-height:23px; margin:2px 0 0 0;
+	}
+	/*******************/
+	
+	label.checkbox {
+		height:15px; line-height:16px; font-size:10px;
+	}
+	
+	label.captcha {
+		height:18px; line-height:18px;	
+	}
+
+/*INPUTS*/
+input {
+	height:20px; padding:3px 3px 0px 3px; border:1px solid #808080; font-size:13px; font-weight:bold; color:#053071;
+	
+}
+
+input.text {
+	width:218px;			
+}
+
+input.checkbox {
+	width:20px; height:15px; margin-right:5px; border:none; float:left;	
+}
+
+input.postcode {
+	width:50px; margin-right:4px;	
+}
+
+input.captcha {
+	width:332px; 	
+}
+
+
+input#email {
+	width:252px; height:17px; border:none; font-size:10px;
+	background-image:url(../../images/footer/newsletter/input_bg.png);
+}
+
+input#batchcode {
+	width:215px;
+}
+
+input#submit {
+	display:block; padding:0; border:none;
+}
+
+	input.newsletter {
+		width:76px; height:24px; float:right; margin-top:5px;	
+	}
+
+	input.next {
+		width:101px; height:35px; float:left;	
+	}
+	
+	
+/*END OF INPUTS*/
+
+
+select {
+	height:25px; border:1px solid #808080; font-size:13px; font-weight:bold; color:#053071; 	
+}
+
+a.back {
+	float:left; display:block; text-indent:-9999px;
+	width:106px; height:35px; background-image:url(../../images/competition/batchcode-entry/btn_back.png);
+	background-repeat:none;
+}
+
+#visual {
+	float:left;	
+}
+
+/*STEP 2 STYLING*/
+.content_box {
+	position:relative; /* same as content div */
+	/*border:1px solid red;*/
+}
+
+	.userform {
+		width:910px; height:421px; z-index:10; top:0; left:0;
+		background:url(../../images/competition/userdata-entry/img_prizes-large.png) no-repeat bottom left;
+	}
+	
+	.form-content {
+		float:right; width:452px; height:421px;
+	}
+
+img.captcha {
+	float:left; border:none; display:block; margin-left:78px;	
+}
+
+a.refresh {
+	float:left; display:block; font-weight:bold; text-decoration:none; margin-left:20px; margin-top:46px;	
+}
+
+	a.refresh:hover {
+		text-decoration:underline;	
+	}
+	
+	a.refresh:visited {
+		text-decoration:none; color:white;	
+	}
+	
+/***************/
+
+
+
+/*************************************************************\
+*	layout styling
+/*************************************************************/
+#wrapper {
+	width: 955px; height:715px; margin-left: auto; margin-right: auto; position:relative;
+	background-image: url(../../images/bg-swoosh.jpg); 
+	background-repeat:no-repeat;
+}
+
+#wrapper.competition {
+	background-image:url(../../images/bg-noswoosh.jpg);	
+}
+
+	#wrapper #header {
+		height:184px; position:absolute; z-index:9999; top:0px; left:0px;
+	}
+
+
+	#wrapper #content {
+		height:435px; position:absolute; z-index:10; top:0px;
+	}
+	
+	#wrapper #comp-content {
+		position:relative; width:716px; margin-left:auto; margin-right:auto; z-index:10; padding-top:200px; /*padding-bottom:20px;*/
+		overflow:hidden; height:372px;
+	}
+	
+			#wrapper #comp-content.step2 {
+				width:910px; margin:0; padding-top:150px; height:422px;	
+			}
+			
+			#wrapper #comp-content.step3 {
+				width:400px;	
+			}
+
+	
+	#wrapper #footer { 
+		width:100%; position:absolute; z-index:5000; top:480px;
+	}
+	
+	#wrapper #footer.competition {
+		position:relative; top:0px; padding-top:30px;
+		background:url(../../images/footer-swoosh.png) no-repeat; 
+	}
+
+
+
+/*************************************************************\
+*	Navigation styling
+/*************************************************************/
+ul#jsddm {	
+	position:relative; z-index:1; top:62px; background-image:url(../../images/header/nav/nav_bg.gif);
+	background-repeat:repeat-x; width:955px; height:31px; list-style:none;
+}
+		
+	ul#jsddm li.aboutNavTop {
+		float:left; display:block; width:98px; height:29px; position:relative; left:220px;	
+	}
+			
+		ul#jsddm li.aboutNavTop a.aboutNav {
+			float:left; display:block; width:98px; height:29px; text-indent:-9999px; 
+			background-image:url(../../images/header/nav/nav_about-btn.png);
+		}
+		
+		ul#jsddm li.aboutNavTop a.aboutNav:hover { 
+			background-position: 0px -29px;
+		}
+			
+			
+	ul#jsddm li.rangeNavTop {
+		float:left; display:block; width:98px; height:29px; position:relative; left:530px;	
+	}	
+				
+		ul#jsddm li.rangeNavTop a.rangeNav {
+			float:left; display:block; width:98px; height:29px; text-indent:-9999px;
+			background-image:url(../../images/header/nav/nav_range-btn.png);
+		}
+		
+		ul#jsddm li.rangeNavTop a.rangeNav:hover { 
+			background-position: 0px -29px;
+		}
+			
+			ul#jsddm li ul {
+				position:absolute; /*z-index:10;*/ top:30px; left:3px; background-color:#022257;
+				/*background-repeat:repeat-x;*/ width:92px;/*height:200px;*/ visibility:hidden;
+			}
+			
+				ul#jsddm li ul li {
+					float:none; display:list; list-style:none;
+				}
+					
+					ul#jsddm li ul li a {
+						width:92px; height:39px; display:block; padding:0px; text-indent:-9999px;
+						margin-bottom:1px; background-repeat:no-repeat;
+					}
+					
+						ul#jsddm li ul li a.regular {
+							background-image:url(../../images/header/nav/nav_regular.jpg);	
+						}
+						
+						ul#jsddm li ul li a.flavoured {
+							background-image:url(../../images/header/nav/nav_flavoured.jpg);	
+						}
+						
+						ul#jsddm li ul li a.treenuts {
+							background-image:url(../../images/header/nav/nav_treenuts.jpg);	
+						}
+
+						ul#jsddm li ul li a.seasonal {
+							background-image:url(../../images/header/nav/nav_seasonal.jpg);	
+						}
+						
+						ul#jsddm li ul li a.jumbo {
+							background-image:url(../../images/header/nav/nav_jumbo.jpg);	
+						}						
+
+						/*  @AC */
+						ul#jsddm li ul li a.nutrition {
+							background-image:url(../../images/header/nav/nav_nutrition.jpg);	
+						}	
+						/* /@AC */					
+
+
+						ul#jsddm li ul li a:hover {
+							background-position: -92px 0px;
+						}
+
+
+
+/*************************************************************\
+*	footer content styling
+/*************************************************************/
+
+#wrapper #footer #footer-nav {
+	height:210px;
+} 
+
+#wrapper #footer #footer-nav div.window_range {
+	float:left; width:312px; height:184px; padding-left:5px;
+	background-image:url(../../images/footer/range/window_range_bg.png);
+}
+
+
+#wrapper #footer #footer-nav div.window_about {
+	float:left; width:307px; height:184px; padding-left:10px;
+	background-image:url(../../images/footer/about/window_aboutkp_bg.png);
+}
+
+#wrapper #footer #footer-nav div.window_newsletter {
+	float:left; width:308px; height:184px; padding-left:10px;
+	background-image:url(../../images/footer/newsletter/window_newsletter_bg.png);
+}
+
+/* adding footer styling for competition footer
+ * date:   08.04.2010
+ * author: Craig Barber
+*/
+
+	.window_prizes {
+		float:left; width:317px; height:210px;
+		background-image:url(../../images/footer/prizes/window_prizes_bg.png);
+	}
+	
+	.window_league {
+		float:left; width:320px; height:210px;
+		background-image:url(../../images/footer/league/window_league_bg.png);
+	}
+	
+	.window_newsletter {
+		float:left; width:313px; height:210px; padding-left:5px;
+		background-image:url(../../images/footer/newsletter/window_newsletter_bg.png);
+	}
+
+
+.content_float {
+	float:left;	
+}
+	/*PRIZES*/
+	.prizes-left {
+		width:126px;	
+	}
+	
+	.prizes-right {
+		width:191px;	
+	}
+	
+		.prizes-right img {
+			margin-top:35px;	
+		}
+	
+	/*LEAGUE*/
+	.league-left {
+		width:129px;	
+	}
+	
+	.league-right {
+		width:191px;	
+	}
+	
+		.league-right img {
+			margin-top:35px;	
+		}
+
+
+
+div#terms ul {
+				
+}
+
+	div#terms ul li {
+		list-style:none;
+		display:inline;
+	}
+	
+	div#terms ul li a {
+		color:#CCC;
+		text-decoration:none;
+	}
+	
+		div#terms ul li a:hover {
+			color:#FFF;
+			text-decoration:underline;
+		}
+
+.addthis_button {
+	float:right;
+}
+
+span.trade {
+	color:#697593;
+}
+		
+/*************************************************************\
+*	range styling
+/*************************************************************/
+
+#rangeFlashContent {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:550px;
+	height:500px;
+}
+		
+#rangeContent {
+	width:370px;
+	left:563px;
+	top:223px;
+	position:absolute;
+}		
+		
+#rangeContent h2 {
+	background-image:url(../../images/range/heading-regular.png);
+	height:42px;
+	width:590px;
+	background-repeat:no-repeat;
+	margin-left:-7px;	
+}
+
+#rangeContent #regular { background-image:url(../../images/range/heading-regular.png); }
+#rangeContent #jumbo { background-image:url(../../images/range/heading-jumbo.png); }
+#rangeContent #jumbo_flavoured { background-image:url(../../images/range/heading-flavoured.png); }
+#rangeContent #treenuts { background-image:url(../../images/range/heading-treenuts.png); }
+#rangeContent #flavoured { background-image:url(../../images/range/heading-flavoured.png); }
+
+/*
+#rangeContent #jumbo_flavoured{
+	background-image:url(../../images/range/heading-jumbo-flavoured.png);
+	height:88px;
+	width:590px;
+	background-repeat:no-repeat;
+	margin-left:-7px;	
+}
+*/
+
+
+#rangeContent #subnav { margin-left: -4px; }
+
+#rangeContent #subnav a {
+	height:22px; background-repeat:no-repeat; display:block; position:relative; float:left;
+}
+
+#rangeContent #subnav #cashews { background-image:url(../../images/range/subanv-cashews.png); width:66px; }
+#rangeContent #subnav #dry-roasted { background-image:url(../../images/range/subanv-dry-roasted.png); width:93px; }
+#rangeContent #subnav #honey-roast { background-image:url(../../images/range/subanv-honey-roast.png); width:95px; }
+#rangeContent #subnav #original-salted { background-image:url(../../images/range/subanv-original-salted.png); width:111px; }
+#rangeContent #subnav #pistachios  { background-image:url(../../images/range/subanv-pistacios.png); width:77px; }
+#rangeContent #subnav #salted { background-image:url(../../images/range/subanv-salted-on.png); width:52px; }
+#rangeContent #subnav #salt-pepper { background-image:url(../../images/range/subanv-salt-pepper.png); width:103px; }
+#rangeContent #subnav #salt-vinegar { background-image:url(../../images/range/subanv-salt-vinegar.png); width:106px; }
+#rangeContent #subnav #spicy-chilli { background-image:url(../../images/range/subanv-spicy-chilli.png); width:81px; }
+
+#rangeContent #subnav .divider { background-image:url(../../images/range/subanv-divider.png); width:9px; height:22px; background-repeat:no-repeat; display:block; position:relative; float:left; }
+
+#rangeContent p {
+	margin-bottom:18px; margin-top:15px; clear:both;
+}
+
+.backToRangeButton { 
+	height:29px; width:164px; background-repeat:no-repeat; background-image:url(../../images/range/back-to-range.png); display:block; position:relative; margin-left:-3px; margin-top:3px;
+}
+
+.backToRangeButton:hover { 
+	background-position:0px -36px;
+}
+
+.didYouKnow	{
+	width:134px;
+	height:20px;
+	display:block;
+	background-image:url(../../images/range/did-you-know.png);
+	background-repeat:no-repeat;
+	float:right;
+	margin-top:4px;
+}
+	
+/*************************************************************\
+*	about section styling
+/*************************************************************/
+
+.timelineContent {
+	width:590px;
+	left:182px;
+	top:189px;
+	position:absolute;
+	visibility:hidden;
+}
+
+.timelineContent #about-kp {
+	background-image:url(../../images/about/heading-home.png);
+	height:41px;
+	width:590px;
+	background-repeat:no-repeat;
+	margin-left:-7px;
+} 
+
+.timelineContent #h2 {
+	height:41px;
+	width:590px;
+	background-repeat:no-repeat;
+	margin-left:-7px;	
+}
+
+#content-0 { width:358px; top:189px; left:472px; }
+#content-1 { width:358px; top:189px; left:472px; }
+#content-2 { width:358px; top:189px; left:472px; }
+#content-3 { width:358px; top:189px; left:472px; }
+#content-4 { width:358px; top:189px; left:472px; }
+#content-5 { width:358px; top:189px; left:472px; }
+#content-6 { width:358px; top:189px; left:472px; }
+#content-7 { width:358px; top:189px; left:472px; }
+
+#content-0  h2 { margin-left:-7px; background-repeat:no-repeat; height:41px; width:590px; background-image:url(../../images/about/heading-content-0.png); }
+#content-1  h2 { margin-left:-7px; background-repeat:no-repeat; height:41px; width:590px; background-image:url(../../images/about/heading-content-1.png); }
+#content-2  h2 { margin-left:-7px; background-repeat:no-repeat; height:41px; width:590px; background-image:url(../../images/about/heading-content-2.png); }
+#content-3  h2 { margin-left:-7px; background-repeat:no-repeat; height:41px; width:590px; background-image:url(../../images/about/heading-content-3.png); }
+#content-4  h2 { margin-left:-7px; background-repeat:no-repeat; height:41px; width:590px; background-image:url(../../images/about/heading-content-4.png); }
+#content-5  h2 { margin-left:-7px; background-repeat:no-repeat; height:41px; width:590px; background-image:url(../../images/about/heading-content-5.png); }
+#content-6  h2 { margin-left:-7px; background-repeat:no-repeat; height:41px; width:590px; background-image:url(../../images/about/heading-content-6.png); }
+#content-7  h2 { margin-left:-7px; background-repeat:no-repeat; height:41px; width:590px; background-image:url(../../images/about/heading-content-7.png); }
+
+#content-image-0 { position:absolute; height:500px; width:955px; visibility:hidden;}
+#content-image-1 { position:absolute; height:500px; width:955px; visibility:hidden;}
+#content-image-2 { position:absolute; height:500px; width:955px; visibility:hidden;}
+#content-image-3 { position:absolute; height:500px; width:955px; visibility:hidden;}
+#content-image-4 { position:absolute; height:500px; width:955px; visibility:hidden;}
+#content-image-5 { position:absolute; height:500px; width:955px; visibility:hidden;}
+#content-image-6 { position:absolute; height:500px; width:955px; visibility:hidden;}
+#content-image-7 { position:absolute; height:500px; width:955px; visibility:hidden;}
+
+#content-image-0  .imageHolder { background-position:100px 190px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-0.png); }
+#content-image-1  .imageHolder { background-position:150px 180px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-1.png); }
+#content-image-2  .imageHolder { background-position:170px 190px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-2.png); }
+#content-image-3  .imageHolder { background-position:140px 200px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-3.png); }
+#content-image-4  .imageHolder { background-position:155px 190px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-4.png); }
+#content-image-5  .imageHolder { background-position:155px 200px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-5.png); }
+#content-image-6  .imageHolder { background-position:155px 175px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-6.png); }
+#content-image-7  .imageHolder { background-position:150px 145px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-7.png); }
+
+
+.timelineContent p {
+	font-size:12px;
+	font-family:arial, sans;
+}
+
+.backButton { 
+	height:27px; width:134px; background-repeat:no-repeat; background-image:url(../../images/about/back-button.png); display:block; position:relative; margin-left:-3px; margin-top:3px;
+}
+
+.backButton:hover { 
+	background-position:0px -26px;
+}
+
+
+#scrollPanel {
+	position:absolute;
+	width: 955px;
+	height:114px;
+	top:340px;
+	left:0px;
+}
+	
+#about-scroll-button-left {
+	position:absolute; width:25px; height:26px; display:block;
+	background-image:url(../../images/about/scroll-button-left.jpg);
+	background-repeat:no-repeat;
+	left:14px;
+	top:30px;
+}
+#about-scroll-button-right {
+	position:absolute; width:25px; height:26px; display:block;
+	background-image:url(../../images/about/scroll-button-right.jpg);
+	background-repeat:no-repeat;
+	left:908px;
+	top:30px;
+}
+
+#about-scroll-button-left:hover {
+	background-position:0px -28px;
+}
+#about-scroll-button-right:hover {
+	background-position:0px -28px;
+}
+
+#scrollContent {
+	overflow:hidden;
+	width:850px;
+	left:53px;
+	top:11px;
+	height:110px;
+	position:relative;
+}
+
+#scrollList  {
+	width: 1200px;
+	position:relative;
+}
+
+#scrollList li {
+	display:block;
+	position:relative;
+	float:left;
+}
+
+.about-scroll-item  {
+	width:141px;
+	height:105px;
+	background-image:url(../../images/about/temp-image.png);
+	background-position:center;
+	display:block;
+	position:relative;
+}
+
+#about-scroll-item0 { background-image:url(../../images/about/item-thumb-0.png); }
+#about-scroll-item1 { background-image:url(../../images/about/item-thumb-1.png); }
+#about-scroll-item2 { background-image:url(../../images/about/item-thumb-2.png); }
+#about-scroll-item3 { background-image:url(../../images/about/item-thumb-3.png); }
+#about-scroll-item4 { background-image:url(../../images/about/item-thumb-4.png); }
+#about-scroll-item5 { background-image:url(../../images/about/item-thumb-5.png); }
+#about-scroll-item6 { background-image:url(../../images/about/item-thumb-6.png); }
+#about-scroll-item7 { background-image:url(../../images/about/item-thumb-7.png); }
+
+.hidden {
+	display:none;
+}
+
+
+/* @AC Nutrition Content */
+#nutrition-image {left:30px;position:absolute;top:170px;}
+#nutrition-content {width:510px; left:360px; top:180px; position:absolute;}
+#nutrition-content #text {width:411px; margin-left:2px;}
+#nutrition-content h2 {background-image:url(../../images/nutrition/heading-regular2.png); height:48px; width:400px; background-repeat:no-repeat; padding-bottom:10px;}
+#nutrition-content p {margin-bottom: 1em;}
+.timelineContent p {margin-bottom: 1em;}
+.nutrition {float:left; display:block; padding-left:20px;}
+img.peanuts {float:right;}
+
+.ViewRangeButton { 
+	height:27px; width:137px; background-repeat:no-repeat; background-image:url(../../images/nutrition/view-range-off.png); display:block; position:relative; margin-left:-3px; margin-top:3px;
+}
+
+.ViewRangeButton:hover { 
+	background-image:url(../../images/nutrition/view-range-on.png); 
+}
+
+#altContent {width:900px; left:563px; top:323px; position:absolute;}	
+#altContent a {display: block; margin: auto;}
+
