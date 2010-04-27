@@ -85,7 +85,7 @@
     <h3>Limited Web Site</h3>
     <p>United Biscuits (UK) Limited has made all reasonable efforts to ensure that all information provided through United Biscuits (UK) Limited's web site on the internet is accurate at the time of inclusion, however, there may be inadvertent and occasional errors for which United Biscuits (UK) Limited apologises.</p>
     <p>United Biscuits (UK) Limited makes no representations or warranties about the information provided through this web site, including hypertext links or any other items used either directly or indirectly from United Biscuits (UK) Limited's web site, and reserves the right to make changes and corrections at any time, without notice. United Biscuits (UK) Limited accepts no liability for any inaccuracies or omissions in United Biscuits (UK) Limited's web site and any decisions based on information contained in this web site are the sole responsibility of the visitor. United Biscuits (UK) Limited accepts no liability for any direct, special, indirect or consequential damages, or any other damages of whatsoever kind, resulting from whatever cause through the use of any information obtained either directly or indirectly from United Biscuits (UK) Limited's web site.</p>
-    <p>Hula Hoops is a registered Trade Mark of United Biscuits (UK) limited.<br />
+    <p>KP is a registered Trade Mark of United Biscuits (UK) limited.<br />
       United Biscuits (UK) Limited Registered in England number 2506007 Registered Office: Hayes Park, Hayes End Road, Hayes, Middlesex, UB4 8EE<br />
     </p>
 </div>

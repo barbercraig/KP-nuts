@@ -1,11 +1,15 @@
 <?php 
 	#include init file 
-	include($_SERVER['DOCUMENT_ROOT'] . '/init/kp-init.php');
+	//we need to do some extra checking for document root for gay inboxwork
+	if(strpos($_SERVER['SERVER_NAME'], 'inboxwork')){
+		include($_SERVER['DOCUMENT_ROOT'] . '/ub/kp/dev/init/kp-init.php');
+	}else{
+		include($_SERVER['DOCUMENT_ROOT'] . '/init/kp-init.php');
+	}	
 ?>
-<?php $pageID = "home" ?>
-<?php include('include/header.php') ?>
-
-  <div id="content">  
+<?php $pageID = "home"; ?>
+<?php include(DOCROOT . 'include/header.php'); ?>
+  <div id="content"> 
       <div id="altContent">
         <p>KP Site</p>
         <p><a href="http://www.adobe.com/go/getflashplayer"><img 
@@ -14,4 +18,4 @@
       </div>    
   </div>
   
-<?php include ('include/footer.php') ?>
+<?php include (DOCROOT . 'include/footer.php'); ?>

@@ -1,9 +1,14 @@
 <?php 
 	#include init file 
-	include($_SERVER['DOCUMENT_ROOT'] . '/init/kp-init.php');
+	//we need to do some extra checking for document root for gay inboxwork
+	if(strpos($_SERVER['SERVER_NAME'], 'inboxwork')){
+		include($_SERVER['DOCUMENT_ROOT'] . '/ub/kp/dev/init/kp-init.php');
+	}else{
+		include($_SERVER['DOCUMENT_ROOT'] . '/init/kp-init.php');
+	}
 ?>
 <? $pageID = "about-kp" ?>
-<?php include('include/header.php') ?>
+<?php include(DOCROOT.'include/header.php') ?>
 
   <div id="content"> 
 
@@ -18,8 +23,8 @@
   
 	<div class="timelineContent" id="content-home" style="visibility:visible">
 		<h2 id="about-kp"><span class="hidden">About KP</span></h2>
-		<p>KP has been making tasty products for over 150 years. KP stands for Kenyon Produce and we  also used to manufacture sweets and popcorn. You will know us best for our delicious nut snacks.</p>
-		<p>KP is committed to only selling the best quality products, so we source our nuts from our growers in places like Asia &amp; South America. This is why we’re the UK’s favourite nut brand.
+		<p>KP has been making tasty products for over 150 years. The letters 'KP' stand for Kenyon Produce and we  also used to manufacture sweets and popcorn. You will know us best for our delicious nut snacks.</p>
+		<p>We source our nuts from our growers in places like Asia and South America. KP is committed to selling only the best quality products, this is why we are the UK's favourite nut brand.
 	  </p>
 		<p>Why not take a trip through KP’s history using the timeline below....
 	  </p>
@@ -27,12 +32,12 @@
 	
 	<div class="timelineContent" id="content-0">
 		<h2><span class="hidden">1850's</span></h2>
-		<p>Not a sign of any nuts in those days! (as they were making sugared almonds at the time) at the Rotherham factory where we still produce our nuts to this day.</p>
+		<p>KP began life in 1853 selling sugar, confectionary, jams and pickles. Not a sign of any roasted & salted nuts in those days.</p>
 		<a href="#" class="backButton" id="back-button-0"><span class="hidden">Back to intro</span></a>
 	</div>
 	<div class="timelineContent" id="content-1">
 		<h2><span class="hidden">1940's</span></h2>
-		<p>In the post-war period, a demand for novel food items saw production begin at the Rotherham factory. The company became known as Kenyon Produce.</p>
+		<p>In the post-war period, a demand for novel food items saw production begin at the Rotherham factory, where we still produce our nuts today. The company became known as Kenyon Produce.</p>
 		<a href="#" class="backButton" id="back-button-1"><span class="hidden">Back to intro</span></a>
 	</div>
 	<div class="timelineContent" id="content-2">
@@ -47,7 +52,7 @@
 	</div>
 	<div class="timelineContent" id="content-4">
 		<h2><span class="hidden">1970's</span></h2>
-		<p>KP ceased production peanut butter &amp; peanut brittle to concentrate on Peanuts, which is what we are famous for. </p>
+		<p>KP ceased production of peanut butter &amp; peanut brittle to concentrate on Peanuts, which is what we are famous for. </p>
 		<a href="#" class="backButton" id="back-button-4"><span class="hidden">Back to intro</span></a>
 	</div>
 	<div class="timelineContent" id="content-5">
@@ -55,15 +60,15 @@
 		<p>We launched our first Dry Roasted Peanuts and they became an instant hit, remaining a favourite today.</p>
 		<a href="#" class="backButton" id="back-button-5"><span class="hidden">Back to intro</span></a>
 	</div>
-	<div class="timelineContent" id="content-7">
-		<h2><span class="hidden">Present</span></h2>
-		<p>KP continues to use its vast expertise to bring you the best quality nuts. We now produce over 90 million packs of nuts each year. </p>
-		<a href="#" class="backButton" id="back-button-7"><span class="hidden">Back to intro</span></a>
-	</div>
 	<div class="timelineContent" id="content-6">
 		<h2><span class="hidden">2000's</span></h2>
-		<p>KP launches the first Salt & Vinegar flavour peanuts.</p>
+		<p>KP launches the first Salt & Vinegar flavour peanuts, these nuts have since become extremely popular.</p>
 		<a href="#" class="backButton" id="back-button-6"><span class="hidden">Back to intro</span></a>
+	</div>
+	<div class="timelineContent" id="content-7">
+		<h2><span class="hidden">Present</span></h2>
+		<p>KP continues to use its vast expertise to bring you the best quality nuts. We now produce over 90 million packs of nuts each year.</p>
+		<a href="#" class="backButton" id="back-button-7"><span class="hidden">Back to intro</span></a>
 	</div>
 	
 	<div id="scrollPanel">
@@ -77,15 +82,13 @@
 				<li><a href="#" class="about-scroll-item" id="about-scroll-item3"><span class="hidden">Item 3</span></a></li>
 				<li><a href="#" class="about-scroll-item" id="about-scroll-item4"><span class="hidden">Item 4</span></a></li>
 				<li><a href="#" class="about-scroll-item" id="about-scroll-item5"><span class="hidden">Item 5</span></a></li>
+                <li><a href="#" class="about-scroll-item" id="about-scroll-item6"><span class="hidden">Item 6</span></a></li>
 				<li><a href="#" class="about-scroll-item" id="about-scroll-item7"><span class="hidden">Item 7</span></a></li>
-				<li><a href="#" class="about-scroll-item" id="about-scroll-item6"><span class="hidden">Item 6</span></a></li>
 			</ul>
 			<div style="clear:both"></div>
 		</div>
 	</div>
-  
   </div>
-  
 	<script type="text/javascript">
 		
 		/***********************************\
@@ -222,4 +225,4 @@
 		
 	</script> 
  
-<?php include ('include/footer.php') ?>
+<?php include (DOCROOT.'include/footer.php') ?>

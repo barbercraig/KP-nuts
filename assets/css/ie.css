@@ -4,12 +4,15 @@
 /*for stoopid IE*/
 
 ul#jsddm li ul {
-	position:absolute; /*z-index:10;*/ top:30px; left:0px; background-color:#00F;
-	/*background-repeat:repeat-x;*/ /*width:250px;*/	 /*height:31px;*/ visibility:hidden;
+	position:absolute; /*z-index:10;*/ top:30px; left:0px; /*background-color:#00F;*/
+	/*background-repeat:repeat-x;*/ /*width:250px;*/	 height:185px; visibility:hidden;
 }
 
 /* reduce spacing between form inputs in IE, cause it is gay */
 html p.field {
 	padding-bottom:6px;	
 }
+
+* html #rangeContent #subnav { margin-left: -5px; }
+
 

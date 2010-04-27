@@ -1,6 +1,11 @@
 <?php 
 	#include init file 
-	include($_SERVER['DOCUMENT_ROOT'] . '/init/kp-init.php');
+	//we need to do some extra checking for document root for gay inboxwork
+	if(strpos($_SERVER['SERVER_NAME'], 'inboxwork')){
+		include($_SERVER['DOCUMENT_ROOT'] . '/ub/kp/dev/init/kp-init.php');
+	}else{
+		include($_SERVER['DOCUMENT_ROOT'] . '/init/kp-init.php');
+	}
 ?>
 
 <?php 
@@ -34,7 +39,7 @@
   
 		<div id="rangeContent" <?php if ($productID == "jumbo") { ?>style="width:390px"<?php };?>>
 		
-			<h2 id="<?php $productID ?>"><span class="hidden"><?php $productID ?></span></h2>
+			<h2 id="<?= $productID ?>"><span class="hidden"><?php $productID ?></span></h2>
 			
 			<?php if ($productID == "regular" ) { ?>
 			
@@ -48,7 +53,7 @@
 				
 				<p id="productCopy-original-salted" style="display:none">Our mouth-watering, Original Salted peanuts are roasted to perfection to ensure they’re 
                 		bursting full of flavour with a deliciously crunchy texture – it’s what we’re famous for and you’ll genuinely taste the difference.</p>
-				<p id="productCopy-dry-roasted">These were a sensation when they launched in the mid-1980s and they’ve been a big hit ever since. Using the best 
+				<p id="productCopy-dry-roasted">These were a taste sensation when they launched in the mid-1980s and they’ve been a big hit ever since. Using the best 
                 		quality peanuts and a special roasting process – we bring out a smoky savoury flavour that compliments the peanut perfectly.</p>
 				<p id="productCopy-honey-roast" style="display:none">These irresistible sweet peanuts are traditionally popular during the festive season, but 
                 		they’re now available all year round. They’re a deliciously sweet fusion of salt and sugar dusted over a glazed honey surface. 
@@ -102,7 +107,9 @@
 							// Display Did You Know
 							/*$('#didYouKnow-original-salted').css("display","none");
 							$('#didYouKnow-dry-roasted').css("display","none");
-							$('#didYouKnow-honey-roast').css("display","none")*/								
+							$('#didYouKnow-honey-roast').css("display","none")*/
+							
+							var flavour = 'orginal-salted';								
 							
 							changeFocus(2)
 					});	
@@ -122,6 +129,8 @@
 							$('#didYouKnow-dry-roasted').css("display","block");
 							$('#didYouKnow-honey-roast').css("display","none");*/								
 							
+							var flavour = 'dry-roasted';								
+							
 							changeFocus(1)
 					});	
 					
@@ -139,6 +148,8 @@
 							/*$('#didYouKnow-original-salted').css("display","none");
 							$('#didYouKnow-dry-roasted').css("display","none");
 							$('#didYouKnow-honey-roast').css("display","block");*/								
+							
+							var flavour = 'honey-roast';								
 							
 							changeFocus(3);
 					});	
@@ -265,10 +276,10 @@
 				</div>
 
 				<p id="productCopy-salted">You won’t be disappointed by our biggest ever peanuts. These Jumbo Salted Peanuts are peanut perfection – so deliciously 
-                			more-ish and tasty that you just can’t stop popping in your mouth.</p>
+                			more-ish and tasty that you just can’t stop popping them in your mouth.</p>
 				<p id="productCopy-spicy-chilli" style="display:none">If you like food with a big bit of bite, then you’ll love these hot and tasty Jumbo Spicy Chilli Flavour Peanuts that contain no artificial  colours or flavours. They have a mild tomato flavour that’s complemented by a strong Chilli kick, giving you a delicious, big peanut with a bit of the devil inside.</p>
 				<p id="productCopy-salt-vinegar" style="display:none">Big flavours don’t come much more tasty than Salt & Vinegar Flavour. So if you like your peanuts on the Jumbo side, 
-                			then you must try these Jumbo peanuts that blend salty flavour with a sharp vinegar hit  without any artificial colours or flavours.</p>
+                			then you must try these Jumbo peanuts that blend a salty flavour with a sharp vinegar hit and all without any artificial colours or flavours.</p>
 				<p id="productCopy-salt-pepper" style="display:none">The latest quality addition to the KP range - this Jumbo peanut has the classic combination of salt and speckled pieces 
                 			of ground black pepper. <br />
                             It’s a delicious snack that will satisfy your peanut cravings, plus there are no artificial colours or flavours.</p>
@@ -483,7 +494,7 @@
 							changeFocus(2);
 					});	
 					
-					//$('#pistachios').click();
+					$('#pistachios').click();
 					
 				
 					
@@ -494,7 +505,7 @@
 			<?php } ?>
 			
 			
-      <a href="range.php?r=jumbo_flavoured" class="backToRangeButton"><span class="hidden">Back to range</span></a>			
+      <a href="range.php?r=<?=$productID?>" class="backToRangeButton"><span class="hidden">Back to range</span></a>			
 			
 			
 		</div>

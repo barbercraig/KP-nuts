@@ -1,7 +1,16 @@
-    <div id="footer" <?php switch($pageID){case "competition": echo 'class="competition"'; break;}?> <?php if ($pageID != "home") {?>style="z-index:1"<?php }?>
+    <div class="footer <?php switch($pageID){case "about-kp": echo 'aboutfooter'; break; case "competition": echo 'competition'; break;}?>" <?php if ($pageID != "home") {?>style="z-index:1"<?php }?>>
 		
-		<div id="footer-nav" >
-			<?php if ($pageID == "home" || $pageID == "competition") include(DOCROOT . '/include/footer-comp.php'); ?>
+		<div class="footer-nav <?php switch($pageID){case "about-kp": echo 'aboutnav'; break; case "competition": echo 'compnav'; break;}?>">
+			<?php if($pageID == "home"){
+			
+					include(DOCROOT . 'include/footer_nav.php');
+					
+				  } else if($pageID == "competition"){
+				  
+			 		include(DOCROOT . 'include/footer-comp.php'); 
+					
+				  }
+		    ?>
 		</div>
 		<div id="terms">
 		
@@ -21,15 +30,21 @@
 			<!-- AddThis Button END -->
 		
 			<ul>
-				<li><a href="<?php echo $routes['docs']['policy']; ?>" target="_blank">Privacy policy</a></li> |
-				<li><a href="http://www.123healthybalance.com" target="_blank">www.123healthybalance.com</a></li> |
-				<li><a href="http://www.unitedbiscuits.com" target="_blank">www.unitedbiscuits.com</a></li> |
-				<li><a href="http://www.unitedbiscuits.com/contact.php" target="_blank">Contact Us</a></li>
+				<li><a href="out.php?tid=4319" target="_blank">Privacy policy</a></li> |
+				<li><a href="out.php?tid=4320" target="_blank">www.123healthybalance.com</a></li> |
+				<li><a href="out.php?tid=4321" target="_blank">www.unitedbiscuits.com</a></li> |
+				<li><a href="out.php?tid=4322" target="_blank">Contact Us</a></li>
 			</ul>
 			
 		</div><!--End of terms-->
             <span class="trade">United Biscuits (UK) Limited. Registered in England number 2506007. Registered office: Hayes Park, Hayes End Road, Hayes, Middlesex  UB4 8EE.</span>
     </div><!--End of footer-->
 </div><!--End of wrapper-->
+<script type="text/javascript">
+$(document).ready(function(){
+	alert(flavour);
+});
+</script>
+<?php include(DOCROOT . 'include/tagger.php'); ?>
 </body>
 </html>

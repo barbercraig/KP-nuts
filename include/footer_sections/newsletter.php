@@ -1,5 +1,12 @@
 <div class="window_newsletter">
     <!--Display-->
+    <?php
+		$version ='';
+	
+		//include process script
+		include(DOCROOT. 'script/process.php');
+	?>
+
     <div id="display">
         <!--Dynamic content-->
         <?php

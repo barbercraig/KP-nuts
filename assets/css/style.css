@@ -15,6 +15,10 @@ body {
 	background: #000718 url(../../images/bg-tile.jpg) repeat-x top left;
 }
 
+/*body.holding {
+	background: #000718 url(../../images/bg-tile-holding.jpg) repeat-x top left;
+}*/
+
 h1 {
 	position:absolute; z-index:10; width:264px; height:184px; top:0px; left:345px;
 }
@@ -32,10 +36,18 @@ h2 {
 		background-repeat:none;
 }
 
-	.moment-mara {
-		background:url(../../images/competition/batchcode-entry/header_dynamic-vote_maradonna.png);	
+	/*vote page*/
+	h2.vote {
+		width:584px; height:72px; margin-left:auto; margin-right:auto;
+		background:url(../../images/competition/moment-vote/header_vote.png);	
 	}
-	
+	/*vote page*/
+
+	/* dynamic headers for step1 page - entering batchcode*/
+	.moment-mara {
+		background:url(../../images/competition/batchcode-entry/vote-header/header_mara.png);	
+	}
+	/* dynamic headers for step1 page - entering batchcode*/
 	
 	
 	.step2-tellus {
@@ -46,6 +58,24 @@ h2 {
 		width:440px; height:57px; background-image:url(../../images/competition/code-entry/header_securitycode.png);	
 	}
 	
+	/*error messages*/
+	h2.error {
+		width:701px; height:71px; margin-left:auto; margin-right:auto;
+	}
+	
+		h2.error.entry_limit_exceeded {
+			background:url(../../images/competition/result-messages/header_exceeded-entry-limit.png);
+			margin-bottom:3px;
+		}
+		
+		h2.error.prizelimit_exceeded {
+			background:url(../../images/competition/result-messages/header_exceeded-prize-limit.png);
+		}
+		
+		h2.error.pack_limit_exceeded {
+			background:url(../../images/competition/result-messages/header_exceeded-pack-limit.png);
+		}
+	
 /**********************************/
 
 h3 {
@@ -53,8 +83,8 @@ h3 {
 }
 
 	h3.range {
-		width:291px; height:62px; margin-top:65px;
-		background-image:url(../../images/footer/range/range_txt.png);
+		width:147px; height:66px; margin-top:39px;
+		background-image:url(../../images/footer/range/subheader_range.png);
 	}
 	
 	h3.about {
@@ -68,7 +98,7 @@ h3 {
 	}*/
 	
 	h3.thankyou {
-		width:254px; height:52px; margin-top:64px;
+		width:254px; height:52px; margin-top:64px; margin-left:5px;
 		background-image:url(../../images/footer/newsletter/thankyou_txt.png);
 	}
 	
@@ -88,19 +118,28 @@ h3 {
 	}
 	
 	h3.newsletter {
-		width:220px; height:60px; margin-top:35px;
+		width:207px; height:51px; margin-top:59px;
 		background-image:url(../../images/footer/newsletter/subheader_newsletter.png);
 	}
 	
+	h3.win {
+		width:212px; height:63px; margin-top:67px;
+		background-image:url(../../images/footer/win/subheader_win.png);
+	}
 	
+	h3.form-register {
+		width:168px; height:24px; background:url(../../images/competition/result-messages/subheader_register.png);
+		margin:0 0 0 75px;
+	}
+		
 	
 a.cta {
 	text-indent:-9999px; display:block;		
 }
 
-	.range {
-		width:118px; height:20px; margin-top:5px;
-		background-image:url(../../images/footer/range/range_btn.png);
+	.range-link {
+		width:147px; height:21px; margin-top:5px;
+		background-image:url(../../images/footer/range/btn_range.png);
 		background-repeat:no-repeat;
 	}
 	
@@ -117,16 +156,40 @@ a.cta {
 	}
 
 
-p.footer {
+p.footer-text {
 	text-indent:-9999px; display:block;	background-repeat:none;
 }
 
-	.prizes {
+	p.range {
+		width:147px; height:28px; background-image:url(../../images/footer/range/range_txt.png);
+	}
+
+	p.prizes {
 		width:126px; height:59px; background-image:url(../../images/footer/prizes/desc_prizes.png);
 	}
 	
-	.league {
+	p.league {
 		width:129px; height:31px; background-image:url(../../images/footer/league/desc_league.png);
+	}
+	
+	p.win {
+		width:226px; height:35px; background-image:url(../../images/footer/win/desc_win.png);
+	}
+	
+p.holding {
+	text-indent:-9999px; display:block; background-repeat:none;
+}
+
+p.error {
+	margin-left:auto; margin-right:auto; text-indent:-9999px; display:block; background-repeat:none;
+}
+
+	p.error.entry-limit {
+		width:434px; height:28px; background:url(../../images/competition/result-messages/desc_tryagain.png);
+	}
+	
+	p.error.prize-limit {
+		width:434px; height:28px; background:url(../../images/competition/result-messages/desc_tryagain.png);
 	}
 
 
@@ -135,23 +198,32 @@ p.footer {
 *	form styling
 /*************************************************************/
 form {
-	margin-top:8px;	width:258px; margin-left:16px;
+	margin-top:8px;	width:258px; margin-left:7px;
 }
+
+	form#newsletter {
+		width:330px;
+	}
 
 	.comp-process {
 		float:left; width: 406px; margin:0;	
 	}
 	
 		.step2 {
-			width:452px; margin-left:5px;	
+			width:452px; margin-left:5px; margin-top:3px;	
 		}
 		
 		form.step3 {
 			width:340px; margin-left:30px; 
 		}
+		
+	form.register {
+		width:954px; min-height:220px; margin-top:0; padding:20px 0 0 0;
+		background:url(../../images/competition/result-messages/img_bg-fade.png) no-repeat top left;
+	}
 
 p.field {
-	padding-bottom:8px;	
+	padding-bottom:8px; overflow:auto;;	
 }
 
 	p.field span {
@@ -159,7 +231,7 @@ p.field {
 	}
 
 p.field-captcha {
-	padding-bottom:2px; overflow:hidden;	
+	padding-bottom:2px; overflow:hidden; width:200px; margin-left:auto; margin-right:auto;	
 }
 	
 p.checkbox {
@@ -181,6 +253,13 @@ fieldset {
 	fieldset#captcha {
 		margin-left:65px;	
 	}
+	
+	fieldset#registration {
+		display:block; width:295px; margin-left:auto; margin-right:auto; overflow:hidden;
+	}
+		fieldset#registration.boxes {
+			padding-left:145px;
+		}
 
 label {
 	display:block; margin-bottom:3px; background-repeat:no-repeat;	
@@ -200,11 +279,18 @@ label {
 	label.text {
 		float:left; width:105px; height:23px; line-height:23px; margin:2px 0 0 0;
 	}
+	
+	label.text.reg {
+		width:76px;
+	}
 	/*******************/
 	
 	label.checkbox {
 		height:15px; line-height:16px; font-size:10px;
 	}
+		label.checkbox.reg {
+			width:180px; height:25px; line-height:11px;
+		}
 	
 	label.captcha {
 		height:18px; line-height:18px;	
@@ -220,9 +306,16 @@ input.text {
 	width:218px;			
 }
 
+input.reg {
+	width: 190px;
+}
+
 input.checkbox {
 	width:20px; height:15px; margin-right:5px; border:none; float:left;	
 }
+	input.checkbox.reg {
+		margin-bottom:20px;
+	}
 
 input.postcode {
 	width:50px; margin-right:4px;	
@@ -232,9 +325,8 @@ input.captcha {
 	width:332px; 	
 }
 
-
-input#email {
-	width:252px; height:17px; border:none; font-size:10px;
+input#email-news {
+	float:left; width:194px; height:17px; border:none; font-size:10px; margin-right:10px;
 	background-image:url(../../images/footer/newsletter/input_bg.png);
 }
 
@@ -247,19 +339,23 @@ input#submit {
 }
 
 	input.newsletter {
-		width:76px; height:24px; float:right; margin-top:5px;	
+		width:73px; height:20px; float:left; margin-top:0px; margin-left:0px; border:1px solid red;	
 	}
 
 	input.next {
 		width:101px; height:35px; float:left;	
 	}
 	
+input.submit {
+	height:28px; width:93px;
+}
+	
 	
 /*END OF INPUTS*/
 
 
 select {
-	height:25px; border:1px solid #808080; font-size:13px; font-weight:bold; color:#053071; 	
+	width:370px; height:25px; border:1px solid #808080; font-size:13px; font-weight:bold; color:#053071; 	
 }
 
 a.back {
@@ -288,12 +384,16 @@ a.back {
 	}
 
 img.captcha {
-	float:left; border:none; display:block; margin-left:78px;	
+	float:left; border:none; display:block; margin:0 0 0 78px;
 }
 
-a.refresh {
+/*a.refresh {
 	float:left; display:block; font-weight:bold; text-decoration:none; margin-left:20px; margin-top:46px;	
+}*/
+a.refresh {
+	float:left; display:block; font-weight:bold; text-decoration:none; margin:5px 0 5px 0; float:right;	
 }
+
 
 	a.refresh:hover {
 		text-decoration:underline;	
@@ -305,51 +405,88 @@ a.refresh {
 	
 /***************/
 
+#error {
+	display:block; height:15px; color:red;
+}
+
+input.error {
+	border:1px solid red; background-color:#fddfdf;
+}
+
+label.error {
+	color:#FF0000;
+}
 
 
 /*************************************************************\
 *	layout styling
 /*************************************************************/
-#wrapper {
+.wrapper {
 	width: 955px; height:715px; margin-left: auto; margin-right: auto; position:relative;
-	background-image: url(../../images/bg-swoosh.jpg); 
+	background-image: url(../../images/bg-swoosh.jpg);
 	background-repeat:no-repeat;
 }
 
-#wrapper.competition {
+.wrapper.competition {
 	background-image:url(../../images/bg-noswoosh.jpg);	
 }
 
-	#wrapper #header {
+.wrapper.aboutkp {
+	background-image:url(../../images/bg-noswoosh.jpg);	
+}
+
+
+.holdingwrap {
+	width:995px; height:757px; background-image:url(../../images/bg-holding.jpg);
+}
+
+	.wrapper #header {
 		height:184px; position:absolute; z-index:9999; top:0px; left:0px;
 	}
 
 
-	#wrapper #content {
+	.wrapper #content {
 		height:435px; position:absolute; z-index:10; top:0px;
 	}
-	
-	#wrapper #comp-content {
+		
+	.wrapper #comp-content {
 		position:relative; width:716px; margin-left:auto; margin-right:auto; z-index:10; padding-top:200px; /*padding-bottom:20px;*/
 		overflow:hidden; height:372px;
 	}
-	
-			#wrapper #comp-content.step2 {
+			
+			.wrapper #comp-content.vote {
+				width:958px; height:500px; padding-top:170px;
+			}
+			
+			.wrapper #comp-content.step2 {
 				width:910px; margin:0; padding-top:150px; height:422px;	
 			}
 			
-			#wrapper #comp-content.step3 {
+			.wrapper #comp-content.step3 {
 				width:400px;	
 			}
-
+						
+			.wrapper #comp-content.sorry {
+				width:954px;
+			}
 	
-	#wrapper #footer { 
+	.wrapper .footer { 
 		width:100%; position:absolute; z-index:5000; top:480px;
 	}
 	
-	#wrapper #footer.competition {
+	.wrapper .footer.competition {
 		position:relative; top:0px; padding-top:30px;
 		background:url(../../images/footer-swoosh.png) no-repeat; 
+	}
+	
+	.wrapper .footer.aboutfooter {
+		padding-top:60px; background:url(../../images/footer-swoosh.png) no-repeat;	
+	}
+	
+	#holding-content {
+		position:relative; width:995px; margin-left:auto; margin-right:auto; z-index:10; top:200px; /*padding-bottom:20px;*/
+		overflow:hidden; height:358px;
+		background:url(../../images/img_win-fm.png) no-repeat;
 	}
 
 
@@ -390,8 +527,8 @@ ul#jsddm {
 		}
 			
 			ul#jsddm li ul {
-				position:absolute; /*z-index:10;*/ top:30px; left:3px; background-color:#022257;
-				/*background-repeat:repeat-x;*/ width:92px;/*height:200px;*/ visibility:hidden;
+				position:absolute; /*z-index:10;*/ top:30px; left:3px; /*background-color:#022257;*/
+				/*background-repeat:repeat-x;*/ width:92px; height:185px; visibility:hidden;
 			}
 			
 				ul#jsddm li ul li {
@@ -399,20 +536,20 @@ ul#jsddm {
 				}
 					
 					ul#jsddm li ul li a {
-						width:92px; height:39px; display:block; padding:0px; text-indent:-9999px;
-						margin-bottom:1px; background-repeat:no-repeat;
+						width:92px; height:52px; display:block; padding:0px; text-indent:-9999px;
+						margin-bottom:1px; background-repeat:no-repeat; text-decoration:none;
 					}
 					
 						ul#jsddm li ul li a.regular {
-							background-image:url(../../images/header/nav/nav_regular.jpg);	
+							height:41px; background-image:url(../../images/header/nav/nav_regular.jpg);	
 						}
 						
 						ul#jsddm li ul li a.flavoured {
-							background-image:url(../../images/header/nav/nav_flavoured.jpg);	
+							height:41px; background-image:url(../../images/header/nav/nav_flavoured.jpg);	
 						}
 						
 						ul#jsddm li ul li a.treenuts {
-							background-image:url(../../images/header/nav/nav_treenuts.jpg);	
+							height:41px; background-image:url(../../images/header/nav/nav_treenuts.jpg);	
 						}
 
 						ul#jsddm li ul li a.seasonal {
@@ -440,26 +577,33 @@ ul#jsddm {
 *	footer content styling
 /*************************************************************/
 
-#wrapper #footer #footer-nav {
-	height:210px;
+.wrapper .footer .footer-nav {
+	height:190px;
 } 
 
-#wrapper #footer #footer-nav div.window_range {
-	float:left; width:312px; height:184px; padding-left:5px;
+.wrapper .footer .footer-nav.aboutnav {
+	height:150px;
+}
+
+.wrapper .footer .footer-nav.compnav {
+	height:210px;
+}
+
+.wrapper .footer .footer-nav div.window_range {
+	position:relative; z-index:1; float:left; width:317px; height:186px; padding-left:3px;
 	background-image:url(../../images/footer/range/window_range_bg.png);
 }
 
 
-#wrapper #footer #footer-nav div.window_about {
-	float:left; width:307px; height:184px; padding-left:10px;
+.wrapper .footer .footer-nav div.window_about {
+	position:relative; z-index:2; float:left; width:307px; height:184px; padding-left:10px;
 	background-image:url(../../images/footer/about/window_aboutkp_bg.png);
 }
 
-#wrapper #footer #footer-nav div.window_newsletter {
-	float:left; width:308px; height:184px; padding-left:10px;
+/*#wrapper #footer #footer-nav div.window_newsletter {
+	position:relative; z-index:3; float:left; width:308px; height:184px; padding-left:10px;
 	background-image:url(../../images/footer/newsletter/window_newsletter_bg.png);
-}
-
+}*/
 /* adding footer styling for competition footer
  * date:   08.04.2010
  * author: Craig Barber
@@ -476,8 +620,24 @@ ul#jsddm {
 	}
 	
 	.window_newsletter {
-		float:left; width:313px; height:210px; padding-left:5px;
-		background-image:url(../../images/footer/newsletter/window_newsletter_bg.png);
+		position:absolute; z-index:2; width:308px; height:186px; padding-left:10px;
+		background:url(../../images/footer/newsletter/window_newsletter_bg.png) no-repeat; 
+		/*shift the content up by it's height to bring inline*/ right:0; top:0px;
+		margin-left:100px;
+	}
+	
+	.window_newsletter.green {
+		background:url(../../images/footer/newsletter-green/window_newsletter_bg.png) no-repeat;
+		top:0px;	
+	}
+	
+	* html .window_newsletter {
+		left:537px;
+	} 
+	
+	.window_win {
+		position:relative; z-index:3; float:left; width:323px; height:186px; padding-left:6px;
+		background:url(../../images/footer/win/window_win_bg.png) no-repeat; left:-2px;
 	}
 
 
@@ -509,6 +669,27 @@ ul#jsddm {
 		.league-right img {
 			margin-top:35px;	
 		}
+		
+	
+	/*RANGE*/
+	.range-left {
+		width:147px;
+	}
+	
+	.range-right {
+		width:170px;
+	}
+	/*END OF RANGE*/
+	
+		.range-right img {
+			margin-top:40px;
+		}
+		
+	/*WIN*/
+	.win-right {
+		width:100%; height:100%; float:right; background:url(../../images/footer/win/img_win-football.png) bottom right no-repeat;
+	}
+	/*END OF WIN*/
 
 
 
@@ -563,13 +744,16 @@ span.trade {
 	height:42px;
 	width:590px;
 	background-repeat:no-repeat;
-	margin-left:-7px;	
+	margin-left:-7px;
+	padding-bottom:3px;	
 }
 
-#rangeContent #regular { background-image:url(../../images/range/heading-regular.png); }
+#rangeContent #regular { background-image:url(../../images/range/heading-regular.png); margin-left:-2px;}
 #rangeContent #jumbo { background-image:url(../../images/range/heading-jumbo.png); }
-#rangeContent #jumbo_flavoured { background-image:url(../../images/range/heading-flavoured.png); }
-#rangeContent #treenuts { background-image:url(../../images/range/heading-treenuts.png); }
+#rangeContent #jumbo_flavoured { 
+	background-image:url(../../images/range/heading-jumbo-flavoured.png); height:71px; margin:0 0 8px 0px; 
+}
+#rangeContent #treenuts { background-image:url(../../images/range/heading-treenuts.png); margin-left:-2px; }
 #rangeContent #flavoured { background-image:url(../../images/range/heading-flavoured.png); }
 
 /*
@@ -683,8 +867,8 @@ span.trade {
 #content-image-3  .imageHolder { background-position:140px 200px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-3.png); }
 #content-image-4  .imageHolder { background-position:155px 190px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-4.png); }
 #content-image-5  .imageHolder { background-position:155px 200px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-5.png); }
-#content-image-6  .imageHolder { background-position:155px 175px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-6.png); }
-#content-image-7  .imageHolder { background-position:150px 145px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-7.png); }
+#content-image-6  .imageHolder { background-position:155px 145px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-6.png); }
+#content-image-7  .imageHolder { background-position:150px 175px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-7.png); }
 
 
 .timelineContent p {
@@ -704,9 +888,12 @@ span.trade {
 #scrollPanel {
 	position:absolute;
 	width: 955px;
-	height:114px;
+	height:148px;
 	top:340px;
 	left:0px;
+	background-image:url(../../images/about/img_timeline.png);
+	background-position: 45px bottom;
+	background-repeat:no-repeat; 
 }
 	
 #about-scroll-button-left {
@@ -795,3 +982,172 @@ img.peanuts {float:right;}
 #altContent {width:900px; left:563px; top:323px; position:absolute;}	
 #altContent a {display: block; margin: auto;}
 
+#timeline {
+	position:relative; width:836px; height:26px; margin-left:auto; margin-right:auto;
+	clear:both;
+}
+
+/*--------------------------------------*/
+/*>>>>>>>>>	     Vote Page	   <<<<<<<<<*/
+/*--------------------------------------*/
+#moments {
+
+}
+
+	.row {
+	
+	}
+
+		.row .top {
+		
+		}
+		
+		.row .bottom {
+		
+		}
+		
+		/*the moments*/
+		div.moment {
+			width:193px; height:183px; float:left;
+		}
+		
+			div.moment.banks {
+				width:188px;
+			}
+			
+			div.moment.jairzinho {
+				width:188px;
+			}
+			
+			div.moment.bergkamp {
+				width:188px;
+			}
+
+			div.moment.moore {
+				width:188px;
+			}
+		
+		
+		h3.moment {
+			width:193px; height:23px; margin-top:0; background-repeat:no-repeat;
+		}
+
+			h3.moment.banks {
+				width:188px; background-image:url(../../images/competition/moment-vote/banks/subheader_banks.png);	
+			}
+
+			h3.moment.mara {
+				background-image:url(../../images/competition/moment-vote/mara/subheader_mara.png);	
+			}
+
+			h3.moment.owen {
+				background-image:url(../../images/competition/moment-vote/owen/subheader_owen.png);	
+			}
+			
+			h3.moment.hurst {
+				background-image:url(../../images/competition/moment-vote/hurst/subheader_hurst.png);	
+			}
+			
+			h3.moment.jairzinho {
+				width:188px; background-image:url(../../images/competition/moment-vote/jairzinho/subheader_jairzinho.png);	
+			}
+			
+			h3.moment.bergkamp {
+				width:188px; background-image:url(../../images/competition/moment-vote/bergkamp/subheader_bergkamp.png);	
+			}
+
+			h3.moment.cruyff {
+				background-image:url(../../images/competition/moment-vote/cruyff/subheader_cruyff.png);	
+			}
+
+			h3.moment.gemmill {
+				background-image:url(../../images/competition/moment-vote/gemmill/subheader_gemmill.png);	
+			}
+			
+			h3.moment.platt {
+				background-image:url(../../images/competition/moment-vote/platt/subheader_platt.png);	
+			}
+			
+			h3.moment.moore{
+				width:188px; background-image:url(../../images/competition/moment-vote/moore/subheader_moore.png);	
+			}
+
+			.holder {
+				position:relative; width:194px; height:160px;
+			}
+			
+				.holder.banks {
+					width:188px; background-image:url(../../images/competition/moment-vote/banks/img_moment-banks.png);	
+				}
+				
+				.holder.mara {
+					background-image:url(../../images/competition/moment-vote/mara/img_moment-mara.png);	
+				}
+				
+				.holder.owen {
+					background-image:url(../../images/competition/moment-vote/owen/img_moment-owen.png);	
+				}
+				
+				.holder.hurst {
+					background-image:url(../../images/competition/moment-vote/hurst/img_moment-hurst.png);	
+				}
+				
+				.holder.jairzinho {
+					width:188px; background-image:url(../../images/competition/moment-vote/jairzinho/img_moment-jairzinho.png);	
+				}
+	
+				.holder.bergkamp {
+					width:188px; background-image:url(../../images/competition/moment-vote/bergkamp/img_moment-bergkamp.png);	
+				}
+				
+				.holder.cruyff {
+					background-image:url(../../images/competition/moment-vote/cruyff/img_moment-cruyff.png);	
+				}
+				
+				.holder.gemmill {
+					background-image:url(../../images/competition/moment-vote/gemmill/img_moment-gemmill.png);	
+				}
+				
+				.holder.platt {
+					background-image:url(../../images/competition/moment-vote/platt/img_moment-platt.png);	
+				}
+				
+				.holder.moore {
+					width:188px; background-image:url(../../images/competition/moment-vote/moore/img_moment-moore.png);	
+				}
+
+		.button-deck {
+			height:26px; position:absolute; bottom:8px; left:6px;
+		}
+		
+			.button-deck.first {
+				left:2px;
+			}
+		
+		a.button {
+			text-indent:-9999px; width:90px; height:26px; display:block; float:left;
+		}
+		
+			a.button.view {
+				background-image:url(../../images/competition/moment-vote/btn_view.png);
+			}
+			
+			a.button.vote{
+				background-image:url(../../images/competition/moment-vote/btn_vote.png);
+			}
+			
+/*--------------------------------------*/
+/*>>>>>>	 Win/lose messages	 <<<<<<<*/
+/*--------------------------------------*/
+#nav-sorry {
+	width:435px; margin-left:auto; margin-right:auto;
+}
+
+a.button.league { /*reference to a.button on line 1105*/
+	width:197px; height:29px; background:url(../../images/competition/result-messages/btn_view-league.png);	
+	margin-right:20px;
+}
+
+a.button.range { /*reference to a.button on line 1105*/
+	width:218px; height:29px; background:url(../../images/competition/result-messages/btn_view-range.png);	
+}

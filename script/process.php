@@ -9,8 +9,7 @@
 *	Date:			13.01.10
 *
 */
-
-include('include/config.php');
+include(DOCROOT . 'include/config.php');
 //look for submitted form
 if(isset($_POST['formsubmit'])){
 	

@@ -1,4 +1,13 @@
-<? $pageID = "about-kp" ?>
+<?php 
+	#include init file 
+	//we need to do some extra checking for document root for gay inboxwork
+	if(strpos($_SERVER['SERVER_NAME'], 'inboxwork')){
+		include($_SERVER['DOCUMENT_ROOT'] . '/ub/kp/dev/init/kp-init.php');
+	}else{
+		include($_SERVER['DOCUMENT_ROOT'] . '/init/kp-init.php');
+	}
+?>
+<? $pageID = "nutrition" ?>
 <?php include('include/header.php') ?>
 
   <div id="content">

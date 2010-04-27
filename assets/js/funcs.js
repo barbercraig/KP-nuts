@@ -33,3 +33,7 @@ document.onclick = jsddm_close;
 window.onerror = function() {
     return true
 };
+
+/*$(document).ready(function(){
+	alert("hello");
+});*/

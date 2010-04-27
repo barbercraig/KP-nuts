@@ -8,9 +8,6 @@
 	
 	//set success equal to false, form hasnt been submitted
 	$success = false;
-	
-	//include process script
-	include(DOCROOT. 'script/process.php');
 ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -36,7 +33,7 @@
 		<script>
        $(document).ready(function()
        {
-            DD_belatedPNG.fix('h1 a, h2, .range, .about, .newsletter, .window_range, #rangeContent a, .divider, .window_about, .window_newsletter, #about-kp, #scrollList a, #content-image-0, #content-image-1, #content-image-2, #content-image-3, #content-image-4, #content-image-5, #content-image-6, #content-image-7, .backButton, .imageHolder, .peanuts, #nutrition');
+            DD_belatedPNG.fix('h1 a, h2, h3, .range, .about, .newsletter, .window_range, #rangeContent a, .divider, .window_about, .window_newsletter, #about-kp, #scrollList a, #content-image-0, #content-image-1, #content-image-2, #content-image-3, #content-image-4, #content-image-5, #content-image-6, #content-image-7, .backButton, .imageHolder, .peanuts, #nutrition, #scrollPanel, .aboutfooter, a.cta, .content_float img, .window_win, .win, .win-right, #nutrition-image img');
 			
 			<?php if ($pageID == "about-kp") { ?>
 			
@@ -55,8 +52,8 @@
 	<![endif]-->
 
 	<!--<script type="text/javascript" src="assets/js/jquery.pngFix.js"></script>-->
-    <script type="text/javascript" src="assets/js/funcs.js"></script>
-	<script type="text/javascript" src="assets/js/swfobject.js" ></script>
+    <script type="text/javascript" src="<?php echo SITE_URL ?>assets/js/funcs.js"></script>
+	<script type="text/javascript" src="<?php echo SITE_URL ?>assets/js/swfobject.js" ></script>
 	
 	
 	<?php if ($pageID == "home") {?>
@@ -129,11 +126,17 @@
 	</script>
 	
 	<?php } ?>
+    
+    <script type="text/javascript">
+		document.write("hello"+flavour);
+		alert("hello");
+	</script>
+
 	
 </head>
 
 <body>
-<div id="wrapper" <?php switch($pageID){case "competition": echo 'class="competition"'; break;}?>>
+<div class="wrapper <?php switch($pageID){case "competition": echo 'competition'; break; case "about-kp": echo 'aboutkp'; break;}?>">
 	<div id="header">
     	<!--Main navigation bar-->   
     	<ul id="jsddm">        
