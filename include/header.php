@@ -19,7 +19,7 @@
 	
     <title>KP Nuts</title>
     
-    <link href="<?php echo SITE_URL ?>/assets/css/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="<?php echo SITE_URL ?>assets/css/style.css" rel="stylesheet" type="text/css" media="screen" />
    
     <script type="text/javascript" src="<?php echo SITE_URL ?>assets/js/jquery-1.3.2.min.js"></script>  
 	<script type="text/javascript" src="<?php echo SITE_URL ?>assets/js/jquery.qtip-1.0.0-rc3.min.js"></script> 

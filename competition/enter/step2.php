@@ -20,7 +20,7 @@
 <div id="comp-content" class="step2">
 	<div class="content_box userform">
     	<div class="form-content">
-        	<h2 class="step2-tellus">Tell us about you</h2>
+        	<h2 class="tellus">Tell us about you</h2>
             <form id="enter-step2" class="comp-process step2" name="enter-step2" action="<?= $_SERVER['PHP_SELF'] ?>" method="post">
                 <div id="error">
                     <?=isset($message) ? $message : null?>

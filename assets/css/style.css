@@ -50,7 +50,7 @@ h2 {
 	/* dynamic headers for step1 page - entering batchcode*/
 	
 	
-	.step2-tellus {
+	.tellus {
 		width:417px; height:54px; background-image:url(../../images/competition/userdata-entry/header_tellus.png);	
 	}
 	
@@ -75,6 +75,11 @@ h2 {
 		h2.error.pack_limit_exceeded {
 			background:url(../../images/competition/result-messages/header_exceeded-pack-limit.png);
 		}
+		
+	h2.league {
+		width:367px; height:46px; margin-left:auto; margin-right:auto;
+		background-image:url(../../images/competition/league/header_leagueTable.png);	
+	}
 	
 /**********************************/
 
@@ -131,7 +136,7 @@ h3 {
 		width:168px; height:24px; background:url(../../images/competition/result-messages/subheader_register.png);
 		margin:0 0 0 75px;
 	}
-		
+			
 	
 a.cta {
 	text-indent:-9999px; display:block;		
@@ -193,6 +198,13 @@ p.error {
 	}
 
 
+p.league-table {
+	margin-left:auto; margin-right:auto; text-indent:-9999px; display:block; background-repeat:none;
+	width:594px; height:26px; background:url(../../images/competition/league/subheader_votes.png);	
+}
+
+
+
 
 /*************************************************************\
 *	form styling
@@ -215,6 +227,10 @@ form {
 		
 		form.step3 {
 			width:340px; margin-left:30px; 
+		}
+		
+		form.prizedraw {
+			width:452px; margin-left:5px; margin-top:3px;	
 		}
 		
 	form.register {
@@ -339,9 +355,13 @@ input#submit {
 }
 
 	input.newsletter {
-		width:73px; height:20px; float:left; margin-top:0px; margin-left:0px; border:1px solid red;	
+		width:76px; height:24px; float:left; margin-top:0px; margin-left:0px; 	
 	}
-
+	
+	input.newsletter.-green {
+		width:73px; height:20px; float:left; margin-top:0px; margin-left:0px;
+	}
+	
 	input.next {
 		width:101px; height:35px; float:left;	
 	}
@@ -379,9 +399,17 @@ a.back {
 		background:url(../../images/competition/userdata-entry/img_prizes-large.png) no-repeat bottom left;
 	}
 	
+	.content_box.prizedraw {
+		width:910px; height:421px; z-index:10; top:0; left:0;
+		background:url(../../images/prizedraw/img_prizedraw-large.png) no-repeat bottom left;
+	}
+	
 	.form-content {
 		float:right; width:452px; height:421px;
 	}
+		.form-content.prizedraw {
+			margin-top:80px;	
+		}
 
 img.captcha {
 	float:left; border:none; display:block; margin:0 0 0 78px;
@@ -469,9 +497,17 @@ label.error {
 			.wrapper #comp-content.sorry {
 				width:954px;
 			}
+			
+			.wrapper #comp-content.league {
+				width:100%;
+			}
+			
+			.wrapper #comp-content.prizedraw {
+				width:910px; margin:0; padding-top:150px; height:422px;	
+			}
 	
 	.wrapper .footer { 
-		width:100%; position:absolute; z-index:5000; top:480px;
+		width:100%; position:absolute; z-index:5000; top:480px; padding-bottom:20px;
 	}
 	
 	.wrapper .footer.competition {
@@ -622,7 +658,7 @@ ul#jsddm {
 	.window_newsletter {
 		position:absolute; z-index:2; width:308px; height:186px; padding-left:10px;
 		background:url(../../images/footer/newsletter/window_newsletter_bg.png) no-repeat; 
-		/*shift the content up by it's height to bring inline*/ right:0; top:0px;
+		/*shift the content up by it's height to bring inline*/ right:0; top:30px;
 		margin-left:100px;
 	}
 	
@@ -1151,3 +1187,51 @@ a.button.league { /*reference to a.button on line 1105*/
 a.button.range { /*reference to a.button on line 1105*/
 	width:218px; height:29px; background:url(../../images/competition/result-messages/btn_view-range.png);	
 }
+
+/*--------------------------------------*/
+/*>>>>>>	    league table	 <<<<<<<*/
+/*--------------------------------------*/
+.board {
+	float:left; width:472px;	
+}
+
+.board.left {
+	margin-right:10px;	
+}
+
+.position-wrapper {
+	position:relative; z-index:1; overflow:visible; margin-bottom:30px; 
+	width:470px; height:55px; border:1px solid #d0d0d0;	
+	background:url(../../images/competition/league/img_positionbar_bg.jpg) repeat-x;
+}
+
+.position {
+	float:left; width:66px; height:53px; z-index:1;	
+}
+
+.thumbnail {
+	position:absolute; top:-1px; left:62px; z-index:2; width:71px; height:74px; padding:2px 0 0 5px;
+	background:url(../../images/competition/league/thumbnails/img_thumbnail-bg.png);
+}
+
+.league-desc {
+	text-indent:-9999px; float:right; width:254px; height:53px; z-index:3;
+	background:url(../../images/competition/league/descriptions/img_moore-desc.png);
+}
+	.league-desc.owen {
+		background:url(../../images/competition/league/descriptions/img_owen-desc.png);
+	}
+
+.percentage {
+	float:right; width:62px; padding:17px 0 0 5px; height:38px; border-left:1px solid #d0d0d0;
+}
+
+.vote.league {
+	text-indent:-9999px; position:absolute; top:55px; right:-1px; width:69px; height:21px;
+	background:url(../../images/competition/league/btn_vote.jpg);
+}
+
+img.number {
+	float:left;	
+}
+
