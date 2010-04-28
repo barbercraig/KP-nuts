@@ -13,7 +13,8 @@
 	
 ?>
 <div id="comp-content" class="sorry">
-	<h2 class="error <?=$_SESSION['lose_type']?>">Sorry. You have exceeded the entry limit.</h2>
+	<h2 class="congrat">Congratulations!</h2>
+	<h2 class="win <?=$_SESSION['lose_type']?>">Sorry. You have exceeded the entry limit.</h2>
     <p class="error <?=$_SESSION['lose_type']?>">Please pick up another KP pack and try again.</p>
     <form class="register" id="register" name="register" action="<?= $_SERVER['PHP_SELF'] ?>" method="post">
         <fieldset id="registration">
@@ -38,7 +39,7 @@
             </p>
         </fieldset>
         <fieldset id="registration" class="boxes" style="clear:both;">
-            <input id="submit" class="submit" type="image" name="submit" value="submit" src="../../images/competition/result-messages/btn_submit.png" alt="submit >" width="93" height="28" border="0" />
+            <input id="submit" class="submit" type="image" name="submit" value="submit" src="../../images/competition/result-messages/lose/btn_submit.png" alt="submit >" width="93" height="28" border="0" />
         </fieldset>
     </form>
     <div id="nav-sorry">

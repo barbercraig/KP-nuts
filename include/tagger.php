@@ -44,6 +44,10 @@ switch($pageID){
 		$tagId = "4326";
 		break;
 		
+	case "newsletter-signup":
+		$tagId = "4318";
+		break;
+		
 	default:
 		$tagId = "4314";
 		break;
@@ -56,7 +60,7 @@ switch($pageID){
 	page_id   = "<?=$tagId?>";
 	timeout   = 600;
 	p1        = "<?=$flavour?>";
-	p2        = "<?=$submit?>";
+	p2        = "<?=$p2?>";
 	//-->
 </script> 
 	<script type="text/javascript" src="http://www.inboxtag.com/inbox_tagger.js">

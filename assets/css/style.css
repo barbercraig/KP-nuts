@@ -64,16 +64,16 @@ h2 {
 	}
 	
 		h2.error.entry_limit_exceeded {
-			background:url(../../images/competition/result-messages/header_exceeded-entry-limit.png);
+			background:url(../../images/competition/result-messages/lose/header_exceeded-entry-limit.png);
 			margin-bottom:3px;
 		}
 		
 		h2.error.prizelimit_exceeded {
-			background:url(../../images/competition/result-messages/header_exceeded-prize-limit.png);
+			background:url(../../images/competition/result-messages/lose/header_exceeded-prize-limit.png);
 		}
 		
 		h2.error.pack_limit_exceeded {
-			background:url(../../images/competition/result-messages/header_exceeded-pack-limit.png);
+			background:url(../../images/competition/result-messages/lose/header_exceeded-pack-limit.png);
 		}
 	
 /**********************************/
@@ -128,7 +128,7 @@ h3 {
 	}
 	
 	h3.form-register {
-		width:168px; height:24px; background:url(../../images/competition/result-messages/subheader_register.png);
+		width:168px; height:24px; background:url(../../images/competition/result-messages/lose/subheader_register.png);
 		margin:0 0 0 75px;
 	}
 		
@@ -185,11 +185,11 @@ p.error {
 }
 
 	p.error.entry-limit {
-		width:434px; height:28px; background:url(../../images/competition/result-messages/desc_tryagain.png);
+		width:434px; height:28px; background:url(../../images/competition/result-messages/lose/desc_tryagain.png);
 	}
 	
 	p.error.prize-limit {
-		width:434px; height:28px; background:url(../../images/competition/result-messages/desc_tryagain.png);
+		width:434px; height:28px; background:url(../../images/competition/result-messages/lose/desc_tryagain.png);
 	}
 
 
@@ -219,7 +219,7 @@ form {
 		
 	form.register {
 		width:954px; min-height:220px; margin-top:0; padding:20px 0 0 0;
-		background:url(../../images/competition/result-messages/img_bg-fade.png) no-repeat top left;
+		background:url(../../images/competition/result-messages/lose/img_bg-fade.png) no-repeat top left;
 	}
 
 p.field {
@@ -1144,10 +1144,10 @@ img.peanuts {float:right;}
 }
 
 a.button.league { /*reference to a.button on line 1105*/
-	width:197px; height:29px; background:url(../../images/competition/result-messages/btn_view-league.png);	
+	width:197px; height:29px; background:url(../../images/competition/result-messages/lose/btn_view-league.png);	
 	margin-right:20px;
 }
 
 a.button.range { /*reference to a.button on line 1105*/
-	width:218px; height:29px; background:url(../../images/competition/result-messages/btn_view-range.png);	
+	width:218px; height:29px; background:url(../../images/competition/result-messages/lose/btn_view-range.png);	
 }

@@ -2,7 +2,7 @@
 
 	session_start();
 	$pageID = "competition";
-	$step = 'error';
+	$step = 'win';
 	
 	print_r($_SESSION);
 	
@@ -13,7 +13,10 @@
 	
 ?>
 
-<div id="comp-content" class="sorry">
+<div id="comp-content" class="win">
+	<h2 class="congrat">Congratulations!</h2>
+    <h2 class="win <?=$_SESSION['prize_type']?>">Sorry. You have exceeded the entry limit.</h2>
+    <p class="win <?=$_SESSION['lose_type']?>">Please pick up another KP pack and try again.</p>
 	<p>The prize you ahve won is <?=$_SESSION['win_prize']?></p>
 </div>
 
