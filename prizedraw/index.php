@@ -1,27 +1,32 @@
-<?php 
-	session_start();
-	$pageID = "competition";
-	$step = 'user';
+<?php
+/*
+*	prizedraw.php
+*
+*	Prize draw page for KP site
+*	@date:		27.04.2010
+*	@version:	1.0
+*	@author: 	Craig Barber
+*/
+$pageID = "competition";
 
-	#include init file 
-	include($_SERVER['DOCUMENT_ROOT'] . '/init/kp-init.php');
-	
-	include(DOCROOT . 'competition/handlers/error-handler.php');
-	
-	if ($returnVal == "success") {
-		foreach($cPost as $key => $value) {
-			$_SESSION[$key] = $value;
-		}
-		header("Location: " . $routes['competition']['enter'] . "step3.php");
-	}
-	
-	include(DOCROOT . '/include/header.php'); 
+#include init file 
+include($_SERVER['DOCUMENT_ROOT'] . '/init/kp-init.php');
+
+include(DOCROOT . 'competition/handlers/error-handler.php');
+
+if ($returnVal == "success") {
+	//do something here
+}
+
+include(DOCROOT . '/include/header.php'); 
 ?>
-<div id="comp-content" class="step2">
-	<div class="content_box userform">
-    	<div class="form-content">
+
+<p>&nbsp;</p>
+<div id="comp-content" class="prizedraw">
+	<div class="content_box prizedraw">
+    	<div class="form-content prizedraw">
         	<h2 class="tellus">Tell us about you</h2>
-            <form id="enter-step2" class="comp-process step2" name="enter-step2" action="<?= $_SERVER['PHP_SELF'] ?>" method="post">
+            <form id="prizedraw" class="prizedraw" name="prizedraw" action="<?= $_SERVER['PHP_SELF'] ?>" method="post">
                 <div id="error">
                     <?=isset($message) ? $message : null?>
                 </div>
@@ -43,27 +48,9 @@
                     	<label class="text" for="email_confirm">Confirm email*</label>
                         <input class="text <?=isset($error['email_confirm'])? $error['email_confirm'] : ""?>" id="email_confirm" name="email_confirm" type="text" tabindex="4" maxlength="255" />
                     </p> 
-                    <p class="field">
-                    	<label class="text" for="house_no">House no/name*</label>
-                        <input class="text <?=isset($error['house_no'])? $error['house_no'] : ""?>" id="house_no" name="house_no" type="text" tabindex="5" maxlength="100"  />
-                    </p>
-                    <p class="field">
-                    	<label class="text" for="postcode1">Postcode*</label>
-                        <input class="postcode <?=isset($error['postcode'])? $error['postcode'] : ""?>" id="postcode1" name="postcode1" type="text" tabindex="6" maxlength="4" />
-                        <input class="postcode <?=isset($error['postcode'])? $error['postcode'] : ""?>" id="postcode2" name="postcode2" type="text" tabindex="7" maxlength="5" />
-                    </p>
                 </fieldset>
                 <!--CHECKBOXES-->
                 <fieldset id="checkboxes">
-                	<p class="checkbox">
-                    	<label class="checkbox" for="ROI"><input class="checkbox" id="ROI" name="ROI" type="checkbox" tabindex="8" value="1" />I live in the Republic Of Ireland</label>
-                    </p>
-                    <p class="checkbox">
-                    	<label class="checkbox <?=isset($error['postcode'])? $error['postcode'] : ""?>" for="age"><input class="checkbox" id="age" name="age" type="checkbox" tabindex="9" value="1" />I am over 16*</label>
-                    </p>
-                    <p class="checkbox">
-                    	<label class="checkbox <?=isset($error['consent'])? $error['consent'] : ""?>" for="consent"><input class="checkbox" id="consent" name="consent" type="checkbox" tabindex="10" value="1" />I am 16 or 17 and I have parental consent to enter</label>
-                    </p>
                     <p class="checkbox">
                     	<label class="checkbox <?=isset($error['terms'])? $error['terms'] : ""?>" for="terms"><input class="checkbox" id="terms" name="terms" type="checkbox" tabindex="11" value="1" />I have read and agree to the Terms &amp; Conditions*</label>
                     </p>
@@ -80,7 +67,9 @@
         			<input name="formsubmit" id="formsubmit" type="hidden" value="submit" />
         		<!--End of hidden fields-->
             </form>
+            </form>
         </div>
-    </div>
+  </div>
 </div>
+
 <?php include (DOCROOT . '/include/footer.php'); ?>
