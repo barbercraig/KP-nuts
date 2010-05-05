@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*for stoopid IE6*/
+.ft_newsletter_home-right {
+	margin-right:-30px;
+}
+
+.ft_newsletter-right {
+	margin-right:-30px;
+}
+
+.sorry-generic {
+	width:545px; height:400px; margin-left:20px;
+}
+
+.gen {
+	margin-left:13px;
+}
+
+a.win {
+	margin-left:13px;
+}	
+
+
+

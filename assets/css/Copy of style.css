@@ -1,0 +1,1454 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*************************************************************\
+*	generic styling
+/*************************************************************/
+html * {
+	padding:0; margin:0;
+}
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FFF;
+	background: #000718 url(../../images/bg-tile.jpg) repeat-x top left;
+}
+
+/*body.holding {
+	background: #000718 url(../../images/bg-tile-holding.jpg) repeat-x top left;
+}*/
+
+h1 {
+	position:absolute; z-index:10; width:264px; height:184px; top:0px; left:345px;
+}
+
+h1 a {
+	position:relative; display:block; width:264px; height:184px;
+	background-image:url(../../images/header/logo_kp.png); background-repeat:no-repeat;
+}
+
+/*
+*	Competition section headers
+*/
+h2 {
+		text-indent: -9999px; position:relative; display:block; width:777px; height:99px;
+		background-repeat:no-repeat;
+}
+
+	/*vote page*/
+	h2.vote {
+		width:584px; height:72px; margin-left:auto; margin-right:auto;
+		background:url(../../images/competition/moment-vote/header_vote.png);	
+	}
+	/*vote page*/
+
+	/* dynamic headers for step1 page - entering batchcode*/
+	h2.moment-banks {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_banks.png);	
+	}
+	
+	h2.moment-mara {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_mara.png);	
+	}
+	
+	h2.moment-owen {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_owen.png);	
+	}
+	
+	h2.moment-hurst {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_hurst.png);	
+	}
+	
+	h2.moment-jairzinho {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_jairzinho.png);	
+	}
+	
+	h2.moment-bergkamp {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_bergkamp.png);	
+	}
+	
+	h2.moment-cruyff {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_cruyff.png);	
+	}
+
+	h2.moment-gemmill {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_gemmill.png);	
+	}
+
+	h2.moment-platt {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_platt.png);	
+	}
+
+	h2.moment-moore {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_moore.png);	
+	}
+
+	/* dynamic headers for step1 page - entering batchcode*/
+	
+	
+	.tellus {
+		width:417px; height:54px; background-image:url(../../images/competition/userdata-entry/header_tellus.png);	
+	}
+	
+	h2.captcha {
+		width:440px; height:57px; background-image:url(../../images/competition/code-entry/header_securitycode.png);	
+	}
+	
+	/*error messages*/
+	h2.error {
+		width:701px; height:71px; margin-left:auto; margin-right:auto;
+	}
+	
+		h2.error.entry_limit_exceeded {
+			background:url(../../images/competition/result-messages/lose/header_exceeded-entry-limit.png);
+			margin-bottom:3px;
+		}
+		
+		h2.error.prizelimit_exceeded {
+			background:url(../../images/competition/result-messages/lose/header_exceeded-prize-limit.png);
+		}
+		
+		h2.error.pack_limit_exceeded {
+			background:url(../../images/competition/result-messages/lose/header_exceeded-pack-limit.png);
+		}
+		
+	/*Win messages*/
+	h2.win {
+		display:block; background-repeat:no-repeat;
+	}
+		h2.win.congrat {
+			width:381px; height:35px; padding-bottom:5px;
+			background-image:url(../../images/competition/result-messages/win/header_congratulations.png);	
+		}
+		
+		h2.win.replica-shirt {
+			width:542px; height:98px;
+			background:url(../../images/competition/result-messages/win/header_replica-shirt.png)
+		}
+		
+		h2.win.mini-football {
+			width:542px; height:98px;
+			background:url(../../images/competition/result-messages/win/header_mini-football.png)
+		}
+		
+		h2.win.mini-table-football {
+			width:542px; height:98px;
+			background:url(../../images/competition/result-messages/win/header_mini-table-football.png)
+		}
+		
+	h2.league {
+		width:367px; height:46px; margin-left:auto; margin-right:auto;
+		background-image:url(../../images/competition/league/header_leagueTable.png);	
+	}
+	
+	h2.thanks {
+		width:954px; height:66px; margin-left:auto; margin-right:auto;
+		background-image:url(../../images/prizedraw/header_thanks.png);
+	}
+	
+	h2.vote-moment {
+		width:463px; height:103px; margin:0 0 0 0;
+		background-image:url(../../images/prizedraw/header_vote-moment.png);
+	}
+	
+	h2.prizedraw-enter {
+		width:297px; height:208px; margin:0 0 0 0;
+		background-image:url(../../images/prizedraw/header_grandprizedraw.png);
+	}
+	
+	
+	
+/**********************************/
+
+h3 {
+	text-indent:-9999px; display:block; margin-top:50px;		
+}
+
+	h3.range {
+		width:147px; height:66px; margin-top:39px;
+		background-image:url(../../images/footer/range/subheader_range.png);
+	}
+	
+	h3.about {
+		width:184px; height:52px; margin-top:63px;
+		background-image:url(../../images/footer/about/about_txt.png);
+	}
+
+	/*h3.newsletter {
+		width:257px; height:48px;
+		background-image:url(../../images/footer/newsletter/newsletter_txt.png);
+	}*/
+	
+	h3.thankyou {
+		width:254px; height:52px; margin-top:64px; margin-left:5px;
+		background-image:url(../../images/footer/newsletter/thankyou_txt.png);
+	}
+	
+	/* adding footer styling for competition footer
+	 * date:   08.04.2010
+	 * author: Craig Barber
+	*/
+	
+	h3.prizes {
+		width:126px; height:77px; margin-top:35px;
+		background-image:url(../../images/footer/prizes/subheader_prizes.png);
+	}
+	
+	h3.league {
+		width:129px; height:81px; margin-top:35px;
+		background-image:url(../../images/footer/league/subheader_league.png);
+	}
+	
+	h3.newsletter {
+		width:207px; height:51px; margin-top:59px;
+		background-image:url(../../images/footer/newsletter/subheader_newsletter.png);
+	}
+	
+	h3.win {
+		width:212px; height:63px; margin-top:67px;
+		background-image:url(../../images/footer/win/subheader_win.png);
+	}
+	
+	h3.form-register {
+		width:168px; height:24px; background:url(../../images/competition/result-messages/lose/subheader_register.png);
+		margin:0 0 0 75px;
+	}
+	
+	h3.prizedraw-enter {
+		width:198px; height:33px; background:url(../../images/prizedraw/subheader_prize-includes.png); margin-top:0px;
+	}
+			
+	
+a.cta {
+	text-indent:-9999px; display:block;		
+}
+
+	.range-link {
+		width:147px; height:21px; margin-top:5px;
+		background-image:url(../../images/footer/range/btn_range.png);
+		background-repeat:no-repeat;
+	}
+	
+	.about {
+		width:127px; height:19px; margin-top:9px;
+		background-image:url(../../images/footer/about/about_btn.png);
+		background-repeat:none;
+	}
+	
+	.league-link {
+		width:129px; height:24px;
+		background-image:url(../../images/footer/league/btn_league.png);
+		background-repeat:none;
+	}
+
+
+p.footer-text {
+	text-indent:-9999px; display:block;	background-repeat:none;
+}
+
+	p.range {
+		width:147px; height:28px; background-image:url(../../images/footer/range/range_txt.png);
+	}
+
+	p.prizes {
+		width:126px; height:59px; background-image:url(../../images/footer/prizes/desc_prizes.png);
+	}
+	
+	p.league {
+		width:129px; height:31px; background-image:url(../../images/footer/league/desc_league.png);
+	}
+	
+	p.win {
+		width:226px; height:35px; background-image:url(../../images/footer/win/desc_win.png);
+	}
+	
+p.holding {
+	text-indent:-9999px; display:block; background-repeat:none;
+}
+
+p.error {
+	margin-left:auto; margin-right:auto; text-indent:-9999px; display:block; background-repeat:none;
+}
+
+	p.error.entry-limit {
+		width:434px; height:28px; background:url(../../images/competition/result-messages/lose/desc_tryagain.png);
+	}
+	
+	p.error.prize-limit {
+		width:434px; height:28px; background:url(../../images/competition/result-messages/lose/desc_tryagain.png);
+	}
+	
+p.win {
+	text-indent:-9999px; display:block; background-repeat:none;	
+}
+	p.win.steps {
+		width:423px; height:27px; background:url(../../images/competition/result-messages/win/subheader_steps.png);
+	}
+
+
+p.league-table {
+	margin-left:auto; margin-right:auto; text-indent:-9999px; display:block; background-repeat:none;
+	width:594px; height:26px; background:url(../../images/competition/league/subheader_votes.png);	
+}
+
+
+
+
+/*************************************************************\
+*	form styling
+/*************************************************************/
+form {
+	margin-top:8px;	width:258px; margin-left:7px;
+}
+
+	form#newsletter {
+		width:330px;
+	}
+
+	.comp-process {
+		float:left; width: 406px; margin:0;	
+	}
+	
+		.step2 {
+			width:452px; margin-left:5px; margin-top:3px;	
+		}
+		
+		form.step3 {
+			width:340px; margin-left:30px; 
+		}
+		
+		form.prizedraw {
+			width:452px; margin-left:5px; margin-top:3px;	
+		}
+		
+	form.register {
+		width:954px; min-height:220px; margin-top:0; padding:20px 0 0 0;
+		background:url(../../images/competition/result-messages/lose/img_bg-fade.png) no-repeat top left;
+	}
+
+p.field {
+	padding-bottom:8px; overflow:auto;;	
+}
+
+	p.field span {
+		display:block; margin-left:106px; font-size:10px; line-height:22px;
+	}
+
+p.field-captcha {
+	padding-bottom:2px; overflow:hidden; width:200px; margin-left:auto; margin-right:auto;	
+}
+	
+p.checkbox {
+	padding-bottom:0px;	
+}
+
+fieldset {
+	border:none;
+}
+
+	fieldset#checkboxes {
+		margin-left:102px;
+	}
+	
+	fieldset#submit {
+		margin-left:102px; margin-top:10px;	
+	}
+	
+	fieldset#captcha {
+		margin-left:65px;	
+	}
+	
+	fieldset#registration {
+		display:block; width:295px; margin-left:auto; margin-right:auto; overflow:hidden;
+	}
+		fieldset#registration.boxes {
+			padding-left:145px;
+		}
+
+label {
+	display:block; margin-bottom:3px; background-repeat:no-repeat;	
+}
+
+	label.batchcode {
+		text-indent:-9999px; width:404px; height:71px;
+		background-image:url(../../images/competition/batchcode-entry/label_batchcode.png);
+	}
+	
+	label.moment {
+		text-indent:-9999px; width:362px; height:23px;
+		background-image:url(../../images/competition/batchcode-entry/label_moment.png);
+	}
+	
+	/*GENERIC TEXT LABEL*/
+	label.text {
+		float:left; width:105px; height:23px; line-height:23px; margin:2px 0 0 0;
+	}
+	
+	label.text.reg {
+		width:76px;
+	}
+	/*******************/
+	
+	label.checkbox {
+		height:15px; line-height:16px; font-size:10px;
+	}
+		label.checkbox.reg {
+			width:180px; height:25px; line-height:11px;
+		}
+	
+	label.captcha {
+		height:18px; line-height:18px;	
+	}
+
+/*INPUTS*/
+input {
+	height:20px; padding:3px 3px 0px 3px; border:1px solid #808080; font-size:13px; font-weight:bold; color:#053071;
+	
+}
+
+input.text {
+	width:218px;			
+}
+
+input.reg {
+	width: 190px;
+}
+
+input.checkbox {
+	width:20px; height:15px; margin-right:5px; border:none; float:left;	
+}
+	input.checkbox.reg {
+		margin-bottom:20px;
+	}
+
+input.postcode {
+	width:50px; margin-right:4px;	
+}
+
+input.captcha {
+	width:332px; 	
+}
+
+input#email-news {
+	float:left; width:194px; height:17px; border:none; font-size:10px; margin-right:10px;
+	background-image:url(../../images/footer/newsletter/input_bg.png);
+}
+
+input#batchcode {
+	width:215px;
+}
+
+input#submit {
+	display:block; padding:0; border:none;
+}
+
+	input.newsletter {
+		width:76px; height:24px; float:left; margin-top:0px; margin-left:0px; 	
+	}
+	
+	input.newsletter.-green {
+		width:73px; height:20px; float:left; margin-top:0px; margin-left:0px;
+	}
+	
+	input.next {
+		width:101px; height:35px; float:left;	
+	}
+	
+input.submit {
+	height:28px; width:93px;
+}
+	
+	
+/*END OF INPUTS*/
+
+
+select {
+	width:390px; height:25px; border:1px solid #808080; font-size:13px; font-weight:bold; color:#053071; 	
+}
+
+a.back {
+	float:left; display:block; text-indent:-9999px;
+	width:106px; height:35px; background-image:url(../../images/competition/batchcode-entry/btn_back.png);
+	background-repeat:none;
+}
+
+#visual {
+	float:right;	
+}
+
+/*STEP 2 STYLING*/
+.content_box {
+	position:relative; /* same as content div */
+	/*border:1px solid red;*/
+}
+	.userform {
+		width:910px; height:421px; z-index:10; top:0; left:0;
+		background:url(../../images/competition/userdata-entry/img_prizes-large.png) no-repeat bottom left;
+	}
+	
+	.content_box.prizedraw {
+		width:910px; height:421px; z-index:10; top:0; left:0; margin-left:auto; margin-right:auto;
+		background:url(../../images/prizedraw/img_prizedraw-large.png) no-repeat bottom left;
+	}
+	
+	.content_box.prizedraw-thanks {
+		width:950px; height:370px; z-index:10; margin-left:auto; margin-right:auto;
+		background:url(../../images/prizedraw/img_prizedraw-thanks-bg.png) no-repeat top left;
+	}
+	
+	.content_box.prizedraw-enter {
+		width:960px; height:560px; z-index:10; margin-left:auto; margin-right:auto;
+		background:url(../../images/prizedraw/img_prizedraw-enter-bg.png) no-repeat top left;
+	}
+	
+	.form-content {
+		float:right; width:452px; height:421px;
+	}
+		.form-content.prizedraw {
+			margin-top:80px;	
+		}
+		
+		.form-content.prizedraw-thanks {
+			margin-top:80px; width:463px; margin-right:0px;
+		}
+		
+	.display-content {
+		width:545px; margin-left:80px; margin-right:0;
+	}
+	
+	.display-content.prizedraw-enter {
+		width:545px; height:505px; margin-left:30px; padding-top:60px;
+	}
+		
+	.content_box.win {
+		width:100%; height:600px; margin-right:0;
+	}
+		.content_box.win.replica-shirt {
+			background:url(../../images/competition/result-messages/win/img_win-replica-shirt-bg.png);
+		}
+		.content_box.win.mini-football {
+		background:url(../../images/competition/result-messages/win/img_win-mini-football-bg.png);
+		}
+		.content_box.win.mini-table-football {
+		background:url(../../images/competition/result-messages/win/img_win-mini-table-football-bg.png);
+		}
+
+img.captcha {
+	float:left; border:none; display:block; margin:0 0 0 78px;
+}
+
+/*a.refresh {
+	float:left; display:block; font-weight:bold; text-decoration:none; margin-left:20px; margin-top:46px;	
+}*/
+a.refresh {
+	float:left; display:block; font-weight:bold; text-decoration:none; margin:5px 0 5px 0; float:right; color:white;	
+}
+
+
+	a.refresh:hover {
+		text-decoration:underline;	
+	}
+	
+	a.refresh:visited {
+		text-decoration:none; color:white;	
+	}
+	
+/***************/
+
+#error {
+	display:block; height:15px; color:red; padding-bottom:3px;
+}
+
+input.error {
+	border:1px solid red; background-color:#fddfdf;
+}
+
+label.error {
+	color:#FF0000;
+}
+
+
+/*************************************************************\
+*	layout styling
+/*************************************************************/
+.wrapper {
+	width: 955px; height:715px; margin-left: auto; margin-right: auto; position:relative;
+	background-image: url(../../images/bg-swoosh.jpg);
+	background-repeat:no-repeat;
+}
+
+.wrapper.competition {
+	background-image:url(../../images/bg-noswoosh.jpg);	
+}
+
+.wrapper.aboutkp {
+	background-image:url(../../images/bg-noswoosh.jpg);	
+}
+
+
+.holdingwrap {
+	width:995px; height:757px; background-image:url(../../images/bg-holding.jpg);
+}
+
+	.wrapper #header {
+		height:184px; position:absolute; z-index:9999; top:0px; left:0px;
+	}
+
+
+	.wrapper #content {
+		height:435px; position:absolute; z-index:10; top:0px;
+	}
+		
+	.wrapper #comp-content {
+		position:relative; width:777px; margin-left:auto; margin-right:auto; z-index:10; padding-top:200px; /*padding-bottom:20px;*/
+		overflow:hidden; height:372px;
+	}
+			
+			.wrapper #comp-content.vote {
+				width:958px; height:500px; padding-top:170px;
+			}
+			
+			.wrapper #comp-content.step2 {
+				width:910px; margin:0; padding-top:150px; height:422px;	
+			}
+			
+			.wrapper #comp-content.step3 {
+				width:400px;	
+			}
+						
+			.wrapper #comp-content.sorry {
+				width:954px;
+			}
+			
+			.wrapper #comp-content.league {
+				width:100%; height:auto;
+			}
+			
+			.wrapper #comp-content.prizedraw {
+				width:910px; padding-top:150px; height:422px;	
+			}
+			
+			.wrapper #comp-content.prizedraw-thanks{
+				width:954px; padding-top:150px; height:480px;	
+			}
+			
+			.wrapper #comp-content.prizedraw-enter {
+				width:960px; padding-top:100px; height:555px;	
+			}
+			
+			.wrapper #comp-content.win {
+				width:910px; margin:0; padding-top:170px; height:422px;	
+			}
+	
+	.wrapper .footer { 
+		width:100%; position:absolute; z-index:5000; top:480px; padding-bottom:20px;
+	}
+	
+	.wrapper .footer.competition {
+		position:relative; top:0px; padding-top:30px;
+		background:url(../../images/footer-swoosh.png) no-repeat; 
+	}
+	
+	.wrapper .footer.aboutfooter {
+		padding-top:60px; background:url(../../images/footer-swoosh.png) no-repeat;	
+	}
+	
+	#holding-content {
+		position:relative; width:995px; margin-left:auto; margin-right:auto; z-index:10; top:200px; /*padding-bottom:20px;*/
+		overflow:hidden; height:358px;
+		background:url(../../images/img_win-fm.png) no-repeat;
+	}
+
+
+
+/*************************************************************\
+*	Navigation styling
+/*************************************************************/
+ul#jsddm {	
+	position:relative; z-index:1; top:62px; background-image:url(../../images/header/nav/nav_bg.gif);
+	background-repeat:repeat-x; width:955px; height:31px; list-style:none;
+}
+		
+	ul#jsddm li.aboutNavTop {
+		float:left; display:block; width:98px; height:29px; position:relative; left:220px;	
+	}
+			
+		ul#jsddm li.aboutNavTop a.aboutNav {
+			float:left; display:block; width:98px; height:29px; text-indent:-9999px; 
+			background-image:url(../../images/header/nav/nav_about-btn.png);
+		}
+		
+		ul#jsddm li.aboutNavTop a.aboutNav:hover { 
+			background-position: 0px -29px;
+		}
+			
+			
+	ul#jsddm li.rangeNavTop {
+		float:left; display:block; width:98px; height:29px; position:relative; left:530px;	
+	}	
+				
+		ul#jsddm li.rangeNavTop a.rangeNav {
+			float:left; display:block; width:98px; height:29px; text-indent:-9999px;
+			background-image:url(../../images/header/nav/nav_range-btn.png);
+		}
+		
+		ul#jsddm li.rangeNavTop a.rangeNav:hover { 
+			background-position: 0px -29px;
+		}
+			
+			ul#jsddm li ul {
+				position:absolute; /*z-index:10;*/ top:30px; left:3px; /*background-color:#022257;*/
+				/*background-repeat:repeat-x;*/ width:92px; height:185px; visibility:hidden;
+			}
+			
+				ul#jsddm li ul li {
+					float:none; display:list; list-style:none;
+				}
+					
+					ul#jsddm li ul li a {
+						width:92px; height:52px; display:block; padding:0px; text-indent:-9999px;
+						margin-bottom:1px; background-repeat:no-repeat; text-decoration:none;
+					}
+					
+						ul#jsddm li ul li a.regular {
+							height:41px; background-image:url(../../images/header/nav/nav_regular.jpg);	
+						}
+						
+						ul#jsddm li ul li a.flavoured {
+							height:41px; background-image:url(../../images/header/nav/nav_flavoured.jpg);	
+						}
+						
+						ul#jsddm li ul li a.treenuts {
+							height:41px; background-image:url(../../images/header/nav/nav_treenuts.jpg);	
+						}
+
+						ul#jsddm li ul li a.seasonal {
+							background-image:url(../../images/header/nav/nav_seasonal.jpg);	
+						}
+						
+						ul#jsddm li ul li a.jumbo {
+							background-image:url(../../images/header/nav/nav_jumbo.jpg);	
+						}						
+
+						/*  @AC */
+						ul#jsddm li ul li a.nutrition {
+							background-image:url(../../images/header/nav/nav_nutrition.jpg);	
+						}	
+						/* /@AC */					
+
+
+						ul#jsddm li ul li a:hover {
+							background-position: -92px 0px;
+						}
+
+
+
+/*************************************************************\
+*	footer content styling
+/*************************************************************/
+
+.wrapper .footer .footer-nav {
+	height:190px;
+} 
+
+.wrapper .footer .footer-nav.aboutnav {
+	height:150px;
+}
+
+.wrapper .footer .footer-nav.compnav {
+	height:210px;
+}
+
+.wrapper .footer .footer-nav div.window_range {
+	position:relative; z-index:1; float:left; width:317px; height:186px; padding-left:3px;
+	background-image:url(../../images/footer/range/window_range_bg.png);
+}
+
+
+.wrapper .footer .footer-nav div.window_about {
+	position:relative; z-index:2; float:left; width:307px; height:184px; padding-left:10px;
+	background-image:url(../../images/footer/about/window_aboutkp_bg.png);
+}
+
+/*#wrapper #footer #footer-nav div.window_newsletter {
+	position:relative; z-index:3; float:left; width:308px; height:184px; padding-left:10px;
+	background-image:url(../../images/footer/newsletter/window_newsletter_bg.png);
+}*/
+/* adding footer styling for competition footer
+ * date:   08.04.2010
+ * author: Craig Barber
+*/
+
+	.window_prizes {
+		float:left; width:317px; height:210px;
+		background-image:url(../../images/footer/prizes/window_prizes_bg.png);
+	}
+	
+	.window_league {
+		float:left; width:320px; height:210px;
+		background-image:url(../../images/footer/league/window_league_bg.png);
+	}
+	
+	.window_newsletter {
+		position:absolute; z-index:2; width:308px; height:186px; padding-left:10px;
+		background:url(../../images/footer/newsletter/window_newsletter_bg.png) no-repeat; 
+		/*shift the content up by it's height to bring inline*/ right:0; top:30px;
+		margin-left:100px;
+	}
+	
+	.window_newsletter.green {
+		background:url(../../images/footer/newsletter-green/window_newsletter_bg.png) no-repeat;
+		top:0px;	
+	}
+	
+	* html .window_newsletter {
+		left:537px;
+	} 
+	
+	.window_win {
+		position:relative; z-index:3; float:left; width:323px; height:186px; padding-left:6px;
+		background:url(../../images/footer/win/window_win_bg.png) no-repeat; left:-2px;
+	}
+
+
+.content_float {
+	float:left;	
+}
+	/*PRIZES*/
+	.prizes-left {
+		width:126px;	
+	}
+	
+	.prizes-right {
+		width:191px;	
+	}
+	
+		.prizes-right img {
+			margin-top:35px;	
+		}
+	
+	/*LEAGUE*/
+	.league-left {
+		width:129px;	
+	}
+	
+	.league-right {
+		width:191px;	
+	}
+	
+		.league-right img {
+			margin-top:35px;	
+		}
+		
+	
+	/*RANGE*/
+	.range-left {
+		width:147px;
+	}
+	
+	.range-right {
+		width:170px;
+	}
+	/*END OF RANGE*/
+	
+		.range-right img {
+			margin-top:40px;
+		}
+		
+	/*WIN*/
+	.win-right {
+		width:100%; height:100%; float:right; background:url(../../images/footer/win/img_win-football.png) bottom right no-repeat;
+	}
+	/*END OF WIN*/
+
+
+
+div#terms ul {
+				
+}
+
+	div#terms ul li {
+		list-style:none;
+		display:inline;
+	}
+	
+	div#terms ul li a {
+		color:#CCC;
+		text-decoration:none;
+	}
+	
+		div#terms ul li a:hover {
+			color:#FFF;
+			text-decoration:underline;
+		}
+
+.addthis_button {
+	float:right;
+}
+
+span.trade {
+	color:#697593;
+}
+		
+/*************************************************************\
+*	range styling
+/*************************************************************/
+
+#rangeFlashContent {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:550px;
+	height:500px;
+}
+		
+#rangeContent {
+	width:370px;
+	left:563px;
+	top:223px;
+	position:absolute;
+}		
+		
+#rangeContent h2 {
+	background-image:url(../../images/range/heading-regular.png);
+	height:42px;
+	width:590px;
+	background-repeat:no-repeat;
+	margin-left:-7px;
+	padding-bottom:3px;	
+}
+
+#rangeContent #regular { background-image:url(../../images/range/heading-regular.png); margin-left:-2px;}
+#rangeContent #jumbo { background-image:url(../../images/range/heading-jumbo.png); }
+#rangeContent #jumbo_flavoured { 
+	background-image:url(../../images/range/heading-jumbo-flavoured.png); height:71px; margin:0 0 8px 0px; 
+}
+#rangeContent #treenuts { background-image:url(../../images/range/heading-treenuts.png); margin-left:-2px; }
+#rangeContent #flavoured { background-image:url(../../images/range/heading-flavoured.png); }
+
+/*
+#rangeContent #jumbo_flavoured{
+	background-image:url(../../images/range/heading-jumbo-flavoured.png);
+	height:88px;
+	width:590px;
+	background-repeat:no-repeat;
+	margin-left:-7px;	
+}
+*/
+
+
+#rangeContent #subnav { margin-left: -4px; }
+
+#rangeContent #subnav a {
+	height:22px; background-repeat:no-repeat; display:block; position:relative; float:left;
+}
+
+#rangeContent #subnav #cashews { background-image:url(../../images/range/subanv-cashews.png); width:66px; }
+#rangeContent #subnav #dry-roasted { background-image:url(../../images/range/subanv-dry-roasted.png); width:93px; }
+#rangeContent #subnav #honey-roast { background-image:url(../../images/range/subanv-honey-roast.png); width:95px; }
+#rangeContent #subnav #original-salted { background-image:url(../../images/range/subanv-original-salted.png); width:111px; }
+#rangeContent #subnav #pistachios  { background-image:url(../../images/range/subanv-pistacios.png); width:77px; }
+#rangeContent #subnav #salted { background-image:url(../../images/range/subanv-salted-on.png); width:52px; }
+#rangeContent #subnav #salt-pepper { background-image:url(../../images/range/subanv-salt-pepper.png); width:103px; }
+#rangeContent #subnav #salt-vinegar { background-image:url(../../images/range/subanv-salt-vinegar.png); width:106px; }
+#rangeContent #subnav #spicy-chilli { background-image:url(../../images/range/subanv-spicy-chilli.png); width:81px; }
+
+#rangeContent #subnav .divider { background-image:url(../../images/range/subanv-divider.png); width:9px; height:22px; background-repeat:no-repeat; display:block; position:relative; float:left; }
+
+#rangeContent p {
+	margin-bottom:18px; margin-top:15px; clear:both;
+}
+
+.backToRangeButton { 
+	height:29px; width:164px; background-repeat:no-repeat; background-image:url(../../images/range/back-to-range.png); display:block; position:relative; margin-left:-3px; margin-top:3px;
+}
+
+.backToRangeButton:hover { 
+	background-position:0px -36px;
+}
+
+.didYouKnow	{
+	width:134px;
+	height:20px;
+	display:block;
+	background-image:url(../../images/range/did-you-know.png);
+	background-repeat:no-repeat;
+	float:right;
+	margin-top:4px;
+}
+	
+/*************************************************************\
+*	about section styling
+/*************************************************************/
+
+.timelineContent {
+	width:590px;
+	left:182px;
+	top:189px;
+	position:absolute;
+	visibility:hidden;
+}
+
+.timelineContent #about-kp {
+	background-image:url(../../images/about/heading-home.png);
+	height:41px;
+	width:590px;
+	background-repeat:no-repeat;
+	margin-left:-7px;
+} 
+
+.timelineContent #h2 {
+	height:41px;
+	width:590px;
+	background-repeat:no-repeat;
+	margin-left:-7px;	
+}
+
+#content-0 { width:358px; top:189px; left:472px; }
+#content-1 { width:358px; top:189px; left:472px; }
+#content-2 { width:358px; top:189px; left:472px; }
+#content-3 { width:358px; top:189px; left:472px; }
+#content-4 { width:358px; top:189px; left:472px; }
+#content-5 { width:358px; top:189px; left:472px; }
+#content-6 { width:358px; top:189px; left:472px; }
+#content-7 { width:358px; top:189px; left:472px; }
+
+#content-0  h2 { margin-left:-7px; background-repeat:no-repeat; height:41px; width:590px; background-image:url(../../images/about/heading-content-0.png); }
+#content-1  h2 { margin-left:-7px; background-repeat:no-repeat; height:41px; width:590px; background-image:url(../../images/about/heading-content-1.png); }
+#content-2  h2 { margin-left:-7px; background-repeat:no-repeat; height:41px; width:590px; background-image:url(../../images/about/heading-content-2.png); }
+#content-3  h2 { margin-left:-7px; background-repeat:no-repeat; height:41px; width:590px; background-image:url(../../images/about/heading-content-3.png); }
+#content-4  h2 { margin-left:-7px; background-repeat:no-repeat; height:41px; width:590px; background-image:url(../../images/about/heading-content-4.png); }
+#content-5  h2 { margin-left:-7px; background-repeat:no-repeat; height:41px; width:590px; background-image:url(../../images/about/heading-content-5.png); }
+#content-6  h2 { margin-left:-7px; background-repeat:no-repeat; height:41px; width:590px; background-image:url(../../images/about/heading-content-6.png); }
+#content-7  h2 { margin-left:-7px; background-repeat:no-repeat; height:41px; width:590px; background-image:url(../../images/about/heading-content-7.png); }
+
+#content-image-0 { position:absolute; height:500px; width:955px; visibility:hidden;}
+#content-image-1 { position:absolute; height:500px; width:955px; visibility:hidden;}
+#content-image-2 { position:absolute; height:500px; width:955px; visibility:hidden;}
+#content-image-3 { position:absolute; height:500px; width:955px; visibility:hidden;}
+#content-image-4 { position:absolute; height:500px; width:955px; visibility:hidden;}
+#content-image-5 { position:absolute; height:500px; width:955px; visibility:hidden;}
+#content-image-6 { position:absolute; height:500px; width:955px; visibility:hidden;}
+#content-image-7 { position:absolute; height:500px; width:955px; visibility:hidden;}
+
+#content-image-0  .imageHolder { background-position:100px 190px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-0.png); }
+#content-image-1  .imageHolder { background-position:150px 180px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-1.png); }
+#content-image-2  .imageHolder { background-position:170px 190px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-2.png); }
+#content-image-3  .imageHolder { background-position:140px 200px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-3.png); }
+#content-image-4  .imageHolder { background-position:155px 190px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-4.png); }
+#content-image-5  .imageHolder { background-position:155px 200px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-5.png); }
+#content-image-6  .imageHolder { background-position:155px 145px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-6.png); }
+#content-image-7  .imageHolder { background-position:150px 175px;  background-repeat:no-repeat; height:500px; width:955px; background-image:url(../../images/about/item-full-7.png); }
+
+
+.timelineContent p {
+	font-size:12px;
+	font-family:arial, sans;
+}
+
+.backButton { 
+	height:27px; width:134px; background-repeat:no-repeat; background-image:url(../../images/about/back-button.png); display:block; position:relative; margin-left:-3px; margin-top:3px;
+}
+
+.backButton:hover { 
+	background-position:0px -26px;
+}
+
+
+#scrollPanel {
+	position:absolute;
+	width: 955px;
+	height:148px;
+	top:340px;
+	left:0px;
+	background-image:url(../../images/about/img_timeline.png);
+	background-position: 45px bottom;
+	background-repeat:no-repeat; 
+}
+	
+#about-scroll-button-left {
+	position:absolute; width:25px; height:26px; display:block;
+	background-image:url(../../images/about/scroll-button-left.jpg);
+	background-repeat:no-repeat;
+	left:14px;
+	top:30px;
+}
+#about-scroll-button-right {
+	position:absolute; width:25px; height:26px; display:block;
+	background-image:url(../../images/about/scroll-button-right.jpg);
+	background-repeat:no-repeat;
+	left:908px;
+	top:30px;
+}
+
+#about-scroll-button-left:hover {
+	background-position:0px -28px;
+}
+#about-scroll-button-right:hover {
+	background-position:0px -28px;
+}
+
+#scrollContent {
+	overflow:hidden;
+	width:850px;
+	left:53px;
+	top:11px;
+	height:110px;
+	position:relative;
+}
+
+#scrollList  {
+	width: 1200px;
+	position:relative;
+}
+
+#scrollList li {
+	display:block;
+	position:relative;
+	float:left;
+}
+
+.about-scroll-item  {
+	width:141px;
+	height:105px;
+	background-image:url(../../images/about/temp-image.png);
+	background-position:center;
+	display:block;
+	position:relative;
+}
+
+#about-scroll-item0 { background-image:url(../../images/about/item-thumb-0.png); }
+#about-scroll-item1 { background-image:url(../../images/about/item-thumb-1.png); }
+#about-scroll-item2 { background-image:url(../../images/about/item-thumb-2.png); }
+#about-scroll-item3 { background-image:url(../../images/about/item-thumb-3.png); }
+#about-scroll-item4 { background-image:url(../../images/about/item-thumb-4.png); }
+#about-scroll-item5 { background-image:url(../../images/about/item-thumb-5.png); }
+#about-scroll-item6 { background-image:url(../../images/about/item-thumb-6.png); }
+#about-scroll-item7 { background-image:url(../../images/about/item-thumb-7.png); }
+
+.hidden {
+	display:none;
+}
+
+
+/* @AC Nutrition Content */
+#nutrition-image {left:30px;position:absolute;top:170px;}
+#nutrition-content {width:510px; left:360px; top:180px; position:absolute;}
+#nutrition-content #text {width:411px; margin-left:2px;}
+#nutrition-content h2 {background-image:url(../../images/nutrition/heading-regular2.png); height:48px; width:400px; background-repeat:no-repeat; padding-bottom:10px;}
+#nutrition-content p {margin-bottom: 1em;}
+.timelineContent p {margin-bottom: 1em;}
+.nutrition {float:left; display:block; padding-left:20px;}
+img.peanuts {float:right;}
+
+.ViewRangeButton { 
+	height:27px; width:137px; background-repeat:no-repeat; background-image:url(../../images/nutrition/view-range-off.png); display:block; position:relative; margin-left:-3px; margin-top:3px;
+}
+
+.ViewRangeButton:hover { 
+	background-image:url(../../images/nutrition/view-range-on.png); 
+}
+
+#altContent {width:900px; left:563px; top:323px; position:absolute;}	
+#altContent a {display: block; margin: auto;}
+
+#timeline {
+	position:relative; width:836px; height:26px; margin-left:auto; margin-right:auto;
+	clear:both;
+}
+
+/*--------------------------------------*/
+/*>>>>>>>>>	     Vote Page	   <<<<<<<<<*/
+/*--------------------------------------*/
+#moments {
+
+}
+
+	.row {
+	
+	}
+
+		.row .top {
+		
+		}
+		
+		.row .bottom {
+		
+		}
+		
+		/*the moments*/
+		div.moment {
+			width:193px; height:183px; float:left;
+		}
+		
+			div.moment.banks {
+				width:188px; margin-right:2px;
+			}
+			
+			div.moment.jairzinho {
+				width:188px;
+			}
+			
+			div.moment.bergkamp {
+				width:188px;  margin-right:2px;
+			}
+
+			div.moment.moore {
+				width:188px;
+			}
+		
+		
+		h3.moment {
+			width:193px; height:23px; margin-top:0; background-repeat:no-repeat;
+		}
+
+			h3.moment.banks {
+				width:188px; background-image:url(../../images/competition/moment-vote/banks/subheader_banks.png);	
+			}
+
+			h3.moment.mara {
+				background-image:url(../../images/competition/moment-vote/mara/subheader_mara.png);	
+			}
+
+			h3.moment.owen {
+				background-image:url(../../images/competition/moment-vote/owen/subheader_owen.png);	
+			}
+			
+			h3.moment.hurst {
+				background-image:url(../../images/competition/moment-vote/hurst/subheader_hurst.png);	
+			}
+			
+			h3.moment.jairzinho {
+				width:188px; background-image:url(../../images/competition/moment-vote/jairzinho/subheader_jairzinho.png);	
+			}
+			
+			h3.moment.bergkamp {
+				width:188px; background-image:url(../../images/competition/moment-vote/bergkamp/subheader_bergkamp.png);	
+			}
+
+			h3.moment.cruyff {
+				background-image:url(../../images/competition/moment-vote/cruyff/subheader_cruyff.png);	
+			}
+
+			h3.moment.gemmill {
+				background-image:url(../../images/competition/moment-vote/gemmill/subheader_gemmill.png);	
+			}
+			
+			h3.moment.platt {
+				background-image:url(../../images/competition/moment-vote/platt/subheader_platt.png);	
+			}
+			
+			h3.moment.moore{
+				width:188px; background-image:url(../../images/competition/moment-vote/moore/subheader_moore.png);	
+			}
+
+			.holder {
+				position:relative; width:194px; height:160px;
+			}
+			
+				.holder.banks {
+					width:188px; background-image:url(../../images/competition/moment-vote/banks/img_moment-banks.png);	
+				}
+				
+				.holder.mara {
+					background-image:url(../../images/competition/moment-vote/mara/img_moment-mara.png);	
+				}
+				
+				.holder.owen {
+					background-image:url(../../images/competition/moment-vote/owen/img_moment-owen.png);	
+				}
+				
+				.holder.hurst {
+					background-image:url(../../images/competition/moment-vote/hurst/img_moment-hurst.png);	
+				}
+				
+				.holder.jairzinho {
+					width:188px; background-image:url(../../images/competition/moment-vote/jairzinho/img_moment-jairzinho.png);	
+				}
+	
+				.holder.bergkamp {
+					width:188px; background-image:url(../../images/competition/moment-vote/bergkamp/img_moment-bergkamp.png);	
+				}
+				
+				.holder.cruyff {
+					background-image:url(../../images/competition/moment-vote/cruyff/img_moment-cruyff.png);	
+				}
+				
+				.holder.gemmill {
+					background-image:url(../../images/competition/moment-vote/gemmill/img_moment-gemmill.png);	
+				}
+				
+				.holder.platt {
+					background-image:url(../../images/competition/moment-vote/platt/img_moment-platt.png);	
+				}
+				
+				.holder.moore {
+					width:188px; background-image:url(../../images/competition/moment-vote/moore/img_moment-moore.png);	
+				}
+
+		.button-deck {
+			height:26px; position:absolute; bottom:8px; left:5px;
+		}
+		
+			.button-deck.first {
+				left:2px;
+			}
+		
+		a.button {
+			text-indent:-9999px; width:90px; height:26px; display:block; float:left;
+		}
+		
+			a.button.view {
+				background-image:url(../../images/competition/moment-vote/btn_view.png);
+			}
+			
+			a.button.vote{
+				background-image:url(../../images/competition/moment-vote/btn_vote.png);
+			}
+			
+/*--------------------------------------*/
+/*>>>>>>	 Win/lose messages	 <<<<<<<*/
+/*--------------------------------------*/
+#nav-sorry {
+	width:435px; margin-left:auto; margin-right:auto;
+}
+
+a.button.league { /*reference to a.button on line 1105*/
+	width:197px; height:29px; background:url(../../images/competition/result-messages/lose/btn_view-league.png);	
+	margin-right:20px;
+}
+
+a.button.range { /*reference to a.button on line 1105*/
+	width:218px; height:29px; background:url(../../images/competition/result-messages/lose/btn_view-range.png);	
+}
+
+ol.win {
+	margin-left:25px;
+}
+
+a.win {
+	display:block; text-indent:-9999px; background-repeat:no-repeat;
+}	
+	a.win.facebook {
+		width:293px; height:31px; background-image:url(../../images/competition/result-messages/win/btn_facebook.png);
+	}
+	
+	a.win.league-table {
+		width:192px; height:37px; background-image:url(../../images/competition/result-messages/win/btn_leagueTable.png);
+	}
+	
+	a.win.product-range {
+		width:209px; height:31px; background-image:url(../../images/competition/result-messages/win/btn_viewProduct.png);
+		margin-top:5px;
+	}
+
+/*--------------------------------------*/
+/*>>>>>>	    league table	 <<<<<<<*/
+/*--------------------------------------*/
+.board {
+	float:left; width:472px;	
+}
+
+.board.left {
+	margin-right:10px;	
+}
+
+.position-wrapper {
+	position:relative; z-index:1; overflow:visible; margin-bottom:30px; 
+	width:470px; height:55px; border:1px solid #d0d0d0;	
+	background:url(../../images/competition/league/img_positionbar_bg.jpg) repeat-x;
+}
+
+.position {
+	float:left; width:66px; height:53px; z-index:1;	
+}
+
+.thumbnail {
+	position:absolute; top:-1px; left:62px; z-index:2; width:73px; height:79px; padding:2px 0 0 4px;
+	background:url(../../images/competition/league/thumbnails/img_thumbnail-bg.png);
+}
+
+.league-desc {
+	text-indent:-9999px; float:right; width:254px; height:53px; z-index:3;
+	background:url(../../images/competition/league/descriptions/img_moore-desc.png);
+}
+	.league-desc.banks {
+		background:url(../../images/competition/league/descriptions/img_banks-desc.png);
+	}
+	.league-desc.mara {
+		background:url(../../images/competition/league/descriptions/img_mara-desc.png);
+	}
+	.league-desc.owen {
+		background:url(../../images/competition/league/descriptions/img_owen-desc.png);
+	}
+	.league-desc.hurst {
+		background:url(../../images/competition/league/descriptions/img_hurst-desc.png);
+	}
+	.league-desc.jairzinho {
+		background:url(../../images/competition/league/descriptions/img_jairzinho-desc.png);
+	}
+	.league-desc.bergkamp {
+		background:url(../../images/competition/league/descriptions/img_bergkamp-desc.png);
+	}
+	.league-desc.cruyff {
+		background:url(../../images/competition/league/descriptions/img_cruyff-desc.png);
+	}
+	.league-desc.gemmill {
+		background:url(../../images/competition/league/descriptions/img_gemmill-desc.png);
+	}
+	.league-desc.platt {
+		background:url(../../images/competition/league/descriptions/img_platt-desc.png);
+	}
+	.league-desc.moore {
+		background:url(../../images/competition/league/descriptions/img_moore-desc.png);
+	}
+
+.percentage {
+	text-align:center; float:right; width:67px; padding:17px 0 0 0; height:38px; border-left:1px solid #d0d0d0;
+}
+
+.figures {
+	width:40px; margin-left:auto; margin-right:auto;
+}
+
+.vote.league {
+	text-indent:-9999px; position:absolute; top:55px; right:-1px; width:69px; height:21px;
+	background:url(../../images/competition/league/btn_vote.jpg);
+}
+
+img.number {
+	float:left;	
+}
+
+
+/*--------------------------------------*/
+/*>>>>>>>>>	     PrizeDraw	   <<<<<<<<<*/
+/*--------------------------------------*/
+#terms_box {
+	font-size:10px; color:#afafaf;
+	position:absolute; left:40px; bottom:0px; width:200px; height:50px;
+}
+
+#terms_box a {
+	color:#afafaf; text-decoration:underline;	
+}
+
+a.voteWin {
+	text-indent:-9999px; width:129px; height:30px; display:block; text-decoration:none; margin:10px 0 0 8px; 
+	background:url(../../images/prizedraw/btn_vote-win.png);
+}
+
+ul.prizedraw {
+	margin-left:20px;
+}
+
+ul.prizedraw li {
+	list-style-image:url(../../images/prizedraw/bullets.png); line-height:20px;
+}
+
+a.prizedraw-enter {
+	text-indent:-9999px; width:161px; height:32px; display:block; text-decoration:none; margin:10px 0 0 0; 
+	background:url(../../images/prizedraw/btn_prizedraw-enter.png);
+}
+

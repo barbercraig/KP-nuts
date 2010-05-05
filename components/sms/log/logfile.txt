@@ -1,0 +1,448 @@
+
+test, , Array, Array
+44787929292936, 88080, 2010-04-16 12:05:00, o2, 1234, test , 7, test, , Array, Array
+44787929292936, 88080, 2010-04-16 12:05:00, o2, 1234, test , 7, test, , Array, Array
+44787929292936, 88080, 2010-04-16 12:05:00, o2, 1234, test , 7, test, , Array, Array
+44787929292936, 88080, 2010-04-16 12:05:00, o2, 1234, test , 7, test, , Array, Array
+44787929292936, 88080, 2010-04-16 12:05:00, o2, 1234, test , 7, test, , Array, Array
+44787929292936, 88080, 2010-04-16 12:05:00, o2, 1234, test , 7, test, , Array, Array
+44787929292936, 88080, 2010-04-16 12:05:00, o2, 1234, test , 7, test, , Array, Array
+44787929292936, 88080, 2010-04-16 12:05:00, o2, 1234, test , 7, test, , Array, Array
+44787929292936, 88080, 2010-04-16 12:05:00, o2, 1234, test , 7, test, , Array, Array
+447828292936, 88080, 2010-04-16 12:05:00, o2, 1234, test , 7, test, , Array, Array
+447828292936, 88080, 2010-04-16 12:05:00, o2, 1234, test , 7, test, , Array, Array
+447828292936, 88080, 2010-04-16 12:05:00, o2, 1234, test , 7, test, , Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333629703, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 14:48:28, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333629703, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 14:48:28, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333629703, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 14:48:28, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333632633, KP 1234AA5 OWEN, 7, 2010-04-16 14:50:07, KP, 1234AA5, OWEN, Array, Array
+VODAFONEUK, 447881901668, 88080, 88080, 4333632976, Kpnuts craigbarber likes nuts, 7, 2010-04-16 14:50:18, Kpnuts, craigbarber, likes nuts, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333632633, KP 1234AA5 OWEN, 7, 2010-04-16 14:50:07, KP, 1234AA5, OWEN, Array, Array
+VODAFONEUK, 447881901668, 88080, 88080, 4333632976, Kpnuts craigbarber likes nuts, 7, 2010-04-16 14:50:18, Kpnuts, craigbarber, likes nuts, Array, Array
+BTCELLNETUK, 447950653656, 88080, 88080, 4333635044, KP, 7, 2010-04-16 14:51:23, KP, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333632633, KP 1234AA5 OWEN, 7, 2010-04-16 14:50:07, KP, 1234AA5, OWEN, Array, Array
+VODAFONEUK, 447881901668, 88080, 88080, 4333632976, Kpnuts craigbarber likes nuts, 7, 2010-04-16 14:50:18, Kpnuts, craigbarber, likes nuts, Array, Array
+BTCELLNETUK, 447950653656, 88080, 88080, 4333635044, KP, 7, 2010-04-16 14:51:23, KP, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333629703, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 14:48:28, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447950653656, 88080, 88080, 4333635044, KP, 7, 2010-04-16 14:51:23, KP, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333632633, KP 1234AA5 OWEN, 7, 2010-04-16 14:50:07, KP, 1234AA5, OWEN, Array, Array
+VODAFONEUK, 447881901668, 88080, 88080, 4333632976, Kpnuts craigbarber likes nuts, 7, 2010-04-16 14:50:18, Kpnuts, craigbarber, likes nuts, Array, Array
+BTCELLNETUK, 447950653656, 88080, 88080, 4333635044, KP, 7, 2010-04-16 14:51:23, KP, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333629703, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 14:48:28, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333645277, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 14:57:18, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333632633, KP 1234AA5 OWEN, 7, 2010-04-16 14:50:07, KP, 1234AA5, OWEN, Array, Array
+VODAFONEUK, 447881901668, 88080, 88080, 4333632976, Kpnuts craigbarber likes nuts, 7, 2010-04-16 14:50:18, Kpnuts, craigbarber, likes nuts, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333647642, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 14:58:00, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447950653656, 88080, 88080, 4333635044, KP, 7, 2010-04-16 14:51:23, KP, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333652483, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 15:00:12, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333652483, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 15:00:12, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333656475, KPNUTS 1234AA5 MARA, 7, 2010-04-16 15:01:26, KPNUTS, 1234AA5, MARA, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333652483, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 15:00:12, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333656475, KPNUTS 1234AA5 MARA, 7, 2010-04-16 15:01:26, KPNUTS, 1234AA5, MARA, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333656475, KPNUTS 1234AA5 MARA, 7, 2010-04-16 15:01:26, KPNUTS, 1234AA5, MARA, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333652483, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 15:00:12, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333629703, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 14:48:28, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333663943, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 15:04:11, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333663943, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 15:04:11, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333656475, KPNUTS 1234AA5 MARA, 7, 2010-04-16 15:01:26, KPNUTS, 1234AA5, MARA, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333663943, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 15:04:11, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333672795, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 15:07:12, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333672795, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 15:07:12, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333663943, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 15:04:11, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333652483, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 15:00:12, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447950653656, 88080, 88080, 4333676511, Kp, 7, 2010-04-16 15:08:38, Kp, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333672795, KPNUTS 1234AA5 OWEN, 7, 2010-04-16 15:07:12, KPNUTS, 1234AA5, OWEN, Array, Array
+BTCELLNETUK, 447828292936, 88080, 88080, 4333656475, KPNUTS 1234AA5 MARA, 7, 2010-04-16 15:01:26, KPNUTS, 1234AA5, MARA, Array, Array
+BTCELLNETUK, 447950653656, 88080, 88080, 4333676511, Kp, 7, 2010-04-16 15:08:38, Kp, Array, Array
+BTCELLNETUK, 447950653656, 88080, 88080, 4333676511, Kp, 7, 2010-04-16 15:08:38, Kp, Array, Array
+network -> BTCELLNETUK, smsfrom -> 447828292936, smsto -> 88080, shortcode -> 88080, smsid -> 4333672795, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, smsdate -> 2010-04-16 15:07:12, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+network -> BTCELLNETUK, smsfrom -> 447828292936, smsto -> 88080, shortcode -> 88080, smsid -> 4333682672, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, smsdate -> 2010-04-16 15:11:22, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+network -> BTCELLNETUK, smsfrom -> 447828292936, smsto -> 88080, shortcode -> 88080, smsid -> 4333663943, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, smsdate -> 2010-04-16 15:04:11, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+network -> BTCELLNETUK, smsfrom -> 447828292936, smsto -> 88080, shortcode -> 88080, smsid -> 4333682672, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, smsdate -> 2010-04-16 15:11:22, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+network -> BTCELLNETUK, smsfrom -> 447950653656, smsto -> 88080, shortcode -> 88080, smsid -> 4333676511, smsmsg -> Kp, bits -> 7, smsdate -> 2010-04-16 15:08:38, 0 -> Kp, msg -> Array, Array
+network -> BTCELLNETUK, smsfrom -> 447828292936, smsto -> 88080, shortcode -> 88080, smsid -> 4333682672, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, smsdate -> 2010-04-16 15:11:22, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+network -> BTCELLNETUK, smsfrom -> 447828292936, smsto -> 88080, shortcode -> 88080, smsid -> 4333672795, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, smsdate -> 2010-04-16 15:07:12, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+network -> BTCELLNETUK, smsfrom -> 447828292936, smsto -> 88080, shortcode -> 88080, smsid -> 4333682672, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, smsdate -> 2010-04-16 15:11:22, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+network -> BTCELLNETUK, smsfrom -> 447828292936, smsto -> 88080, shortcode -> 88080, smsid -> 4333652483, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, smsdate -> 2010-04-16 15:00:12, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:16:05, network -> BTCELLNETUK, smsid -> 4333692685, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447950653656, smsto -> 88080, smsdate -> 2010-04-16 15:08:38, network -> BTCELLNETUK, smsid -> 4333676511, smsmsg -> Kp, bits -> 7, shortcode -> 88080, 0 -> Kp, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:16:05, network -> BTCELLNETUK, smsid -> 4333692685, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:01:26, network -> BTCELLNETUK, smsid -> 4333656475, smsmsg -> KPNUTS 1234AA5 MARA, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> MARA, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:16:05, network -> BTCELLNETUK, smsid -> 4333692685, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:11:22, network -> BTCELLNETUK, smsid -> 4333682672, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:16:05, network -> BTCELLNETUK, smsid -> 4333692685, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:04:11, network -> BTCELLNETUK, smsid -> 4333663943, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 14:48:28, network -> BTCELLNETUK, smsid -> 4333629703, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, smsmsg -> test , bits -> 7, 0 -> test, 1 -> , msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:21:50, network -> BTCELLNETUK, smsid -> 4333703840, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:21:50, network -> BTCELLNETUK, smsid -> 4333703840, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:07:12, network -> BTCELLNETUK, smsid -> 4333672795, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:23:07, network -> BTCELLNETUK, smsid -> 4333706392, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:21:50, network -> BTCELLNETUK, smsid -> 4333703840, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:23:07, network -> BTCELLNETUK, smsid -> 4333706392, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:16:05, network -> BTCELLNETUK, smsid -> 4333692685, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447950653656, smsto -> 88080, smsdate -> 2010-04-16 15:08:38, network -> BTCELLNETUK, smsid -> 4333676511, smsmsg -> Kp, bits -> 7, shortcode -> 88080, 0 -> Kp, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:23:07, network -> BTCELLNETUK, smsid -> 4333706392, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:21:50, network -> BTCELLNETUK, smsid -> 4333703840, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:23:07, network -> BTCELLNETUK, smsid -> 4333706392, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:11:22, network -> BTCELLNETUK, smsid -> 4333682672, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:21:50, network -> BTCELLNETUK, smsid -> 4333703840, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:23:07, network -> BTCELLNETUK, smsid -> 4333706392, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, smsmsg -> test , bits -> 7, 0 -> test, 1 -> , msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:16:05, network -> BTCELLNETUK, smsid -> 4333692685, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:00:12, network -> BTCELLNETUK, smsid -> 4333652483, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:01:26, network -> BTCELLNETUK, smsid -> 4333656475, smsmsg -> KPNUTS 1234AA5 MARA, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> MARA, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:04:11, network -> BTCELLNETUK, smsid -> 4333663943, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:21:50, network -> BTCELLNETUK, smsid -> 4333703840, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:23:07, network -> BTCELLNETUK, smsid -> 4333706392, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:07:12, network -> BTCELLNETUK, smsid -> 4333672795, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447950653656, smsto -> 88080, smsdate -> 2010-04-16 15:08:38, network -> BTCELLNETUK, smsid -> 4333676511, smsmsg -> Kp, bits -> 7, shortcode -> 88080, 0 -> Kp, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:11:22, network -> BTCELLNETUK, smsid -> 4333682672, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:16:05, network -> BTCELLNETUK, smsid -> 4333692685, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, smsmsg -> test , bits -> 7, 0 -> test, 1 -> , msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 14:48:28, network -> BTCELLNETUK, smsid -> 4333629703, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:21:50, network -> BTCELLNETUK, smsid -> 4333703840, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:23:07, network -> BTCELLNETUK, smsid -> 4333706392, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:00:12, network -> BTCELLNETUK, smsid -> 4333652483, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+successful
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:04:11, network -> BTCELLNETUK, smsid -> 4333663943, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+craig
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:07:12, network -> BTCELLNETUK, smsid -> 4333672795, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447950653656, smsto -> 88080, smsdate -> 2010-04-16 15:08:38, network -> BTCELLNETUK, smsid -> 4333676511, smsmsg -> Kp, bits -> 7, shortcode -> 88080, 0 -> Kp, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:11:22, network -> BTCELLNETUK, smsid -> 4333682672, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:16:05, network -> BTCELLNETUK, smsid -> 4333692685, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 16:22:34, network -> BTCELLNETUK, smsid -> 4333866065, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 16:23:00, network -> BTCELLNETUK, smsid -> 4333866879, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:21:50, network -> BTCELLNETUK, smsid -> 4333703840, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:23:07, network -> BTCELLNETUK, smsid -> 4333706392, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 16:26:58, network -> BTCELLNETUK, smsid -> 4333875333, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, smsmsg -> test , bits -> 7, 0 -> test, 1 -> , msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, smsmsg -> test , bits -> 7, 0 -> test, 1 -> , msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, smsmsg -> test , bits -> 7, 0 -> test, 1 -> , msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, smsmsg -> test , bits -> 7, 0 -> test, 1 -> , msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, smsmsg -> test , bits -> 7, 0 -> test, 1 -> , msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 16:34:37, network -> BTCELLNETUK, smsid -> 4333906998, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447881901668, smsto -> 88080, smsdate -> 2010-04-16 16:40:17, network -> VODAFONEUK, smsid -> 4333925672, smsmsg -> Kpnuts craigisgay, bits -> 7, shortcode -> 88080, 0 -> Kpnuts, 1 -> craigisgay, msg -> Array, Array
+smsfrom -> 447950653656, smsto -> 88080, smsdate -> 2010-04-16 16:43:17, network -> BTCELLNETUK, smsid -> 4333937513, smsmsg -> Kp, bits -> 7, shortcode -> 88080, 0 -> Kp, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 16:49:01, network -> BTCELLNETUK, smsid -> 4333956524, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 14:48:28, network -> BTCELLNETUK, smsid -> 4333629703, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 447786205095, smsdate -> 2010-04-16 17:01:02, network -> UNKNOWN, smsid -> 4333995669, smsmsg -> KP 1234AA1 OWEN, bits -> 7, shortcode -> 447786205095, 0 -> KP, 1 -> 1234AA1, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 447786205095, smsdate -> 2010-04-16 17:02:10, network -> UNKNOWN, smsid -> 4334001096, smsmsg -> KP 1234A OWEN, bits -> 7, shortcode -> 447786205095, 0 -> KP, 1 -> 1234A, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 17:05:15, network -> BTCELLNETUK, smsid -> 4334013682, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:00:12, network -> BTCELLNETUK, smsid -> 4333652483, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:01:26, network -> BTCELLNETUK, smsid -> 4333656475, smsmsg -> KPNUTS 1234AA5 MARA, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> MARA, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:04:11, network -> BTCELLNETUK, smsid -> 4333663943, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:07:12, network -> BTCELLNETUK, smsid -> 4333672795, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447950653656, smsto -> 88080, smsdate -> 2010-04-16 15:08:38, network -> BTCELLNETUK, smsid -> 4333676511, smsmsg -> Kp, bits -> 7, shortcode -> 88080, 0 -> Kp, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 15:11:22, network -> BTCELLNETUK, smsid -> 4333682672, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, shortcode -> 88080, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, msg -> Array, Array
+smsfrom -> 447565925541, smsto -> 88080, smsdate -> 2010-04-16 17:40:10, network -> BTCELLNETUK, smsid -> 4334293277, smsmsg -> KP 5000237101148 WILLIAMSON, bits -> 7, shortcode -> 88080, 0 -> KP, 1 -> 5000237101148, 2 -> WILLIAMSON, msg -> Array, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> , batchcode -> , moment -> , 0 -> KPNUTS, 1 -> 1234AA5, 2 -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KP, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447970980760, smsto -> 88080, smsdate -> 2010-04-16 18:54:57, network -> ORANGEUK, smsid -> 4334712126, comp -> Kp, batchcode -> 0097mc7, moment -> gerrard, smsmsg -> Array, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AAA, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUT, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUT, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUT, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUT, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUT, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUT, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> WHAT, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447817402299, smsto -> 88080, smsdate -> 2010-04-16 19:26:50, network -> ORANGEUK, smsid -> 4335025203, comp -> Kp, batchcode -> 0103mc5\n, moment -> , smsmsg -> Array, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447817400192, smsto -> 88080, smsdate -> 2010-04-16 22:23:42, network -> ORANGEUK, country -> , smsid -> 4335815873, comp -> KP, batchcode -> 0088, moment -> MC9 OWEN, smsmsg -> Array, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292932, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292932, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292932, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292932, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292932, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292932, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292932, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447715235156, smsto -> 88080, smsdate -> 2010-04-17 16:11:11, network -> BTCELLNETUK, country -> , smsid -> 4338560351, comp -> Kp, batchcode -> 0090, moment -> mc9 Banks, smsmsg -> Array, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447967655309, smsto -> 88080, smsdate -> 2010-04-17 16:49:59, network -> ORANGEUK, country -> , smsid -> 4338672242, comp -> Kp, batchcode -> 0088mc3a, moment -> jairzinho, smsmsg -> Array, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447709122765, smsto -> 88080, smsdate -> 2010-04-17 18:18:52, network -> BTCELLNETUK, country -> , smsid -> 4339206256, comp -> KP, batchcode -> 0090MC9, moment -> JAIRZINHO, smsmsg -> Array, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447792297007, smsto -> 88080, smsdate -> 2010-04-18 13:30:16, network -> ORANGEUK, country -> , smsid -> 4341687081, comp -> KP, batchcode -> 0090, moment -> MC9 CRUYFF, smsmsg -> Array, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-18 14:54:19, network -> BTCELLNETUK, country -> , smsid -> 4341787935, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447894443900, smsto -> 88080, smsdate -> 2010-04-18 17:45:32, network -> BTCELLNETUK, country -> , smsid -> 4342341955, comp -> KP, batchcode -> 0097, moment -> MC7 CRUYFF, smsmsg -> Array, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447943925070, smsto -> 88080, smsdate -> 2010-04-18 18:34:12, network -> TMOBILEUK, country -> , smsid -> 4342471314, comp -> KP, batchcode -> 0090MC9, moment -> WATSON, smsmsg -> Array, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447817867778, smsto -> 88080, smsdate -> 2010-04-18 18:41:16, network -> ORANGEUK, country -> , smsid -> 4342486454, comp -> KP, batchcode -> 0088MC9, moment -> DIBLEY, smsmsg -> Array, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447969529697, smsto -> 88080, smsdate -> 2010-04-18 21:09:25, network -> ORANGEUK, country -> , smsid -> 4343074055, comp -> KP, batchcode -> 0090, moment -> MC5 GEMMILL, smsmsg -> Array, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447923235182, smsto -> 88080, smsdate -> 2010-04-18 21:26:23, network -> BTCELLNETUK, country -> , smsid -> 4343114303, comp -> KP, batchcode -> 0088mc5, moment -> hurst, smsmsg -> Array, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447845513225, smsto -> 88080, smsdate -> 2010-04-18 21:30:09, network -> BTCELLNETUK, country -> , smsid -> 4343122782, comp -> KP, batchcode -> 0039MC9, moment -> HOLDEN , smsmsg -> Array, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447880715548, smsto -> 88080, smsdate -> 2010-04-18 21:50:15, network -> BTCELLNETUK, country -> , smsid -> 4343168978, comp -> KP, batchcode -> 0088, moment -> MC9 GEMMILL, smsmsg -> Array, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447575292130, smsto -> 88080, smsdate -> 2010-04-18 22:29:07, network -> THREEUK, country -> , smsid -> 4343268859, comp -> KP, batchcode -> 237101148, moment -> BANKS, smsmsg -> Array, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447971499990, smsto -> 88080, smsdate -> 2010-04-19 09:19:21, network -> BTCELLNETUK, country -> , smsid -> 4344366117, comp -> KP, batchcode -> 7562MC9, moment -> MARADONA, smsmsg -> Array, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447958511678, smsto -> 88080, smsdate -> 2010-04-19 18:05:46, network -> BTCELLNETUK, country -> , smsid -> 4345651692, comp -> KP, batchcode -> 0090mc9, moment -> BECKHAM, smsmsg -> Array, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447731984704, smsto -> 88080, smsdate -> 2010-04-19 21:15:35, network -> BTCELLNETUK, country -> , smsid -> 4346638449, comp -> KP, batchcode -> 0095MC5, moment -> HURST, smsmsg -> Array, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447828292936, smsto -> 447786205095, smsdate -> 2010-04-19 21:17:12, network -> UNKNOWN, country -> UK, smsid -> 4346643718, comp -> KP, batchcode -> 1234AA1, moment -> OWEN, smsmsg -> Array, bits -> 7, shortcode -> 447786205095, Array
+smsfrom -> 447828292936, smsto -> 447786205095, smsdate -> 2010-04-19 21:19:05, network -> UNKNOWN, country -> UK, smsid -> 4346649807, comp -> KPNUTS, batchcode -> 1234AA1, moment -> OWEN, smsmsg -> Array, bits -> 7, shortcode -> 447786205095, Array
+smsfrom -> 447828292936, smsto -> 447786205095, smsdate -> 2010-04-19 21:20:12, network -> UNKNOWN, country -> UK, smsid -> 4346653327, comp -> KP, batchcode -> 1234AA1, moment -> OWEN, smsmsg -> Array, bits -> 7, shortcode -> 447786205095, Array
+smsfrom -> 447828292936, smsto -> 447786205095, smsdate -> 2010-04-19 21:20:34, network -> UNKNOWN, country -> UK, smsid -> 4346654463, comp -> KPNUTS, batchcode -> 1234AA1, moment -> OWEN, smsmsg -> Array, bits -> 7, shortcode -> 447786205095, Array
+smsfrom -> 447828292936, smsto -> 447786205095, smsdate -> 2010-04-19 21:20:34, network -> UNKNOWN, country -> UK, smsid -> 4346654463, comp -> KPNUTS, batchcode -> 1234AA1, moment -> OWEN, smsmsg -> Array, bits -> 7, shortcode -> 447786205095, Array
+smsfrom -> 447828292936, smsto -> 447786205095, smsdate -> 2010-04-19 21:21:09, network -> UNKNOWN, country -> UK, smsid -> 4346656389, comp -> KPNUTS, batchcode -> 1234AA1, moment -> OWEN, smsmsg -> Array, bits -> 7, shortcode -> 447786205095, Array
+smsfrom -> 447828292936, smsto -> 447786205095, smsdate -> 2010-04-19 21:21:09, network -> UNKNOWN, country -> UK, smsid -> 4346656389, comp -> KPNUTS, batchcode -> 1234AA1, moment -> OWEN, smsmsg -> Array, bits -> 7, shortcode -> 447786205095, Array
+smsfrom -> 447828292936, smsto -> 447786205095, smsdate -> 2010-04-19 21:20:34, network -> UNKNOWN, country -> UK, smsid -> 4346654463, comp -> KPNUTS, batchcode -> 1234AA1, moment -> OWEN, smsmsg -> Array, bits -> 7, shortcode -> 447786205095, Array
+smsfrom -> 447828292936, smsto -> 447786205095, smsdate -> 2010-04-19 21:21:09, network -> UNKNOWN, country -> UK, smsid -> 4346656389, comp -> KPNUTS, batchcode -> 1234AA1, moment -> OWEN, smsmsg -> Array, bits -> 7, shortcode -> 447786205095, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 447786205095, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 447786205095, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 447786205095, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 447786205095, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 447786205095, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> , smsto -> , smsdate -> , network -> , country -> ROI, smsid -> , comp -> , batchcode -> , moment -> , smsmsg -> Array, bits -> , msisdn -> 447828292936, access -> 447624800157, gateway_received_at -> 2010-04-16 12:05:00, mnc -> o2, gateway_message_id -> 1234, message -> KPNUTS 1234AA5 OWEN, Array
+smsfrom -> , smsto -> , smsdate -> , network -> , country -> ROI, smsid -> , comp -> , batchcode -> , moment -> , smsmsg -> Array, bits -> , msisdn -> 447828292936, access -> 447624800157, gateway_received_at -> 2010-04-16 12:05:00, mnc -> o2, gateway_message_id -> 1234, message -> KPNUTS 1234AA5 OWEN, Array
+smsfrom -> , smsto -> , smsdate -> , network -> , country -> ROI, smsid -> , comp -> , batchcode -> , moment -> , smsmsg -> Array, bits -> , msisdn -> 447828292936, access -> 447624800157, gateway_received_at -> 2010-04-16 12:05:00, mnc -> o2, gateway_message_id -> 1234, message -> KPNUTS 1234AA5 OWEN, Array
+smsfrom -> , smsto -> , smsdate -> , network -> , country -> ROI, smsid -> , comp -> , batchcode -> , moment -> , smsmsg -> Array, bits -> , msisdn -> 447828292936, access -> 447624800157, gateway_received_at -> 2010-04-16 12:05:00, mnc -> o2, gateway_message_id -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, message -> Array, Array
+smsfrom -> 447828292936, smsto -> 447624800157, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> ROI, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> , msisdn -> 447828292936, access -> 447624800157, gateway_received_at -> 2010-04-16 12:05:00, mnc -> o2, gateway_message_id -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, message -> Array, Array
+smsfrom -> 447828292936, smsto -> 447624800157, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> , smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> , Array
+smsfrom -> 447828292936, smsto -> 447624800157, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> ROI, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> , Array
+smsfrom -> 447828292936, smsto -> 447624800157, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> ROI, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> , Array
+smsfrom -> 447917831852, smsto -> 88080, smsdate -> 2010-04-19 22:39:23, network -> BTCELLNETUK, country -> , smsid -> 4346898402, smsmsg -> KP 0090 MC5 OWEN, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447828292936, smsto -> 447624800157, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> ROI, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> , Array
+smsfrom -> 447828292936, smsto -> 447624800157, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> ROI, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> , Array
+smsfrom -> 447828292936, smsto -> 447786205095, smsdate -> 2010-04-19 23:16:40, network -> UNKNOWN, country -> UK, smsid -> 4347010979, comp -> KPNUTS, batchcode -> 1234BB5, moment -> MARA, smsmsg -> Array, bits -> 7, shortcode -> 447786205095, Array
+smsfrom -> 447828292936, smsto -> 447786205095, smsdate -> 2010-04-19 23:17:54, network -> UNKNOWN, country -> UK, smsid -> 4347015075, comp -> KPNUTS, batchcode -> 1234BB5, moment -> MARADONA, smsmsg -> Array, bits -> 7, shortcode -> 447786205095, Array
+smsfrom -> 447828292987, smsto -> 447624800157, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> ROI, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> BANKS, smsmsg -> Array, bits -> , Array
+smsfrom -> 447747062751, smsto -> 88080, smsdate -> 2010-04-20 18:02:58, network -> VODAFONEUK, country -> , smsid -> 4349548942, smsmsg -> KP 0090MC9, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447516556618, smsto -> 88080, smsdate -> 2010-04-20 19:42:48, network -> BTCELLNETUK, country -> , smsid -> 4350155807, smsmsg -> Kp 0090mc9 owens, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447890616928, smsto -> 447624800157, smsdate -> 1271847780, network -> 15, country -> 234, smsid -> 5403376, comp -> KP, batchcode -> , moment -> , smsmsg -> Array, bits -> , Array
+smsfrom -> 447881901668, smsto -> 447624800157, smsdate -> 1271849182, network -> 15, country -> 234, smsid -> 5403841, comp -> Kpnuts, batchcode -> test, moment -> , smsmsg -> Array, bits -> , Array
+smsfrom -> 447753654705, smsto -> 88080, smsdate -> 2010-04-21 15:51:43, network -> BTCELLNETUK, country -> , smsid -> 4353055310, smsmsg -> KP 0096MC5 PLATT, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447941181582, smsto -> 88080, smsdate -> 2010-04-21 18:02:40, network -> TMOBILEUK, country -> , smsid -> 4353790286, smsmsg -> KP 0089MC5A GEMMILL, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447704217124, smsto -> 88080, smsdate -> 2010-04-21 23:30:31, network -> BTCELLNETUK, country -> , smsid -> 4355853904, smsmsg -> KP 0097MC7 BANKS, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447902637109, smsto -> 88080, smsdate -> 2010-04-21 23:51:49, network -> BTCELLNETUK, country -> , smsid -> 4355938823, smsmsg -> KP 0090MC5 GEMMILL, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447816881398, smsto -> 88080, smsdate -> 2010-04-22 13:09:48, network -> ORANGEUK, country -> , smsid -> 4357686237, smsmsg -> Kp 0088mc3a payne, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447828292936, smsto -> 447786205095, smsdate -> 2010-04-22 13:11:38, network -> UNKNOWN, country -> UK, smsid -> 4357689836, comp -> KPNUTS, batchcode -> 1234BB5, moment -> MARA, smsmsg -> Array, bits -> 7, shortcode -> 447786205095, Array
+smsfrom -> 447828292936, smsto -> 447624800157, smsdate -> 1271938376, network -> 10, country -> 234, smsid -> 5422452, comp -> KPNUTS, batchcode -> 1234AA1, moment -> OWEN, smsmsg -> Array, bits -> , Array
+smsfrom -> 447719059679, smsto -> 88080, smsdate -> 2010-04-22 13:41:48, network -> BTCELLNETUK, country -> , smsid -> 4357744411, smsmsg -> Kp 0097 mc7 jairzinho, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447912301566, smsto -> 88080, smsdate -> 2010-04-22 14:41:53, network -> BTCELLNETUK, country -> , smsid -> 4357868998, smsmsg -> KP 5023 7098 MARADONA, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447950465478, smsto -> 88080, smsdate -> 2010-04-22 15:23:10, network -> TMOBILEUK, country -> , smsid -> 4357953021, smsmsg -> KP 0089 MC5 HURST, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447828292936, smsto -> 447624800157, smsdate -> 1271950496, network -> 10, country -> 234, smsid -> 5427273, comp -> KPNUTS, batchcode -> 1234AA1, moment -> OWEN, smsmsg -> Array, bits -> , Array
+smsfrom -> 447900522594, smsto -> 88080, smsdate -> 2010-04-22 16:45:52, network -> TMOBILEUK, country -> , smsid -> 4358210517, smsmsg -> KP 0090MC9 BERGKAMP, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447852227525, smsto -> 88080, smsdate -> 2010-04-22 17:45:51, network -> TMOBILEUK, country -> , smsid -> 4358646645, smsmsg -> Kp 0095mc5 Gemmill, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447776156544, smsto -> 88080, smsdate -> 2010-04-23 02:05:51, network -> VODAFONEUK, country -> , smsid -> 4361135197, smsmsg -> KP 0088MC5 HURST, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447776156544, smsto -> 88080, smsdate -> 2010-04-23 02:07:53, network -> VODAFONEUK, country -> , smsid -> 4361143036, smsmsg -> KP 0088MC5 MARADONA, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447776156544, smsto -> 88080, smsdate -> 2010-04-23 02:14:53, network -> VODAFONEUK, country -> , smsid -> 4361170935, smsmsg -> KP 0088MC5 HURST, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447799664428, smsto -> 88080, smsdate -> 2010-04-23 12:48:36, network -> VODAFONEUK, country -> , smsid -> 4362314606, smsmsg -> KP 0090 MC5 Maradona, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447971499990, smsto -> 88080, smsdate -> 2010-04-23 16:11:39, network -> BTCELLNETUK, country -> , smsid -> 4362807616, smsmsg -> Kp 0110mc5 moore, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447966532255, smsto -> 88080, smsdate -> 2010-04-23 17:33:19, network -> TMOBILEUK, country -> , smsid -> 4363247424, smsmsg -> Kp 0088mc5 bergkamp, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447890905212, smsto -> 88080, smsdate -> 2010-04-23 19:17:40, network -> ORANGEUK, country -> , smsid -> 4363935778, smsmsg -> kp 0097 MC 3B  banks, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447515499360, smsto -> 88080, smsdate -> 2010-04-23 21:17:45, network -> BTCELLNETUK, country -> , smsid -> 4365091148, smsmsg -> KP 0089 MC3 OWEN, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447917612785, smsto -> 88080, smsdate -> 2010-04-23 21:55:09, network -> ORANGEUK, country -> , smsid -> 4365256747, smsmsg -> KP 0090 MC9 CRUYFF , bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447810447091, smsto -> 88080, smsdate -> 2010-04-24 00:53:02, network -> BTCELLNETUK, country -> , smsid -> 4366012398, smsmsg -> KP 0103MC8A BERGKAMP, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447983582085, smsto -> 88080, smsdate -> 2010-04-24 09:15:10, network -> TMOBILEUK, country -> , smsid -> 4366780062, smsmsg -> KP 0097MC5 GEMMILL, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447515117544, smsto -> 88080, smsdate -> 2010-04-24 12:26:07, network -> BTCELLNETUK, country -> , smsid -> 4367086847, smsmsg -> KP 0098MC9 MOORE, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447825346481, smsto -> 88080, smsdate -> 2010-04-24 13:14:20, network -> VODAFONEUK, country -> , smsid -> 4367204461, smsmsg -> Kp 0089mc5 gemmill, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447983246542, smsto -> 88080, smsdate -> 2010-04-24 13:45:34, network -> TMOBILEUK, country -> , smsid -> 4367253841, smsmsg -> KP 0089 mc9 BANKS, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447826133200, smsto -> 88080, smsdate -> 2010-04-24 14:18:43, network -> VODAFONEUK, country -> , smsid -> 4367319543, smsmsg -> KP 0089MC5A MARADONA , bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447762844658, smsto -> 88080, smsdate -> 2010-04-24 15:37:43, network -> BTCELLNETUK, country -> , smsid -> 4367479776, smsmsg -> KP 0105 MC5 OWEN, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447745905520, smsto -> 88080, smsdate -> 2010-04-24 16:09:08, network -> BTCELLNETUK, country -> , smsid -> 4367564489, smsmsg -> KP 702379 banks\', bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447776402662, smsto -> 88080, smsdate -> 2010-04-24 17:25:06, network -> VODAFONEUK, country -> , smsid -> 4367906814, smsmsg -> Kp 0090 mc5 maradona, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447525437198, smsto -> 88080, smsdate -> 2010-04-24 17:31:22, network -> BTCELLNETUK, country -> , smsid -> 4367962039, smsmsg -> KP 0102MC8A JAIRZINHO, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447891971276, smsto -> 88080, smsdate -> 2010-04-24 18:58:55, network -> ORANGEUK, country -> , smsid -> 4368345403, smsmsg -> KP 0090MC9 BANKS , bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447837861623, smsto -> 88080, smsdate -> 2010-04-24 19:02:10, network -> ORANGEUK, country -> , smsid -> 4368355355, smsmsg -> KP 0089 Mc5 MARADONA, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447979477071, smsto -> 88080, smsdate -> 2010-04-24 20:39:24, network -> VODAFONEUK, country -> , smsid -> 4368856665, smsmsg -> KP 0104 MC4 HURST, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447507876064, smsto -> 88080, smsdate -> 2010-04-24 22:41:18, network -> TMOBILEUK, country -> , smsid -> 4369237368, smsmsg -> KP 0090 MC9 PLATT, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447896828556, smsto -> 88080, smsdate -> 2010-04-25 09:56:01, network -> ORANGEUK, country -> , smsid -> 4370483259, smsmsg -> Kp 0089 mc5 moore\'s, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447967300035, smsto -> 88080, smsdate -> 2010-04-25 11:50:00, network -> ORANGEUK, country -> , smsid -> 4370667455, smsmsg -> KP 0104 mc9 platt, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447877808226, smsto -> 88080, smsdate -> 2010-04-25 13:42:58, network -> THREEUK, country -> , smsid -> 4370885236, smsmsg -> KP 0089MC9 KING, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447527697219, smsto -> 88080, smsdate -> 2010-04-25 14:51:25, network -> ORANGEUK, country -> , smsid -> 4370980111, smsmsg -> Kp 0102mc9 cruyff, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447912056089, smsto -> 88080, smsdate -> 2010-04-25 15:39:56, network -> BTCELLNETUK, country -> , smsid -> 4371060526, smsmsg -> KP 0102MC8A BERGKAMP, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447947107176, smsto -> 88080, smsdate -> 2010-04-25 16:51:07, network -> THREEUK, country -> , smsid -> 4371248238, smsmsg -> KP 0105MC8 Adedapo, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447907632850, smsto -> 88080, smsdate -> 2010-04-25 20:26:05, network -> BTCELLNETUK, country -> , smsid -> 4372267247, smsmsg -> KP 0088 MC9 owen, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447894708106, smsto -> 88080, smsdate -> 2010-04-25 20:30:30, network -> BTCELLNETUK, country -> , smsid -> 4372277656, smsmsg -> KP 0090 MC9 JAIRZINHO, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447526587855, smsto -> 88080, smsdate -> 2010-04-26 00:12:16, network -> BTCELLNETUK, country -> , smsid -> 4372862687, smsmsg -> KP 0097 MC5, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447791913047, smsto -> 88080, smsdate -> 2010-04-26 13:23:58, network -> ORANGEUK, country -> , smsid -> 4374168796, smsmsg -> KP 0098 MC5 HURST\'s, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447946556284, smsto -> 88080, smsdate -> 2010-04-26 13:38:35, network -> TMOBILEUK, country -> , smsid -> 4374195754, smsmsg -> KP 0089 MC34 HURST, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447983955620, smsto -> 88080, smsdate -> 2010-04-26 14:30:45, network -> TMOBILEUK, country -> , smsid -> 4374304393, smsmsg -> KP 0104 MC9 BANKS, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447845159990, smsto -> 88080, smsdate -> 2010-04-26 16:14:49, network -> BTCELLNETUK, country -> , smsid -> 4374599887, smsmsg -> Kp 0090 MC9 jairzinho  , bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447967014586, smsto -> 88080, smsdate -> 2010-04-26 16:37:14, network -> ORANGEUK, country -> , smsid -> 4374683316, smsmsg -> Kp 10029mc9 moore , bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447789841685, smsto -> 88080, smsdate -> 2010-04-26 16:45:57, network -> VODAFONEUK, country -> , smsid -> 4374708656, smsmsg -> KP 0102MC8A21 DIXON, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447895749399, smsto -> 88080, smsdate -> 2010-04-26 19:17:28, network -> BTCELLNETUK, country -> , smsid -> 4375776228, smsmsg -> KP 237101148, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447773514704, smsto -> 88080, smsdate -> 2010-04-26 20:27:51, network -> ORANGEUK, country -> , smsid -> 4376150590, smsmsg -> KP 0088MC9 HURST, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447738448474, smsto -> 88080, smsdate -> 2010-04-26 20:33:42, network -> BTCELLNETUK, country -> , smsid -> 4376174866, smsmsg -> KP 0102MC8A PLATT, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447549039870, smsto -> 88080, smsdate -> 2010-04-26 22:24:04, network -> BTCELLNETUK, country -> , smsid -> 4376605099, smsmsg -> Kp 0105MC8 BANKS, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447824826829, smsto -> 88080, smsdate -> 2010-04-27 03:09:13, network -> VODAFONEUK, country -> , smsid -> 4377354795, smsmsg -> KP 0090 MC5 PLATT, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447795328641, smsto -> 88080, smsdate -> 2010-04-27 12:45:30, network -> VODAFONEUK, country -> , smsid -> 4378487827, smsmsg -> KP 0089MC3B BANKS, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447512857811, smsto -> 88080, smsdate -> 2010-04-27 14:46:06, network -> BTCELLNETUK, country -> , smsid -> 4378771955, smsmsg -> KP 0103MC8A BERGKAMP, bits -> 7, shortcode -> 88080, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> , smsid -> 1234, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> , smsid -> 1234, smsmsg -> KPNUTS 1234AA5 OWEN, bits -> 7, Array
+smsfrom -> , smsto -> , smsdate -> , network -> , country -> , smsid -> , comp -> , batchcode -> , moment -> , smsmsg -> Array, bits -> , Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> UK, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> 7, Array
+smsfrom -> , smsto -> , smsdate -> , network -> , country -> , smsid -> , comp -> , batchcode -> , moment -> , smsmsg -> Array, bits -> , Array
+smsfrom -> , smsto -> , smsdate -> , network -> , country -> , smsid -> , comp -> , batchcode -> , moment -> , smsmsg -> Array, bits -> , Array
+smsfrom -> , smsto -> , smsdate -> , network -> , country -> , smsid -> , comp -> , batchcode -> , moment -> , smsmsg -> Array, bits -> , Array
+smsfrom -> , smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> , smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> , Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> , smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> , Array
+smsfrom -> 447828292936, smsto -> 88080, smsdate -> 2010-04-16 12:05:00, network -> o2, country -> ROI, smsid -> 1234, comp -> KPNUTS, batchcode -> 1234AA5, moment -> OWEN, smsmsg -> Array, bits -> , Array
