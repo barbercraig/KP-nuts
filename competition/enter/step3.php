@@ -4,18 +4,26 @@
 	$pageID = "competition";
 	$step = "captcha";
 	
-	print_r($_SESSION);
+	//print_r($_SESSION);
 	
 	#include init file 
-	include($_SERVER['DOCUMENT_ROOT'] . '/init/kp-init.php');
-	
-	include(DOCROOT . 'competition/handlers/error-handler.php');
-	include(DOCROOT . 'competition/handlers/response-handler.php');
+	//we need to do some extra checking for document root for gay inboxwork
+	if(strpos($_SERVER['SERVER_NAME'], 'inboxwork')){
+		include($_SERVER['DOCUMENT_ROOT'] . '/ub/kp/dev/init/kp-init.php');
+	}else{
+		include($_SERVER['DOCUMENT_ROOT'] . '/init/kp-init.php');
+	}
+		
+	include(DOCROOT . 'include/handlers/error-handler.php');
+	include(DOCROOT . 'include/handlers/response-handler.php');
 	
 	include(DOCROOT . '/include/header.php'); 
 
 ?>
-<div id="comp-content" class="step3">
+<div class="comp-content step3-content">
+	<?php
+        if($allowed_entry){
+    ?>
 	<h2 class="captcha">For security, please enter the code you see below</h2>
     <form id="enter-step3" class="comp-process step3" name="enter-step3" action="<?= $_SERVER['PHP_SELF'] ?>" method="post">
     	<div id="error" style="height:30px; padding-bottom:5px; text-align:center;">
@@ -33,10 +41,14 @@
         </fieldset>
         <fieldset id="captcha">
             <a class="back" href="<?php echo $routes['competition']['enter']?>step2.php">BACK ></a>
-            <input id="submit" class="next" type="image" name="submit" value="submit" src="../../../images/competition/batchcode-entry/btn_next.png" alt="next" border="0" />
+            <input id="submit" class="next" type="image" name="submit" value="submit" src="<?=SITE_URL?>/images/competition/batchcode-entry/btn_next.gif" alt="next" border="0" />
         </fieldset>
         <input name="formsubmit" id="formsubmit" type="hidden" value="submit" />
     </form>
+    	<?php
+        }
+    ?>
+
 </div>
 <?php include (DOCROOT . '/include/footer.php'); ?>
 

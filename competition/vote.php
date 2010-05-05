@@ -1,22 +1,26 @@
 <?php
 	#include init file 
-	include($_SERVER['DOCUMENT_ROOT'] . '/init/kp-init.php');
-	//$init = $_SERVER['DOCUMENT_ROOT'] . '/ub/kp/dev/init/kp-init.php';
-	//include($init);
+	//we need to do some extra checking for document root for gay inboxwork
+	if(strpos($_SERVER['SERVER_NAME'], 'inboxwork')){
+		include($_SERVER['DOCUMENT_ROOT'] . '/ub/kp/dev/init/kp-init.php');
+	}else{
+		include($_SERVER['DOCUMENT_ROOT'] . '/init/kp-init.php');
+	}	
+
 	$pageID = "competition"; 
 	$step   = "vote";
 ?>
 <?php include(DOCROOT.'include/header.php') ?>
 
-<div id="comp-content" class="vote">
+<div class="comp-content vote-content">
 	<h2 class="vote">Vote for your best quality football moment</h2>
     <br />
     <br />
     <div id="moments">
     	<div class="row top">
             <!--BANKS MOMENT-->
-            <div class="moment banks">
-            	<h3 class="moment banks">Banks</h3>
+            <div class="moment firstmoment">
+            	<h3 class="moment banks-vote">Banks</h3>
                 <div class="holder banks">
                 	<div class="button-deck first">
                     	<a class="button view" href="<?=$routes['competition']['root']?>view.php?m=banks">View ></a>
@@ -27,20 +31,20 @@
             <!--END OF BANKS MOMENT-->
             
             <!--MARA MOMENT-->
-            <div class="moment mara">
-            	<h3 class="moment mara">mara</h3>
-                <div class="holder mara">
+            <div class="moment">
+            	<h3 class="moment maradona-vote">Maradona</h3>
+                <div class="holder maradona">
                 	<div class="button-deck">
-                    	<a class="button view" href="<?=$routes['competition']['root']?>view.php?m=mara">View ></a>
-                        <a class="button vote" href="<?=$routes['competition']['enter']?>step1.php?m=mara">Vote ></a>
+                    	<a class="button view" href="<?=$routes['competition']['root']?>view.php?m=maradona">View ></a>
+                        <a class="button vote" href="<?=$routes['competition']['enter']?>step1.php?m=maradona">Vote ></a>
                     </div>	
                 </div>
             </div>
             <!--END OF MARA MOMENT-->
             
             <!--OWEN MOMENT-->
-            <div class="moment owen">
-            	<h3 class="moment owen">owen</h3>
+            <div class="moment">
+            	<h3 class="moment owen-vote">owen</h3>
                 <div class="holder owen">
                 	<div class="button-deck">
                     	<a class="button view" href="<?=$routes['competition']['root']?>view.php?m=owen">View ></a>
@@ -51,8 +55,8 @@
             <!--END OF OWEN MOMENT-->
             
             <!--HURST MOMENT-->
-            <div class="moment hurst">
-            	<h3 class="moment hurst">hurst</h3>
+            <div class="moment">
+            	<h3 class="moment hurst-vote">hurst</h3>
                 <div class="holder hurst">
                 	<div class="button-deck">
                     	<a class="button view" href="<?=$routes['competition']['root']?>view.php?m=hurst">View ></a>
@@ -63,8 +67,8 @@
             <!--END OF HURST MOMENT-->
             
             <!--JAIRZINHO MOMENT-->
-            <div class="moment jairzinho">
-            	<h3 class="moment jairzinho">jairzinho</h3>
+            <div class="moment">
+            	<h3 class="moment jairzinho-vote">jairzinho</h3>
                 <div class="holder jairzinho">
                 	<div class="button-deck">
                     	<a class="button view" href="<?=$routes['competition']['root']?>view.php?m=jairzinho">View ></a>
@@ -79,8 +83,8 @@
         <br />
     	<div class="row bottom">
             <!--BERGKAMP MOMENT-->
-            <div class="moment bergkamp">
-            	<h3 class="moment bergkamp">bergkamp</h3>
+            <div class="moment firstmoment">
+            	<h3 class="moment bergkamp-vote">bergkamp</h3>
                 <div class="holder bergkamp">
                 	<div class="button-deck first">
                     	<a class="button view" href="<?=$routes['competition']['root']?>view.php?m=bergkamp">View ></a>
@@ -91,8 +95,8 @@
             <!--END OF BERGKAMP MOMENT-->
             
             <!--CRUYFF MOMENT-->
-            <div class="moment cruyff">
-            	<h3 class="moment cruyff">cruyff</h3>
+            <div class="moment">
+            	<h3 class="moment cruyff-vote">cruyff</h3>
                 <div class="holder cruyff">
                 	<div class="button-deck">
                     	<a class="button view" href="<?=$routes['competition']['root']?>view.php?m=cruyff">View ></a>
@@ -103,8 +107,8 @@
             <!--END OF CRUYFF MOMENT-->
             
             <!--GEMMILL MOMENT-->
-            <div class="moment gemmill">
-            	<h3 class="moment gemmill">gemmill</h3>
+            <div class="moment">
+            	<h3 class="moment gemmill-vote">gemmill</h3>
                 <div class="holder gemmill">
                 	<div class="button-deck">
                     	<a class="button view" href="<?=$routes['competition']['root']?>view.php?m=gemmill">View ></a>
@@ -115,8 +119,8 @@
             <!--END OF GEMMILL MOMENT-->
             
             <!--PLATT MOMENT-->
-            <div class="moment platt">
-            	<h3 class="moment platt">platt</h3>
+            <div class="moment">
+            	<h3 class="moment platt-vote">platt</h3>
                 <div class="holder platt">
                 	<div class="button-deck">
                     	<a class="button view" href="<?=$routes['competition']['root']?>view.php?m=platt">View ></a>
@@ -127,8 +131,8 @@
             <!--END OF PLATT MOMENT-->
             
             <!--MOORE MOMENT-->
-            <div class="moment moore">
-            	<h3 class="moment moore">moore</h3>
+            <div class="moment">
+            	<h3 class="moment moore-vote">moore</h3>
                 <div class="holder moore">
                 	<div class="button-deck">
                     	<a class="button view" href="<?=$routes['competition']['root']?>view.php?m=moore">View ></a>

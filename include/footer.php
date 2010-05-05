@@ -1,7 +1,7 @@
-    <div class="footer <?php switch($pageID){case "about-kp": echo 'aboutfooter'; break; case "competition": echo 'competition'; break;}?>" <?php if ($pageID != "home") {?>style="z-index:1"<?php }?>>
+    <div class="footer <?php switch($pageID){case "about-kp": echo 'aboutfooter'; break; case "competition": echo 'competition'; break;}?>" <?php if ($pageID != "home") {?>style="z-index:2"<?php }?>>
 		
-		<div class="footer-nav <?php switch($pageID){case "about-kp": echo 'aboutnav'; break; case "competition": echo 'compnav'; break;}?>">
-			<?php if($pageID == "home"){
+		<div class="footer-nav <?php switch($pageID){case "about-kp": echo 'aboutnav'; break; case "competition": echo 'compnav'; break; case "home": echo 'compnav'; break;}?>">
+			<?php /*if($pageID == "home"){
 			
 					include(DOCROOT . 'include/footer_nav.php');
 					
@@ -9,8 +9,107 @@
 				  
 			 		include(DOCROOT . 'include/footer-comp.php'); 
 					
-				  }
+				  }*/
 		    ?>
+            
+            <?php
+				switch($pageID){
+					case "home":
+						$footer_left  = 'league';
+						$footer_mid   = 'prizedraw';
+						$footer_right = 'newsletter_home';
+						break;
+						
+					case "competition":
+						switch($step){
+							case "home";
+								$footer_left  = 'prizes';
+								$footer_mid   = 'prizedraw';
+								$footer_right = 'newsletter';
+								break;
+							
+							case "league";
+								$footer_left  = 'prizes';
+								$footer_mid   = 'prizedraw';
+								$footer_right = 'newsletter';
+								break;
+
+							case "batch";
+								$footer_left  = 'prizes';
+								$footer_mid   = 'league';
+								$footer_right = 'prizedraw';
+								break;
+
+							case "user";
+								$footer_left  = 'prizes';
+								$footer_mid   = 'league';
+								$footer_right = 'prizedraw';
+								break;
+								
+							case "vote";
+								$footer_left  = 'prizes';
+								$footer_mid   = 'league';
+								$footer_right = 'prizedraw';
+								break;
+								
+							case "view";
+								$footer_left  = 'prizes';
+								$footer_mid   = 'league';
+								$footer_right = 'prizedraw';
+								break;
+
+							case "captcha";
+								$footer_left  = 'prizes';
+								$footer_mid   = 'league';
+								$footer_right = 'prizedraw';
+								break;
+
+							case "error";
+								$footer_left  = 'prizes';
+								$footer_mid   = 'league';
+								$footer_right = 'prizedraw';
+								break;
+								
+							case "prizedraw";
+								$footer_left  = 'prizes_win';
+								$footer_mid   = 'league';
+								$footer_right = 'newsletter';
+								break;
+
+							case "prizedraw-enter";
+								$footer_left  = 'prizes_win';
+								$footer_mid   = 'league';
+								$footer_right = 'newsletter';
+								break;
+
+							case "prizedraw-thanks";
+								$footer_left  = 'prizes_win';
+								$footer_mid   = 'league';
+								$footer_right = 'newsletter';
+								break;
+
+
+							default:
+								$footer_left  = 'prizes';
+								$footer_mid   = 'prizedraw';
+								$footer_right = 'newsletter';
+								break;
+						}
+						break;
+				}
+			?>
+            <div class="window_left ft_<?=$footer_left?>-left">
+				<?php include('footer_sections/'.$footer_left.'.php')?>
+            </div>
+            
+            <div class="window_mid ft_<?=$footer_mid?>-mid">
+				<?php include('footer_sections/'.$footer_mid.'.php')?>
+            </div>
+            
+            <div class="window_right ft_<?=$footer_right?>-right">
+				<?php include('footer_sections/'.$footer_right.'.php')?>
+            </div>
+
 		</div>
 		<div id="terms">
 		
@@ -30,21 +129,31 @@
 			<!-- AddThis Button END -->
 		
 			<ul>
-				<li><a href="out.php?tid=4319" target="_blank">Privacy policy</a></li> |
-				<li><a href="out.php?tid=4320" target="_blank">www.123healthybalance.com</a></li> |
-				<li><a href="out.php?tid=4321" target="_blank">www.unitedbiscuits.com</a></li> |
-				<li><a href="out.php?tid=4322" target="_blank">Contact Us</a></li>
+                <li><a href="<?=$routes['tag']?>?tid=4339" target="_blank">FAQs</a></li> |
+                <li><a href="<?=$routes['tag']?>?tid=4338" target="_blank">Terms &amp; Conditions</a></li> |
+				<li><a href="<?=$routes['tag']?>?tid=4319" target="_blank">Privacy policy</a></li> |
+				<li><a href="<?=$routes['tag']?>?tid=4320" target="_blank">www.123healthybalance.com</a></li> |
+				<li><a href="<?=$routes['tag']?>?tid=4321" target="_blank">www.unitedbiscuits.com</a></li> |
+				<li><a href="<?=$routes['tag']?>?tid=4322" target="_blank">Contact Us</a></li>
 			</ul>
 			
 		</div><!--End of terms-->
             <span class="trade">United Biscuits (UK) Limited. Registered in England number 2506007. Registered office: Hayes Park, Hayes End Road, Hayes, Middlesex  UB4 8EE.</span>
     </div><!--End of footer-->
 </div><!--End of wrapper-->
-<script type="text/javascript">
-$(document).ready(function(){
-	alert(flavour);
-});
-</script>
 <?php include(DOCROOT . 'include/tagger.php'); ?>
+<script type="text/javascript" language="JavaScript">
+	<!--
+	client_id = 252;
+	page_id   = "<?=$tagId?>";
+	timeout   = 600;
+	p1        = "<?=$flavour?>";
+	p2        = "<?=$p2?>";
+	p3        = "<?=$moment?>";
+	//-->
+</script> 
+	<script type="text/javascript" src="http://www.inboxtag.com/inbox_tagger.js">
+</script>
+
 </body>
 </html>

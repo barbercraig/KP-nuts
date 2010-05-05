@@ -25,15 +25,18 @@
 	<script type="text/javascript" src="<?php echo SITE_URL ?>assets/js/jquery.qtip-1.0.0-rc3.min.js"></script> 
 	
 	<!--[if IE]>
-    	<link href="<?php echo SITE_URL ?>/assets/css/ie.css" rel="stylesheet" type="text/css" media="screen" />	
+    	<link href="<?php echo SITE_URL ?>assets/css/ie.css" rel="stylesheet" type="text/css" media="screen" />	
     <![endif]-->
 
 	<!--[if IE 6]>
-		<script type="text/javascript" src="assets/js/DD_belatedPNG_0.0.8a-min.js" ></script>		
+    	<link href="<?php echo SITE_URL ?>assets/css/ie6.css" rel="stylesheet" type="text/css" media="screen" />	
+		<script type="text/javascript" src="<?php echo SITE_URL ?>assets/js/DD_belatedPNG_0.0.8a-min.js" ></script>		
 		<script>
        $(document).ready(function()
        {
-            DD_belatedPNG.fix('h1 a, h2, h3, .range, .about, .newsletter, .window_range, #rangeContent a, .divider, .window_about, .window_newsletter, #about-kp, #scrollList a, #content-image-0, #content-image-1, #content-image-2, #content-image-3, #content-image-4, #content-image-5, #content-image-6, #content-image-7, .backButton, .imageHolder, .peanuts, #nutrition, #scrollPanel, .aboutfooter, a.cta, .content_float img, .window_win, .win, .win-right, #nutrition-image img');
+            DD_belatedPNG.fix('img, li, ul, div, a, p, form, h1 a, h2, h3, .range, .about, input.newsletter, .window_left, .window_mid, .window_right, input#submit, ft_league, ft_prizedraw, ft_newsletter, #rangeContent a, .divider, .window_newsletter, #about-kp, #scrollList a, #content-image-0, #content-image-1, #content-image-2, #content-image-3, #content-image-4, #content-image-5, #content-image-6, #content-image-7, .backButton, .imageHolder, .peanuts, #nutrition, #scrollPanel, .aboutfooter, a.cta, .content_float img, .window_win, .win, .win-right, #nutrition-image img, .footer, .footer_nav, compnav, .prizedraw, .league, label, .content_box');
+            
+            
 			
 			<?php if ($pageID == "about-kp") { ?>
 			

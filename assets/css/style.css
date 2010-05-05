@@ -32,8 +32,8 @@ h1 a {
 *	Competition section headers
 */
 h2 {
-		text-indent: -9999px; position:relative; display:block; width:715px; height:99px;
-		background-repeat:none;
+		text-indent: -9999px; position:relative; display:block; width:777px; height:99px;
+		background-repeat:no-repeat;
 }
 
 	/*vote page*/
@@ -44,9 +44,46 @@ h2 {
 	/*vote page*/
 
 	/* dynamic headers for step1 page - entering batchcode*/
-	.moment-mara {
-		background:url(../../images/competition/batchcode-entry/vote-header/header_mara.png);	
+	h2.moment-banks {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_banks.png);	
 	}
+	
+	h2.moment-maradona {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_mara.png);	
+	}
+	
+	h2.moment-owen {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_owen.png);	
+	}
+	
+	h2.moment-hurst {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_hurst.png);	
+	}
+	
+	h2.moment-jairzinho {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_jairzinho.png);	
+	}
+	
+	h2.moment-bergkamp {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_bergkamp.png);	
+	}
+	
+	h2.moment-cruyff {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_cruyff.png);	
+	}
+
+	h2.moment-gemmill {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_gemmill.png);	
+	}
+
+	h2.moment-platt {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_platt.png);	
+	}
+
+	h2.moment-moore {
+		background-image:url(../../images/competition/batchcode-entry/vote-header/header_moore.png);	
+	}
+
 	/* dynamic headers for step1 page - entering batchcode*/
 	
 	
@@ -76,10 +113,102 @@ h2 {
 			background:url(../../images/competition/result-messages/lose/header_exceeded-pack-limit.png);
 		}
 		
+	h2.sorry {
+		display:block;
+	}
+		.gen {
+			width:519px; height:47px;
+			background:url(../../images/competition/result-messages/lose/gen/header_sorry-gen.png);
+		}
+		
+		h2.sorry.prizedraw {
+			width:519px; height:194px;
+			background:url(../../images/competition/result-messages/lose/gen/header_sorry-prizedraw.png);
+		}
+		
+	/*Win messages*/
+	h2.win {
+		display:block; background-repeat:no-repeat;
+	}
+		h2.win.congrat {
+			width:381px; height:35px; padding-bottom:5px;
+			background-image:url(../../images/competition/result-messages/win/header_congratulations.png);	
+		}
+		
+		h2.win.replica-shirt {
+			width:542px; height:98px;
+			background:url(../../images/competition/result-messages/win/header_replica-shirt.png)
+		}
+		
+		h2.win.mini-football {
+			width:542px; height:98px;
+			background:url(../../images/competition/result-messages/win/header_mini-football.png)
+		}
+		
+		h2.win.mini-table-football {
+			width:542px; height:98px;
+			background:url(../../images/competition/result-messages/win/header_mini-table-football.png)
+		}
+		
+		
 	h2.league {
 		width:367px; height:46px; margin-left:auto; margin-right:auto;
 		background-image:url(../../images/competition/league/header_leagueTable.png);	
 	}
+	
+	h2.thanks {
+		width:954px; height:66px; margin-left:auto; margin-right:auto;
+		background-image:url(../../images/prizedraw/header_thanks.png);
+	}
+	
+	h2.vote-moment {
+		width:463px; height:103px; margin:0 0 0 0;
+		background-image:url(../../images/prizedraw/header_vote-moment.png);
+	}
+	
+	h2.prizedraw-enter {
+		width:297px; height:208px; margin:0 0 0 0; padding:0;
+		background-image:url(../../images/prizedraw/header_grandprizedraw.png);
+	}
+	
+	/*VIEW PAGE HEADERS*/
+	h2.viewmoment {
+		text-indent:-9999px; width:846px; height:72px; display:block;
+	}
+		h2.viewmoment.banks {
+			height:41px; background:url(../../images/competition/view/header_view-banks.png) no-repeat;
+		}
+		h2.viewmoment.maradona {
+			background:url(../../images/competition/view/header_view-maradona.png) no-repeat;
+		}
+		h2.viewmoment.owen {
+			background:url(../../images/competition/view/header_view-owen.png) no-repeat;
+		}
+		h2.viewmoment.hurst {
+			background:url(../../images/competition/view/header_view-hurst.png) no-repeat;
+		}
+		h2.viewmoment.jairzinho {
+			background:url(../../images/competition/view/header_view-jairzinho.png) no-repeat;
+		}
+		h2.viewmoment.bergkamp {
+			height:41px; background:url(../../images/competition/view/header_view-bergkamp.png) no-repeat;
+		}
+		h2.viewmoment.cruyff {
+			height:41px; background:url(../../images/competition/view/header_view-cruyff.png) no-repeat;
+		}
+		h2.viewmoment.gemmill {
+			background:url(../../images/competition/view/header_view-gemmill.png) no-repeat;
+		}
+		h2.viewmoment.platt {
+			height:41px; background:url(../../images/competition/view/header_view-platt.png) no-repeat;
+		}
+		h2.viewmoment.moore {
+			background:url(../../images/competition/view/header_view-moore.png) no-repeat;
+		}
+
+	/*END OF VIEW PAGE HEADERS*/
+		
+	
 	
 /**********************************/
 
@@ -117,6 +246,11 @@ h3 {
 		background-image:url(../../images/footer/prizes/subheader_prizes.png);
 	}
 	
+	h3.prizes-win {
+		width:126px; height:77px; margin-top:39px;
+		background-image:url(../../images/footer/prizes/subheader_prizes-win.png);
+	}
+		
 	h3.league {
 		width:129px; height:81px; margin-top:35px;
 		background-image:url(../../images/footer/league/subheader_league.png);
@@ -136,6 +270,22 @@ h3 {
 		width:168px; height:24px; background:url(../../images/competition/result-messages/lose/subheader_register.png);
 		margin:0 0 0 75px;
 	}
+	
+	h3.footer-prizedraw {
+		width:172px; height:76px;  margin-top:0;
+		background-image:url(../../images/footer/prizedraw/subheader_prizedraw.png);
+	}
+	
+	h3.footer-messageboard {
+		width:172px; height:76px;  margin-top:0;
+		background-image:url(../../images/footer/messageboard/subheader_messageboard.png);
+	}
+	
+	
+	h3.prizedraw-enter-prize {
+		width:198px; height:33px; background:url(../../images/prizedraw/subheader_prize-includes.png); margin-top:0px;
+	}
+	
 			
 	
 a.cta {
@@ -159,6 +309,16 @@ a.cta {
 		background-image:url(../../images/footer/league/btn_league.png);
 		background-repeat:none;
 	}
+	
+	.prizedraw-link {
+		width:106px; height:22px; background-image:url(../../images/footer/prizedraw/btn_prizedraw.png);
+		background-repeat:none;
+	}
+	
+	.prizeswin-link {
+		width:112px; height:22px; background-image:url(../../images/footer/prizes/btn_prize-win.png);
+		background-repeat:none;
+	}
 
 
 p.footer-text {
@@ -173,12 +333,24 @@ p.footer-text {
 		width:126px; height:59px; background-image:url(../../images/footer/prizes/desc_prizes.png);
 	}
 	
+	p.prizes-win {
+		width:126px; height:31px; background-image:url(../../images/footer/prizes/desc_prizes-win.png);
+	}
+		
 	p.league {
 		width:129px; height:31px; background-image:url(../../images/footer/league/desc_league.png);
 	}
 	
 	p.win {
 		width:226px; height:35px; background-image:url(../../images/footer/win/desc_win.png);
+	}
+	
+	p.footer-text.prizedraw {
+		width:172px; height:29px; background-image:url(../../images/footer/prizedraw/desc_prizedraw.png);
+	}
+	
+	p.footer-text.messageboard {
+		width:180px; height:29px; background-image:url(../../images/footer/messageboard/desc_messageboard.png);
 	}
 	
 p.holding {
@@ -196,11 +368,32 @@ p.error {
 	p.error.prize-limit {
 		width:434px; height:28px; background:url(../../images/competition/result-messages/lose/desc_tryagain.png);
 	}
+	
+	p.pack_limit_exceeded {
+		width:434px; height:28px; background:url(../../images/competition/result-messages/lose/desc_tryagain.png);
+		margin-top:3px;
+	}
+	
+p.news-thanks {
+	margin-left:auto; margin-right:auto; width:318px; height:49px; text-indent:-9999px;
+	background:url(../../images/competition/result-messages/lose/img_news-thanks.png);
+}
+	
+p.win {
+	text-indent:-9999px; display:block; background-repeat:none;	
+}
+	p.win.steps {
+		width:423px; height:27px; background:url(../../images/competition/result-messages/win/subheader_steps.png);
+	}
 
 
 p.league-table {
 	margin-left:auto; margin-right:auto; text-indent:-9999px; display:block; background-repeat:none;
 	width:594px; height:26px; background:url(../../images/competition/league/subheader_votes.png);	
+}
+
+p.moment-desc {
+	font-size:12px; line-height:16px; padding:5px 2px 5px 2px;
 }
 
 
@@ -218,7 +411,7 @@ form {
 	}
 
 	.comp-process {
-		float:left; width: 406px; margin:0;	
+		float:left; width: 445px; margin:0;	
 	}
 	
 		.step2 {
@@ -234,12 +427,18 @@ form {
 		}
 		
 	form.register {
-		width:954px; min-height:220px; margin-top:0; padding:20px 0 0 0;
+		width:954px; height:220px; margin-top:0; padding:10px 0 0 0;
+		background:url(../../images/competition/result-messages/lose/img_bg-fade.png) no-repeat top left;
+	}
+	
+	div#register {
+		width:954px; height:150px; margin-top:0; padding:80px 0 0 0;
 		background:url(../../images/competition/result-messages/lose/img_bg-fade.png) no-repeat top left;
 	}
 
+
 p.field {
-	padding-bottom:8px; overflow:auto;;	
+	padding-bottom:8px; overflow:auto;;
 }
 
 	p.field span {
@@ -282,7 +481,7 @@ label {
 }
 
 	label.batchcode {
-		text-indent:-9999px; width:404px; height:58px;
+		text-indent:-9999px; width:404px; height:71px;
 		background-image:url(../../images/competition/batchcode-entry/label_batchcode.png);
 	}
 	
@@ -296,8 +495,8 @@ label {
 		float:left; width:105px; height:23px; line-height:23px; margin:2px 0 0 0;
 	}
 	
-	label.text.reg {
-		width:76px;
+	label.reg-label {
+		width:76px; margin-right:0px;
 	}
 	/*******************/
 	
@@ -329,7 +528,7 @@ input.reg {
 input.checkbox {
 	width:20px; height:15px; margin-right:5px; border:none; float:left;	
 }
-	input.checkbox.reg {
+	input.checkbox.registration {
 		margin-bottom:20px;
 	}
 
@@ -375,7 +574,7 @@ input.submit {
 
 
 select {
-	width:370px; height:25px; border:1px solid #808080; font-size:13px; font-weight:bold; color:#053071; 	
+	width:440px; height:25px; border:1px solid #808080; font-size:13px; font-weight:bold; color:#053071; 	
 }
 
 a.back {
@@ -384,8 +583,20 @@ a.back {
 	background-repeat:none;
 }
 
+a.next {
+	float:left; display:block; text-indent:-9999px;
+	width:101px; height:35px; background-image:url(../../images/competition/batchcode-entry/btn_next.png);
+	background-repeat:none;
+}
+
+a.vote-view {
+	float:left; display:block; text-indent:-9999px;
+	width:101px; height:35px; background-image:url(../../images/competition/view/btn_vote.png);
+	background-repeat:none;
+}
+
 #visual {
-	float:left;	
+	float:right;	
 }
 
 /*STEP 2 STYLING*/
@@ -393,22 +604,65 @@ a.back {
 	position:relative; /* same as content div */
 	/*border:1px solid red;*/
 }
-
 	.userform {
-		width:910px; height:421px; z-index:10; top:0; left:0;
+		width:910px; height:500px; z-index:10; top:0; left:0;
 		background:url(../../images/competition/userdata-entry/img_prizes-large.png) no-repeat bottom left;
 	}
 	
-	.content_box.prizedraw {
-		width:910px; height:421px; z-index:10; top:0; left:0;
-		background:url(../../images/prizedraw/img_prizedraw-large.png) no-repeat bottom left;
+	.prizedraw-box {
+		width:910px; height:421px; z-index:10; top:0; left:0; margin-left:auto; margin-right:auto;
+		background:url(../../images/prizedraw/img_prizedraw-large.png) no-repeat left top;
+	}
+	
+	.prizedraw-thanks-box {
+		width:950px; height:370px; z-index:10; margin-left:auto; margin-right:auto;
+		background:url(../../images/prizedraw/img_prizedraw-thanks-bg.png) no-repeat left top;
+	}
+	
+	.prizedraw-enter-box {
+		width:960px; height:560px; z-index:10; margin-left:auto; margin-right:auto;
+		background:url(../../images/prizedraw/img_prizedraw-enter-bg.png) no-repeat left top;
+	}
+	
+	.content_box.sorry-gen {
+		width:100%; margin-right:0;
 	}
 	
 	.form-content {
 		float:right; width:452px; height:421px;
 	}
-		.form-content.prizedraw {
-			margin-top:80px;	
+		.prizedraw-form {
+			margin-top:80px; height:340px;	
+		}
+		
+		.prizedraw-thanks-form {
+			margin-top:80px; height:320px; width:463px; margin-right:0px;
+		}
+		
+	.display-content {
+		width:545px; margin-left:80px; margin-right:0;
+	}
+	
+	.display-content.prizedraw-enter {
+		width:545px; height:505px; margin-left:30px; padding-top:60px;
+	}
+	
+	.sorry-generic {
+		width:545px; margin-left:20px;
+	}
+		
+	.content_box.win {
+		width:954px;; height:460px; margin-right:0;
+		background-repeat:no-repeat;
+	}
+		.content_box.win.replica-shirt {
+			background-image:url(../../images/competition/result-messages/win/img_win-replica-shirt-bg.png);
+		}
+		.content_box.win.mini-football {
+			background-image:url(../../images/competition/result-messages/win/img_win-mini-football-bg.png);
+		}
+		.content_box.win.mini-table-football {
+			background-image:url(../../images/competition/result-messages/win/img_win-mini-table-football-bg.png);
 		}
 
 img.captcha {
@@ -419,7 +673,7 @@ img.captcha {
 	float:left; display:block; font-weight:bold; text-decoration:none; margin-left:20px; margin-top:46px;	
 }*/
 a.refresh {
-	float:left; display:block; font-weight:bold; text-decoration:none; margin:5px 0 5px 0; float:right;	
+	float:left; display:block; font-weight:bold; text-decoration:none; margin:5px 0 5px 0; float:right; color:white;	
 }
 
 
@@ -434,7 +688,7 @@ a.refresh {
 /***************/
 
 #error {
-	display:block; height:15px; color:red;
+	display:block; height:15px; color:red; padding-bottom:3px;
 }
 
 input.error {
@@ -477,37 +731,61 @@ label.error {
 		height:435px; position:absolute; z-index:10; top:0px;
 	}
 		
-	.wrapper #comp-content {
-		position:relative; width:716px; margin-left:auto; margin-right:auto; z-index:10; padding-top:200px; /*padding-bottom:20px;*/
-		overflow:hidden; height:372px;
+	.comp-content {
+		position:relative; width:777px; margin-left:auto; margin-right:auto; z-index:10; padding-top:200px; /*padding-bottom:20px;*/
+		height:350px;
 	}
 			
-			.wrapper #comp-content.vote {
-				width:958px; height:500px; padding-top:170px;
+			.vote-content {
+				width:964px; height:500px; padding-top:170px;
 			}
 			
-			.wrapper #comp-content.step2 {
-				width:910px; margin:0; padding-top:150px; height:422px;	
+			.step2-content {
+				width:910px; margin:0; padding-top:150px; height:500px;	
 			}
 			
-			.wrapper #comp-content.step3 {
+			.step3-content {
 				width:400px;	
 			}
-						
-			.wrapper #comp-content.sorry {
+			
+			.sorry-content {
 				width:954px;
 			}
 			
-			.wrapper #comp-content.league {
-				width:100%;
+			.sorry-content-gen {
+				width:954px; margin:0; padding-top:190px; height:420px;
+				background:url(../../images/competition/result-messages/lose/gen/img_sorry-gen-bg.png) bottom right no-repeat;
+
 			}
 			
-			.wrapper #comp-content.prizedraw {
-				width:910px; margin:0; padding-top:150px; height:422px;	
+			.league-content {
+				width:100%; height:auto;
 			}
+			
+			.prizedraw-content {
+				width:910px; padding-top:150px; height:422px;	
+			}
+			
+			.prizedraw-thanks-content {
+				width:954px; padding-top:150px; height:485px;	
+			}
+			
+			.prizedraw-enter-content {
+				width:960px; padding-top:100px; height:555px;	
+			}
+			
+			.win-content {
+				width:910px; margin:0; padding-top:170px; height:480px;	
+			}
+			
+			.view-content {
+				width:846px; height:550px;
+			}
+			
+			
 	
 	.wrapper .footer { 
-		width:100%; position:absolute; z-index:5000; top:480px; padding-bottom:20px;
+		width:100%; overflow:visible; position:absolute; z-index:5000; top:480px; padding-bottom:20px;
 	}
 	
 	.wrapper .footer.competition {
@@ -625,16 +903,26 @@ ul#jsddm {
 	height:210px;
 }
 
-.wrapper .footer .footer-nav div.window_range {
-	position:relative; z-index:1; float:left; width:317px; height:186px; padding-left:3px;
-	background-image:url(../../images/footer/range/window_range_bg.png);
+.wrapper .footer .footer-nav div.window_left {
+	position:relative; z-index:3; float:left; width:333px; /*height:210px;*/ padding-left:0px;
+	/*background-image:url(../../images/footer/window_left-blue_bg.png);*/
+	background-repeat:no-repeat;
 }
 
 
-.wrapper .footer .footer-nav div.window_about {
-	position:relative; z-index:2; float:left; width:307px; height:184px; padding-left:10px;
-	background-image:url(../../images/footer/about/window_aboutkp_bg.png);
+.wrapper .footer .footer-nav div.window_mid {
+	position:relative; z-index:2; float:left; width:333px; left:-16px;/*width:317px;*/ /*height:210px;*/ /*padding-left:10px;*/
+	/*background-image:url(../../images/footer/window_mid-blue_bg.png);*/
+	background-repeat:no-repeat;
 }
+
+.wrapper .footer .footer-nav div.window_right {
+	position:absolute; z-index:1;  /*height:210px;*/ /*height:186px;*/
+	/*background:url(../../images/footer/window_right-blue_bg.png) no-repeat;*/ 
+	/*shift the content up by it's height to bring inline*/ margin-left:100px;
+	background-repeat:no-repeat; background-position:left top;
+}
+
 
 /*#wrapper #footer #footer-nav div.window_newsletter {
 	position:relative; z-index:3; float:left; width:308px; height:184px; padding-left:10px;
@@ -645,33 +933,86 @@ ul#jsddm {
  * author: Craig Barber
 */
 
-	.window_prizes {
-		float:left; width:317px; height:210px;
-		background-image:url(../../images/footer/prizes/window_prizes_bg.png);
+	.ft_range {
+		height:180px; background-image:url(../../images/footer/window_left-orange_bg.png);
+	}
+
+	/*LEFT HAND SIDE*/
+	.ft_prizes-left {
+		float:left; height:210px;
+		background-image:url(../../images/footer/window_left-blue_bg.png);
 	}
 	
-	.window_league {
-		float:left; width:320px; height:210px;
-		background-image:url(../../images/footer/league/window_league_bg.png);
+	.ft_prizedraw-left {
+		height:210px;
+		background-image:url(../../images/footer/window_left-blue_bg.png);
 	}
 	
-	.window_newsletter {
-		position:absolute; z-index:2; width:308px; height:186px; padding-left:10px;
-		background:url(../../images/footer/newsletter/window_newsletter_bg.png) no-repeat; 
-		/*shift the content up by it's height to bring inline*/ right:0; top:30px;
-		margin-left:100px;
+	.ft_league-left {
+		float:left; height:210px;
+		background-image:url(../../images/footer/window_left-blue_bg.png);
 	}
 	
-	.window_newsletter.green {
-		background:url(../../images/footer/newsletter-green/window_newsletter_bg.png) no-repeat;
-		top:0px;	
+	.ft_prizes_win-left {
+		float:left; height:210px;
+		background-image:url(../../images/footer/window_left-blue_bg.png);
+	}	/*END OF LEFT SIDE*/
+
+	/*MID SECTION*/
+	.ft_league-mid {
+		float:left; height:210px;
+		background-image:url(../../images/footer/window_mid-blue_bg.png);
 	}
 	
-	* html .window_newsletter {
-		left:537px;
-	} 
+	.ft_prizedraw-mid {
+		height:208px; padding-top:2px;
+		background-image:url(../../images/footer/window_mid-blue_bg.png);
+	}
 	
-	.window_win {
+	.ft_prizes-mid {
+		float:left; height:210px;
+		background-image:url(../../images/footer/window_mid-blue_bg.png);
+	}
+		
+	.ft_newsletter_green-mid {
+		background-image:url(../../images/footer/newsletter-green/window_newsletter_bg.png);
+		top:0px; height:180px;	
+	}
+	
+	.ft_messageboard-mid {
+		background-image:url(../../images/footer/window_mid-blue_bg.png);
+		top:0px; height:180px;	
+	}
+	/*END MID SECTION*/
+	
+	/*RIGHT SECTION*/
+	ft_newsletter_green-right {
+		background-image:url(../../images/footer/newsletter-green/window_newsletter_bg.png);
+		top:0px; height:180px; width:308px; padding-left:10px; right:0;	
+	}
+	
+	.ft_newsletter_home-right {
+		background-image:url(../../images/footer/window_right-blue_bg.png);
+		top:0px; height:180px; width:308px; padding-left:10px; right:0;
+	}
+	
+	.ft_newsletter-right {
+		background-image:url(../../images/footer/window_right-blue_bg.png);
+		top:30px; height:180px; width:308px; padding-left:10px; right:0;	
+	}
+	
+	.ft_prizedraw-right {
+		height:208px; padding-top:2px; right:-16px;
+		background-image:url(../../images/footer/window_right-blue_bg.png);
+	}
+	/*END OF RIGHT SECTION*/
+	
+	.ft_newsletter {
+		left:537px; height:210px;
+		background:url(../../images/footer/window_right-blue_bg.png) no-repeat;
+	}
+		
+	.ft_win {
 		position:relative; z-index:3; float:left; width:323px; height:186px; padding-left:6px;
 		background:url(../../images/footer/win/window_win_bg.png) no-repeat; left:-2px;
 	}
@@ -726,6 +1067,24 @@ ul#jsddm {
 		width:100%; height:100%; float:right; background:url(../../images/footer/win/img_win-football.png) bottom right no-repeat;
 	}
 	/*END OF WIN*/
+	
+	/*PPRIZEDRAW*/
+	.prizedraw-left {
+		width:172px; padding-top:43px;	
+	}
+	
+	.prizedraw-right {
+		width: 161px; padding-top:43px;
+	}
+	/*END OF PRIZEDRAW*/
+	
+	.messageboard-left {
+		width:172px; padding-top:55px;	
+	}
+	
+	.messageboard-right {
+		width: 161px; padding-top:50px;
+	}
 
 
 
@@ -1047,76 +1406,64 @@ img.peanuts {float:right;}
 			width:193px; height:183px; float:left;
 		}
 		
-			div.moment.banks {
-				width:188px;
-			}
-			
-			div.moment.jairzinho {
-				width:188px;
-			}
-			
-			div.moment.bergkamp {
-				width:188px;
+			div.firstmoment {
+				width:188px; margin-right:2px;
 			}
 
-			div.moment.moore {
-				width:188px;
-			}
-		
 		
 		h3.moment {
 			width:193px; height:23px; margin-top:0; background-repeat:no-repeat;
 		}
 
-			h3.moment.banks {
-				width:188px; background-image:url(../../images/competition/moment-vote/banks/subheader_banks.png);	
+			h3.banks-vote {
+				width:120px; background-image:url(../../images/competition/moment-vote/banks/subheader_banks.png);	
 			}
 
-			h3.moment.mara {
+			.maradona-vote {/*originally mara*/
 				background-image:url(../../images/competition/moment-vote/mara/subheader_mara.png);	
 			}
 
-			h3.moment.owen {
+			.owen-vote {
 				background-image:url(../../images/competition/moment-vote/owen/subheader_owen.png);	
 			}
 			
-			h3.moment.hurst {
+			.hurst-vote {
 				background-image:url(../../images/competition/moment-vote/hurst/subheader_hurst.png);	
 			}
 			
-			h3.moment.jairzinho {
+			.jairzinho-vote {
 				width:188px; background-image:url(../../images/competition/moment-vote/jairzinho/subheader_jairzinho.png);	
 			}
 			
-			h3.moment.bergkamp {
-				width:188px; background-image:url(../../images/competition/moment-vote/bergkamp/subheader_bergkamp.png);	
+			h3.bergkamp-vote {
+				width:140px; background-image:url(../../images/competition/moment-vote/bergkamp/subheader_bergkamp.png);	
 			}
 
-			h3.moment.cruyff {
+			.cruyff-vote {
 				background-image:url(../../images/competition/moment-vote/cruyff/subheader_cruyff.png);	
 			}
 
-			h3.moment.gemmill {
+			.gemmill-vote {
 				background-image:url(../../images/competition/moment-vote/gemmill/subheader_gemmill.png);	
 			}
 			
-			h3.moment.platt {
+			.platt-vote {
 				background-image:url(../../images/competition/moment-vote/platt/subheader_platt.png);	
 			}
 			
-			h3.moment.moore{
+			.moore-vote {
 				width:188px; background-image:url(../../images/competition/moment-vote/moore/subheader_moore.png);	
 			}
 
 			.holder {
-				position:relative; width:194px; height:160px;
+				position:relative; height:160px;
 			}
 			
 				.holder.banks {
-					width:188px; background-image:url(../../images/competition/moment-vote/banks/img_moment-banks.png);	
+					background-image:url(../../images/competition/moment-vote/banks/img_moment-banks.png);	
 				}
 				
-				.holder.mara {
+				.holder.maradona { /*orginally mara*/
 					background-image:url(../../images/competition/moment-vote/mara/img_moment-mara.png);	
 				}
 				
@@ -1129,11 +1476,11 @@ img.peanuts {float:right;}
 				}
 				
 				.holder.jairzinho {
-					width:188px; background-image:url(../../images/competition/moment-vote/jairzinho/img_moment-jairzinho.png);	
+					background-image:url(../../images/competition/moment-vote/jairzinho/img_moment-jairzinho.png);	
 				}
 	
 				.holder.bergkamp {
-					width:188px; background-image:url(../../images/competition/moment-vote/bergkamp/img_moment-bergkamp.png);	
+					background-image:url(../../images/competition/moment-vote/bergkamp/img_moment-bergkamp.png);	
 				}
 				
 				.holder.cruyff {
@@ -1149,11 +1496,11 @@ img.peanuts {float:right;}
 				}
 				
 				.holder.moore {
-					width:188px; background-image:url(../../images/competition/moment-vote/moore/img_moment-moore.png);	
+					background-image:url(../../images/competition/moment-vote/moore/img_moment-moore.png);	
 				}
 
 		.button-deck {
-			height:26px; position:absolute; bottom:8px; left:6px;
+			height:26px; position:absolute; bottom:8px; left:5px;
 		}
 		
 			.button-deck.first {
@@ -1168,7 +1515,7 @@ img.peanuts {float:right;}
 				background-image:url(../../images/competition/moment-vote/btn_view.png);
 			}
 			
-			a.button.vote{
+			a.button.vote {
 				background-image:url(../../images/competition/moment-vote/btn_vote.png);
 			}
 			
@@ -1176,7 +1523,7 @@ img.peanuts {float:right;}
 /*>>>>>>	 Win/lose messages	 <<<<<<<*/
 /*--------------------------------------*/
 #nav-sorry {
-	width:435px; margin-left:auto; margin-right:auto;
+	width:435px; margin-left:auto; margin-right:auto; margin-top:10px;
 }
 
 a.button.league { /*reference to a.button on line 1105*/
@@ -1187,6 +1534,26 @@ a.button.league { /*reference to a.button on line 1105*/
 a.button.range { /*reference to a.button on line 1105*/
 	width:218px; height:29px; background:url(../../images/competition/result-messages/lose/btn_view-range.png);	
 }
+
+ol.win {
+	margin-left:25px;
+}
+
+a.win {
+	display:block; text-indent:-9999px; background-repeat:no-repeat;
+}	
+	a.win.facebook {
+		width:293px; height:31px; background-image:url(../../images/competition/result-messages/win/btn_facebook.png);
+	}
+	
+	a.win.league-table {
+		width:192px; height:37px; background-image:url(../../images/competition/result-messages/win/btn_leagueTable.png);
+	}
+	
+	a.win.product-range {
+		width:209px; height:31px; background-image:url(../../images/competition/result-messages/win/btn_viewProduct.png);
+		margin-top:5px;
+	}
 
 /*--------------------------------------*/
 /*>>>>>>	    league table	 <<<<<<<*/
@@ -1209,29 +1576,233 @@ a.button.range { /*reference to a.button on line 1105*/
 	float:left; width:66px; height:53px; z-index:1;	
 }
 
-.thumbnail {
-	position:absolute; top:-1px; left:62px; z-index:2; width:71px; height:74px; padding:2px 0 0 5px;
+a.thumbnail {
+	position:absolute; top:-1px; left:62px; z-index:2; width:73px; height:79px; padding:2px 0 0 4px;
 	background:url(../../images/competition/league/thumbnails/img_thumbnail-bg.png);
+	text-decoration:none; color:none; border:none;
 }
 
-.league-desc {
-	text-indent:-9999px; float:right; width:254px; height:53px; z-index:3;
-	background:url(../../images/competition/league/descriptions/img_moore-desc.png);
+a.league-desc {
+	text-indent:-9999px; float:right; width:254px; height:53px; z-index:3; margin-right:3px;
+	background:url(../../images/competition/league/descriptions/img_moore-desc.png); text-decoration:none;
 }
-	.league-desc.owen {
+	a.league-desc.banks {
+		background:url(../../images/competition/league/descriptions/img_banks-desc.png);
+	}
+	a.league-desc.maradona { /*orginally mara*/
+		background:url(../../images/competition/league/descriptions/img_mara-desc.png);
+	}
+	a.league-desc.owen {
 		background:url(../../images/competition/league/descriptions/img_owen-desc.png);
+	}
+	a.league-desc.hurst {
+		background:url(../../images/competition/league/descriptions/img_hurst-desc.png);
+	}
+	a.league-desc.jairzinho {
+		background:url(../../images/competition/league/descriptions/img_jairzinho-desc.png);
+	}
+	a.league-desc.bergkamp {
+		background:url(../../images/competition/league/descriptions/img_bergkamp-desc.png);
+	}
+	a.league-desc.cruyff {
+		background:url(../../images/competition/league/descriptions/img_cruyff-desc.png);
+	}
+	a.league-desc.gemmill {
+		background:url(../../images/competition/league/descriptions/img_gemmill-desc.png);
+	}
+	a.league-desc.platt {
+		background:url(../../images/competition/league/descriptions/img_platt-desc.png);
+	}
+	a.league-desc.moore {
+		background:url(../../images/competition/league/descriptions/img_moore-desc.png);
 	}
 
 .percentage {
-	float:right; width:62px; padding:17px 0 0 5px; height:38px; border-left:1px solid #d0d0d0;
+	text-align:center; float:right; width:67px; padding:17px 0 0 0; height:38px; border-left:1px solid #d0d0d0;
 }
 
-.vote.league {
+.figures {
+	width:40px; margin-left:auto; margin-right:auto;
+}
+
+a.league-vote {
 	text-indent:-9999px; position:absolute; top:55px; right:-1px; width:69px; height:21px;
-	background:url(../../images/competition/league/btn_vote.jpg);
+	background-image:url(../../images/competition/league/btn_vote.jpg);
 }
 
 img.number {
 	float:left;	
 }
+
+
+/*--------------------------------------*/
+/*>>>>>>>>>	     PrizeDraw	   <<<<<<<<<*/
+/*--------------------------------------*/
+#terms_box {
+	font-size:10px; color:#afafaf;
+	position:absolute; left:40px; bottom:0px; width:200px; height:50px;
+}
+
+#terms_box a {
+	color:#afafaf; text-decoration:underline;	
+}
+
+a.voteWin {
+	text-indent:-9999px; width:129px; height:30px; display:block; text-decoration:none; margin:10px 0 0 8px; 
+	background:url(../../images/prizedraw/btn_vote-win.png);
+}
+
+ul.prizedraw {
+	margin-left:20px;
+}
+
+ul.prizedraw li {
+	list-style-image:url(../../images/prizedraw/bullets.png); line-height:20px;
+}
+
+a.prizedraw-enter-link {
+	text-indent:-9999px; width:161px; height:32px; display:block; text-decoration:none; margin:10px 0 0 0; 
+	background:url(../../images/prizedraw/btn_prizedraw-enter.png);
+}
+
+#altMomentContent {
+    width:835px;
+	height:315px;
+	margin-left:auto; margin-right:auto;
+}
+
+#viewNav {
+	width:230px; margin:20px auto 20px auto;
+}
+
+
+
+
+/* IE6 css fixer v0.8: Sat, 01 May 2010 07:40:14 +0200 */
+
+/* ============================================= */
+/* safe settings                                 */
+
+/* add display:inline to floated elements */
+* html .comp-process,
+* html label.text,
+* html input.checkbox,
+* html input#email-news,
+* html input.newsletter,
+* html input.newsletter.-green,
+* html input.next,
+* html a.back,
+* html a.next,
+* html a.vote,
+* html .form-content,
+* html img.captcha,
+* html a.refresh,
+* html ul#jsddm li.aboutNavTop,
+* html ul#jsddm li.aboutNavTop a.aboutNav,
+* html ul#jsddm li.rangeNavTop,
+* html ul#jsddm li.rangeNavTop a.rangeNav,
+* html .wrapper .footer .footer-nav div.window_left,
+* html .wrapper .footer .footer-nav div.window_mid,
+* html .ft_win,
+* html .win-right,
+* html #rangeContent #subnav a,
+* html #rangeContent #subnav .divider,
+* html .didYouKnow,
+* html #scrollList li,
+* html .nutrition,
+* html div.moment,
+* html a.button,
+* html .board,
+* html .position,
+* html a.league-desc,
+* html .percentage,
+* html #visual, * html .addthis_button, * html img.peanuts,
+* html .window_left.ft_prizes, * html .window_left.ft_league, * html .window_left.ft_prizes_win,
+* html .window_mid.ft_league, * html .window_mid.ft_prizes,
+* html .content_float, * html img.number {display:inline;}
+
+/* add zoom:1 to overflow:hidden */
+* html .comp-process,
+* html label.text,
+* html input.checkbox,
+* html input#email-news,
+* html input.newsletter,
+* html input.newsletter.-green,
+* html input.next,
+* html a.back,
+* html a.next,
+* html a.vote,
+* html .form-content,
+* html img.captcha,
+* html a.refresh,
+* html ul#jsddm li.aboutNavTop,
+* html ul#jsddm li.aboutNavTop a.aboutNav,
+* html ul#jsddm li.rangeNavTop,
+* html ul#jsddm li.rangeNavTop a.rangeNav,
+* html .wrapper .footer .footer-nav div.window_left,
+* html .wrapper .footer .footer-nav div.window_mid,
+* html .ft_win,
+* html .win-right,
+* html #rangeContent #subnav a,
+* html #rangeContent #subnav .divider,
+* html .didYouKnow,
+* html #scrollList li,
+* html .nutrition,
+* html div.moment,
+* html a.button,
+* html .board,
+* html .position,
+* html a.league-desc,
+* html .percentage,
+* html #visual, * html .addthis_button, * html img.peanuts,
+* html .window_left.ft_prizes, * html .window_left.ft_league, * html .window_left.ft_prizes_win,
+* html .window_mid.ft_league, * html .window_mid.ft_prizes,
+* html .content_float, * html img.number {zoom:1;}
+
+/* fix negative margins */
+* html #rangeContent h2,
+* html #rangeContent #regular,
+* html #rangeContent #treenuts,
+* html #rangeContent #subnav,
+* html .backToRangeButton,
+* html .timelineContent #about-kp,
+* html .timelineContent #h2,
+* html #content-0 h2,
+* html #content-1 h2,
+* html #content-2 h2,
+* html #content-3 h2,
+* html #content-4 h2,
+* html #content-5 h2,
+* html #content-6 h2,
+* html #content-7 h2,
+* html .backButton,
+* html .ViewRangeButton {position:relative; zoom:1;}
+
+/* add zoom:1 to pos:relative elements */
+* html h1 a,
+* html h2,
+* html .content_box,
+* html .wrapper,
+* html .wrapper #comp-content,
+* html .wrapper .footer.competition,
+* html #holding-content,
+* html ul#jsddm,
+* html ul#jsddm li.aboutNavTop,
+* html ul#jsddm li.rangeNavTop,
+* html .wrapper .footer .footer-nav div.window_left,
+* html .wrapper .footer .footer-nav div.window_mid,
+* html .ft_win,
+* html #rangeContent #subnav a,
+* html #rangeContent #subnav .divider,
+* html .backToRangeButton,
+* html .backButton,
+* html #scrollContent,
+* html #scrollList,
+* html #scrollList li,
+* html .about-scroll-item,
+* html .ViewRangeButton,
+* html #timeline,
+* html .holder,
+* html .position-wrapper {zoom:1;}
+
 

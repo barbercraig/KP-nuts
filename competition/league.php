@@ -9,85 +9,111 @@
 */
 
 $pageID = "competition";
+$step = 'league';
+
 
 #include init file 
-include($_SERVER['DOCUMENT_ROOT'] . '/init/kp-init.php');
+//we need to do some extra checking for document root for gay inboxwork
+if(strpos($_SERVER['SERVER_NAME'], 'inboxwork')){
+	include($_SERVER['DOCUMENT_ROOT'] . '/ub/kp/dev/init/kp-init.php');
+}else{
+	include($_SERVER['DOCUMENT_ROOT'] . '/init/kp-init.php');
+}	
+
 include(DOCROOT . '/include/header.php'); 
 
 ?>
 
-<div id="comp-content" class="league">
+<div class="comp-content league-content">
 	<h2 class="league">League Table</h2>
-    <p class="league-table">Here's how the best quality moments stack up in order ot votes</p>
+    <p class="league-table">Here's how the best quality moments stack up in order of votes</p>
     <br />
     <br />
 	<div class="board left">
-        <div class="position-wrapper 1">
-            <div class="position">
-                <img src="../images/competition/league/position/img_position-1.png" width="66" height="53" alt="1" border="0" style="display:block;" />
-            </div>
-            <div class="thumbnail">
-                <img src="../images/competition/league/thumbnails/img_thumb-moore.jpg" width="65" height="72" alt="Moore" style="display:block;" />
-            </div>
-            <div class="percentage">
-                <img class="number" src="../images/competition/league/numbers/img_num-2.png" width="17" height="20" alt="2" border="0" style="display:block;" />
-                <img class="number" src="../images/competition/league/numbers/img_num-3.png" width="17" height="20" alt="3" border="0" style="display:block;" />
-                <img class="number" src="../images/competition/league/numbers/img_percentage.png" width="23" height="20" alt="%" border="0" style="display:block;" />
-            </div>
-            <p class="league-desc">Description here</p>
-            <a class="vote league" href="">vote ></a>
-        </div>
-        
-        <div class="position-wrapper 1">
-            <div class="position">
-                <img src="../images/competition/league/position/img_position-2.png" width="66" height="53" alt="1" border="0" style="display:block;" />
-            </div>
-            <div class="thumbnail">
-                <img src="../images/competition/league/thumbnails/img_thumb-moore.jpg" width="65" height="72" alt="Moore" style="display:block;" />
-            </div>
-            <div class="percentage">
-                <img class="number" src="../images/competition/league/numbers/img_num-4.png" width="17" height="20" alt="2" border="0" style="display:block;" />
-                <img class="number" src="../images/competition/league/numbers/img_num-4.png" width="17" height="20" alt="3" border="0" style="display:block;" />
-                <img class="number" src="../images/competition/league/numbers/img_percentage.png" width="23" height="20" alt="%" border="0" style="display:block;" />
-            </div>
-            <p class="league-desc owen">Description here</p>
-            <a class="vote league" href="">vote ></a>
-        </div>
-    </div>
-    <div class="board">
-        <div class="position-wrapper 1">
-            <div class="position">
-                <img src="../images/competition/league/position/img_position-3.png" width="66" height="53" alt="3" border="0" style="display:block;" />
-            </div>
-            <div class="thumbnail">
-                <img src="../images/competition/league/thumbnails/img_thumb-moore.jpg" width="65" height="72" alt="Moore" style="display:block;" />
-            </div>
-            <div class="percentage">
-                <img class="number" src="../images/competition/league/numbers/img_num-5.png" width="17" height="20" alt="5" border="0" style="display:block;" />
-                <img class="number" src="../images/competition/league/numbers/img_num-2.png" width="17" height="20" alt="2" border="0" style="display:block;" />
-                <img class="number" src="../images/competition/league/numbers/img_percentage.png" width="23" height="20" alt="%" border="0" style="display:block;" />
-            </div>
-            <p class="league-desc">Description here</p>
-            <a class="vote league" href="">vote ></a>
-        </div>
-        
-        <div class="position-wrapper 1">
-            <div class="position">
-                <img src="../images/competition/league/position/img_position-4.png" width="66" height="53" alt="4" border="0" style="display:block;" />
-            </div>
-            <div class="thumbnail">
-                <img src="../images/competition/league/thumbnails/img_thumb-moore.jpg" width="65" height="72" alt="Moore" style="display:block;" />
-            </div>
-            <div class="percentage">
-                <img class="number" src="../images/competition/league/numbers/img_num-2.png" width="17" height="20" alt="2" border="0" style="display:block;" />
-                <img class="number" src="../images/competition/league/numbers/img_num-1.png" width="17" height="20" alt="1" border="0" style="display:block;" />
-                <img class="number" src="../images/competition/league/numbers/img_percentage.png" width="23" height="20" alt="%" border="0" style="display:block;" />
-            </div>
-            <p class="league-desc">Description here</p>
-            <a class="vote league" href="">vote ></a>
-        </div>
-        <div style="clear:both;"><!--//--></div>
-    </div>
+    <?php
+    $count = 1;
+	foreach($voteResults as $moment => $percentage){
+	//split the percentage into two figures
+	if($moment == 'mara'){
+		$mara_moment = 'maradona';
+	}
+	
+	$perc_length = strlen($percentage);
+	
+	if($perc_length > 1){
+		$digits = str_split($percentage,1);
+	}
+	
+	//do a count, and when 6 is reached, change column
+		if($count < 6){
+		?>
+			<div class="position-wrapper <?=$count?>">
+				<div class="position">
+					<img src="../images/competition/league/position/img_position-<?=$count?>.png" width="66" height="53" alt="<?=$count?>" border="0" style="display:block;" />
+				</div>
+				<a class="thumbnail" href="<?=$routes['competition']['view']?>?m=<?php if($moment == 'mara'){echo 'maradona';}else{echo $moment;};?>">
+					<img src="../images/competition/league/thumbnails/img_thumb-<?=$moment?>.jpg" width="67" height="74" alt="<?=$moment?>" border="0" style="display:block;" />
+				</a>
+				<div class="percentage">
+                	<div class="figures" <?=isset($digits)? 'style="width:58px;"':''?>>
+                	<?php
+						if(isset($digits)){
+						
+					?>
+                            <img class="number" src="../images/competition/league/numbers/img_num-<?=$digits[0]?>.png" width="17" height="20" alt="2" border="0" />
+                            <img class="number" src="../images/competition/league/numbers/img_num-<?=$digits[1]?>.png" width="17" height="20" alt="3" border="0"  />
+					<?php }else{ ?>
+							<img class="number" src="../images/competition/league/numbers/img_num-<?=$percentage?>.png" width="17" height="20" alt="2" border="0" />
+                    <?php } ?>
+					<img class="number" src="../images/competition/league/numbers/img_percentage.png" width="23" height="20" alt="%" border="0" />
+                    	<div style="clear:both;"><!--//--></div>
+                    </div>
+				</div>
+				<a class="league-desc <?=$moment?>" href="<?=$routes['competition']['view']?>?m=<?php if($moment == 'mara'){echo 'maradona';}else{echo $moment;};?>"></a>
+				<a class="vote league-vote" href="<?=$routes['competition']['enter']?>step1.php?m=<?php if($moment == 'mara'){echo 'maradona';}else{echo $moment;};?>">vote ></a>
+			</div>
+	
+		<?php 
+			$count++;
+		}else if($count <= 10){ 
+			if($count == 6){
+			?>
+
+			</div><!--End of left column-->
+			
+			<div class="board">
+        <?php }?>
+				<div class="position-wrapper <?=$count?>">
+					<div class="position">
+						<img src="../images/competition/league/position/img_position-<?=$count?>.png" width="66" height="53" alt="<?=$count?>" border="0" style="display:block;" />
+					</div>
+					<a class="thumbnail" href="<?=$routes['competition']['view']?>?m=<?php if($moment == 'mara'){echo 'maradona';}else{echo $moment;};?>">
+						<img src="../images/competition/league/thumbnails/img_thumb-<?=$moment?>.jpg" width="67" height="74" alt="<?=$moment?>" border="0" style="display:block;" />
+					</a>
+					<div class="percentage">
+                    	<div class="figures" <?=isset($digits)? 'style="width:58px;"':''?>>
+						<?php
+                            if(isset($digits)){
+                        ?>
+                                <img class="number" src="../images/competition/league/numbers/img_num-<?=$digits[0]?>.png" width="17" height="20" alt="2" border="0" />
+                                <img class="number" src="../images/competition/league/numbers/img_num-<?=$digits[1]?>.png" width="17" height="20" alt="3" border="0" />
+                        <?php }else{ ?>
+                                <img class="number" src="../images/competition/league/numbers/img_num-<?=$percentage?>.png" width="17" height="20" alt="2" border="0" />
+                        <?php } ?>
+                            <img class="number" src="../images/competition/league/numbers/img_percentage.png" width="23" height="20" alt="%" border="0" />
+                            <div style="clear:both;"><!--//--></div>
+                        </div>
+					</div>
+                    <a class="league-desc <?=$moment?>" href="<?=$routes['competition']['view']?>?m=<?php if($moment == 'mara'){echo 'maradona';}else{echo $moment;};?>"></a>
+                    <a class="vote league-vote" href="<?=$routes['competition']['enter']?>step1.php?m=<?php if($moment == 'mara'){echo 'maradona';}else{echo $moment;};?>">vote ></a>
+				</div>
+			<?php
+				$count++;
+		} //endif
+		unset($digits);
+	}//end foreach?>
+    </div><!--End of right column-->
+    <div style="clear:both;"><!--//--></div>
 </div>
 
 <?php include (DOCROOT . '/include/footer.php'); ?>

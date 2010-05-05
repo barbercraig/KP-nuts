@@ -1,10 +1,10 @@
-<div class="window_newsletter">
     <!--Display-->
     <?php
+	
 		$version ='';
 	
 		//include process script
-		include(DOCROOT. 'script/process.php');
+		include(DOCROOT. 'script/home-process.php');
 	?>
 
     <div id="display">
@@ -23,4 +23,3 @@
         ?>
         <!--END Dynamic content-->
     </div><!--End of display-->
-</div><!--End of window_newsletter-->

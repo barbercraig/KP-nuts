@@ -14,6 +14,12 @@
 		$tagPgId = "4314";	
 	}
 	
+	if(isset($_GET['m'])){
+		$moment = $_GET['m'];
+	}else {
+		$moment = "novote";	
+	}
+	
 	switch ($tagPgId) {
 		
 		case "4314":
@@ -59,7 +65,39 @@
 		case "4326":
 			$redir_url = "http://www.kpnuts.com/nutrition.php";
 		break;
-
+		
+		case "4332":
+			$redir_url = "http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.kpnuts.com%2Fcompetition%2Fview.php?m=".$moment."&t=Vote%20for%20the%20best%20quality%20football%20moment%20for%20a%20chance%20to%20win%20football%20prizes%20very%20day.Plus%20win%20a%20European%20football%20holiday!";
+		break;
+		
+		case "4333":
+			$redir_url = "http://www.kpnuts.com/competition/league.php";
+		break;
+		
+		case "4334":
+			$redir_url = "http://www.kpnuts.com/range.php";
+		break;
+		
+		case "4335":
+			$redir_url = "http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.kpnuts.com%2Fcompetition%2Fview.php?m=".$moment."&t=Vote%20for%20the%20best%20quality%20football%20moment%20for%20a%20chance%20to%20win%20football%20prizes%20very%20day.Plus%20win%20a%20European%20football%20holiday!";
+		break;
+		
+		case "4336":
+			$redir_url = "http://www.kpnuts.com/competition/league.php";
+		break;
+		
+		case "4337":
+			$redir_url = "http://www.kpnuts.com/range.php";
+		break;
+		
+		case "4338":
+			$redir_url = "http://www.kpnuts.com/terms/";
+		break;
+		
+		case "4339":
+			$redir_url = "http://www.kpnuts.com/faqs/";
+		break;
+		
 		default:
 			$redir_url = "http://www.kpnuts.com/";	
 		break;
