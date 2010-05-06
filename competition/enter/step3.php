@@ -3,9 +3,7 @@
 	//print_r($_SESSION);
 	$pageID = "competition";
 	$step = "captcha";
-	
-	//print_r($_SESSION);
-	
+		
 	#include init file 
 	//we need to do some extra checking for document root for gay inboxwork
 	if(strpos($_SERVER['SERVER_NAME'], 'inboxwork')){

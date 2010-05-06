@@ -3,9 +3,7 @@
 	session_start();
 	$pageID = "competition";
 	$step = 'win';
-	
-	//print_r($_SESSION);
-	
+		
 	#include init file 
 	//we need to do some extra checking for document root for gay inboxwork
 	if(strpos($_SERVER['SERVER_NAME'], 'inboxwork')){
@@ -17,12 +15,13 @@
 	include(DOCROOT . '/include/header.php'); 
 	
 ?>
-
 <div class="comp-content win-content">
 	<div class="content_box win <?=$_SESSION['win_prize']?>">
     	<div class="display-content">
             <h2 class="win congrat">Congratulations!</h2>
             <h2 class="win <?=$_SESSION['win_prize']?>">You've won a Replica Football Shirt</h2>
+            <br />
+            <p class="reference">Your winning reference number is: <?=$_SESSION['uid']?></p>
             <br />
             <p class="win steps">Please follow these steps to claim your prize</p>
             <p style="font-size:13px;">
@@ -34,7 +33,7 @@
                 <br />
                 C/O KP NUTS PROMOTION,
                 <br /> 
-                18 & 19 BURWAY TRADING ESTATE, 
+                18 &amp; 19 BURWAY TRADING ESTATE, 
                 <br />
                 BROMFIELD ROAD, 
                 <br />

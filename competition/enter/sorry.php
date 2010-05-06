@@ -3,7 +3,7 @@
 	session_start();
 	$pageID = "competition";
 	$step = 'error';
-	
+		
 	#include init file 
 	//we need to do some extra checking for document root for gay inboxwork
 	if(strpos($_SERVER['SERVER_NAME'], 'inboxwork')){

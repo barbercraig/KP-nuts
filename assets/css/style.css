@@ -775,7 +775,7 @@ label.error {
 			}
 			
 			.win-content {
-				width:910px; margin:0; padding-top:170px; height:480px;	
+				width:910px; margin:0; padding-top:170px; height:520px;	
 			}
 			
 			.view-content {
@@ -1555,6 +1555,9 @@ a.win {
 		margin-top:5px;
 	}
 
+p.reference {
+	font-size:14px; font-weight:bold;
+}
 /*--------------------------------------*/
 /*>>>>>>	    league table	 <<<<<<<*/
 /*--------------------------------------*/

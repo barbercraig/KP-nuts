@@ -2,9 +2,6 @@
 
 //read in xml response, and determine what response to give
 $response = simplexml_load_string($returnVal);
-/*print_r($response);
-
-echo htmlentities($returnVal);*/
 
 $entry_type = 'normal-entry';
 
@@ -27,9 +24,12 @@ switch($response->type){
 		if($response->prize == 'Football Shirts'){
 			//lasty entry of the day
 			$win_prize = 'replica-shirt';	
-		} 
+		}
+		
+		$win_id = (string)$response->id;
 		
 		$_SESSION['win_prize']	= $win_prize;
+		$_SESSION['uid'] = $win_id;
 		header("Location: " . $routes['competition']['enter'] . "win.php");
 
 	break;
