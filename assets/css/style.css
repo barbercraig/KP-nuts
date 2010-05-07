@@ -207,7 +207,17 @@ h2 {
 		}
 
 	/*END OF VIEW PAGE HEADERS*/
-		
+	h2.messageboard {
+		margin-left:auto; margin-right:auto;
+	}
+		h2.main {
+			width:856px; height:37px; background:url(../../images/competition/messageboard/header_messageboard.png);		
+		}
+	
+		h2.submit {
+			width:564px; height:69px; background:url(../../images/competition/messageboard/header_messageboard-submit.png);
+			margin-bottom:10px;
+		}
 	
 	
 /**********************************/
@@ -396,6 +406,11 @@ p.moment-desc {
 	font-size:12px; line-height:16px; padding:5px 2px 5px 2px;
 }
 
+p.messageboard-text {
+	text-indent:-9999px; width:856px; height:37px; margin-left:auto; margin-right:auto;
+	background:url(../../images/competition/messageboard/subheader_messageboard.png) no-repeat;
+}
+
 
 
 
@@ -425,6 +440,10 @@ form {
 		form.prizedraw {
 			width:452px; margin-left:5px; margin-top:3px;	
 		}
+		
+	form.messageboard {
+		width:512px; margin-left:auto; margin-right:auto; border:1px solid orange;	
+	}
 		
 	form.register {
 		width:954px; height:220px; margin-top:0; padding:10px 0 0 0;
@@ -628,6 +647,11 @@ a.vote-view {
 		width:100%; margin-right:0;
 	}
 	
+	.messageboard-submit {
+		position:absolute; top:0; z-index:1; width:866px; height:324px; margin:27px 0 27px 10px; overflow:auto;
+		background:url(../../images/competition/messageboard/img_messageboard-form-bg.png);
+	}
+	
 	.form-content {
 		float:right; width:452px; height:421px;
 	}
@@ -780,6 +804,10 @@ label.error {
 			
 			.view-content {
 				width:846px; height:550px;
+			}
+			
+			.messageboard-content {
+				width:856px; height:500px;
 			}
 			
 			
@@ -1677,6 +1705,44 @@ a.prizedraw-enter-link {
 #viewNav {
 	width:230px; margin:20px auto 20px auto;
 }
+
+/*************************************************************\
+*	messageboard content
+/*************************************************************/
+.messageboard-window {
+	position:relative; z-index:2; width:856px; height:378px;
+	background:url(../../images/competition/messageboard/img_messageboard-window.png);
+}
+
+.messageboard-messages {
+	position:absolute; top:0; z-index:1; width:866px; height:324px; margin:27px 0 27px 10px; overflow:auto;	
+}
+
+.messageboard-msg {
+	padding:5px 60px 12px 60px; min-height:60px;
+	background:url(../../images/competition/messageboard/img_msg-divider.png) bottom no-repeat;
+}
+
+	h3.message-title {
+		text-indent:0; margin:0; font-family: Helvetica, Arial; font-size:26px;	
+	}
+
+	p.message {
+		text-indent:-9999px; display:block; background:no-repeat;	
+	}
+		p.bestmoment {
+			width:145px; height:18px;
+			background:url(../../images/competition/messageboard/text_bestqualmoment.png);
+		}
+		
+	p.message-desc {
+		text-indent:font-size:11px;	
+	}
+	
+	a.submit-moment { /*inherits from a.cta*/
+		width:301px; height:31px; margin-left:auto; margin-right:auto;
+		background:url(../../images/competition/messageboard/btn_tellusyourmoment.png);
+	}
 
 
 
